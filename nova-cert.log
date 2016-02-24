@@ -1,0 +1,517 @@
+2015-06-22 21:11:08.698 21487 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-06-22 21:11:08.714 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.715 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.715 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.715 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.716 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.716 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.716 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.717 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-06-22 21:11:08.718 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-06-22 21:11:08.720 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-06-22 21:11:08.722 21487 WARNING oslo_config.cfg [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-06-22 21:11:08.723 21487 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-06-22 21:11:09.866 21487 INFO oslo_messaging._drivers.impl_rabbit [req-1b750caf-46a1-458f-a329-7ee44b313d91 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-06-22 21:11:09.882 21487 INFO oslo_messaging._drivers.impl_rabbit [req-1b750caf-46a1-458f-a329-7ee44b313d91 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-06-22 21:32:01.823 21487 INFO nova.openstack.common.service [req-7f533b67-ae26-45ca-bb9d-f0e0cfbeeb21 - - - - -] Caught SIGTERM, exiting
+2015-06-22 21:32:02.066 21487 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-06-22 22:07:19.645 1059 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-06-22 22:07:19.721 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.722 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.722 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.722 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.723 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.723 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.724 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.724 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:19.725 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-06-22 22:07:19.728 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-06-22 22:07:19.748 1059 WARNING oslo_config.cfg [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-06-22 22:07:19.767 1059 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-06-22 22:07:20.971 1059 WARNING oslo_db.sqlalchemy.session [req-19c798be-5d80-4675-8e3e-4a70b79efc50 - - - - -] SQL connection failed. -1 attempts left.
+2015-06-22 22:07:31.757 1059 INFO oslo_messaging._drivers.impl_rabbit [req-19c798be-5d80-4675-8e3e-4a70b79efc50 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-06-22 22:07:31.862 1059 INFO oslo_messaging._drivers.impl_rabbit [req-19c798be-5d80-4675-8e3e-4a70b79efc50 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-06-22 22:37:01.913 1059 INFO nova.openstack.common.service [req-744611b6-fd94-4a92-810e-3bd5df1679c5 - - - - -] Caught SIGTERM, exiting
+2015-06-22 22:37:02.168 1059 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-09-30 19:05:40.439 1000 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-09-30 19:05:40.528 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.530 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.530 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.531 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.532 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.546 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.547 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.548 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:40.549 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-09-30 19:05:40.552 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-09-30 19:05:40.566 1000 WARNING oslo_config.cfg [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-09-30 19:05:40.619 1000 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-09-30 19:05:43.311 1000 WARNING oslo_db.sqlalchemy.session [req-143415f0-bdd6-499b-926e-95004f0bc358 - - - - -] SQL connection failed. -1 attempts left.
+2015-09-30 19:05:53.956 1000 INFO oslo_messaging._drivers.impl_rabbit [req-143415f0-bdd6-499b-926e-95004f0bc358 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-09-30 19:05:53.994 1000 INFO oslo_messaging._drivers.impl_rabbit [req-143415f0-bdd6-499b-926e-95004f0bc358 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-09-30 21:55:25.406 1000 INFO nova.openstack.common.service [req-86c399d4-0de1-480e-baf8-72b234175b6f - - - - -] Caught SIGTERM, exiting
+2015-09-30 21:55:26.135 1000 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-09-30 22:02:04.478 988 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-09-30 22:02:04.528 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.528 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.529 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.529 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.530 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.530 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.531 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.531 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:04.532 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-09-30 22:02:04.534 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-09-30 22:02:04.535 988 WARNING oslo_config.cfg [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-09-30 22:02:04.567 988 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-09-30 22:02:06.250 988 WARNING oslo_db.sqlalchemy.session [req-baa9d471-1698-4dd4-ad6f-99fab084cde8 - - - - -] SQL connection failed. -1 attempts left.
+2015-09-30 22:02:17.573 988 INFO oslo_messaging._drivers.impl_rabbit [req-baa9d471-1698-4dd4-ad6f-99fab084cde8 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-09-30 22:02:17.632 988 INFO oslo_messaging._drivers.impl_rabbit [req-baa9d471-1698-4dd4-ad6f-99fab084cde8 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-09-30 22:10:13.122 988 INFO nova.openstack.common.service [req-960f3db5-775d-469a-bdcc-e7192246ef79 - - - - -] Caught SIGTERM, exiting
+2015-09-30 22:10:13.147 988 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-09-30 22:11:16.159 997 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-09-30 22:11:16.361 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.362 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.363 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.364 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.365 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.366 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.366 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.367 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:16.369 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-09-30 22:11:16.373 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-09-30 22:11:16.377 997 WARNING oslo_config.cfg [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-09-30 22:11:16.408 997 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-09-30 22:11:19.181 997 WARNING oslo_db.sqlalchemy.session [req-3695fc94-1493-4bfe-a1e5-d220f4b31fa4 - - - - -] SQL connection failed. -1 attempts left.
+2015-09-30 22:11:29.200 997 WARNING oslo_db.sqlalchemy.session [req-3695fc94-1493-4bfe-a1e5-d220f4b31fa4 - - - - -] SQL connection failed. -2 attempts left.
+2015-09-30 22:11:39.720 997 INFO oslo_messaging._drivers.impl_rabbit [req-3695fc94-1493-4bfe-a1e5-d220f4b31fa4 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-09-30 22:11:39.751 997 INFO oslo_messaging._drivers.impl_rabbit [req-3695fc94-1493-4bfe-a1e5-d220f4b31fa4 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-01 03:29:55.652 997 INFO nova.openstack.common.service [req-59b08f52-ce4c-4bbd-aa7e-2c2d543841f5 - - - - -] Caught SIGTERM, exiting
+2015-10-01 03:29:56.026 997 ERROR nova.servicegroup.drivers.db [req-a656f1f0-3938-43f6-95ac-b19ab75f9238 - - - - -] model server went away
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db Traceback (most recent call last):
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/servicegroup/drivers/db.py", line 112, in _report_state
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     service.service_ref, state_catalog)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/conductor/api.py", line 164, in service_update
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return self._manager.service_update(context, service, values)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/utils.py", line 887, in wrapper
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return func(*args, **kwargs)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/server.py", line 142, in inner
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return func(*args, **kwargs)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/conductor/manager.py", line 335, in service_update
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     svc = self.db.service_update(context, service['id'], values)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/api.py", line 153, in service_update
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return IMPL.service_update(context, service_id, values)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 271, in wrapped
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return f(*args, **kwargs)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 555, in service_update
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     service_ref = _service_get(context, service_id, session=session)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 458, in _service_get
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     result = query.first()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2341, in first
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     ret = list(self[0:1])
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2208, in __getitem__
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return list(res)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2412, in __iter__
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return self._execute_and_instances(context)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2425, in _execute_and_instances
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     close_with_result=True)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2416, in _connection_from_session
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     **kw)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 854, in connection
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     close_with_result=close_with_result)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 858, in _connection_for_bind
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return self.transaction._connection_for_bind(engine)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 322, in _connection_for_bind
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     conn = bind.contextual_connect()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 210, in contextual_connect
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     **kwargs)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 85, in __init__
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     self.dispatch.engine_connect(self, _branch)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/event/attr.py", line 260, in __call__
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     fn(*args, **kw)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/session.py", line 344, in _connect_ping_listener
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     connection.scalar(select([1]))
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 659, in scalar
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return self.execute(object, *multiparams, **params).scalar()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 729, in execute
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return meth(self, multiparams, params)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/sql/elements.py", line 321, in _execute_on_connection
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return connection._execute_clauseelement(self, multiparams, params)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 826, in _execute_clauseelement
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     compiled_sql, distilled_params
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 893, in _execute_context
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     None, None)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 258, in _handle_dbapi_exception
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     e, self.dialect, self.engine)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 324, in _handle_dbapi_exception_noconnection
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     six.reraise(type(newraise), newraise, exc_info[2])
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 887, in _execute_context
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     conn = self._revalidate_connection()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 270, in _revalidate_connection
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     _connection=self)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 225, in raw_connection
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     self.pool.unique_connection, _connection)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 221, in _wrap_pool_connect
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     six.reraise(*sys.exc_info())
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 215, in _wrap_pool_connect
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return fn()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 280, in unique_connection
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     return _ConnectionFairy._checkout(self)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     fairy = _ConnectionRecord.checkout(pool)
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 442, in checkout
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     dbapi_connection = rec.get_connection()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 505, in get_connection
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     self.connection = self.__connect()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     connection = self.__pool._creator()
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 200, in connect
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db     raise original_exception
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db DBConnectionError: (OperationalError) (2003, "Can't connect to MySQL server on '192.168.0.10' (111)") None None
+2015-10-01 03:29:56.026 997 TRACE nova.servicegroup.drivers.db 
+2015-10-01 03:29:56.861 997 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-10-01 03:31:20.799 1041 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-10-01 03:31:21.128 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.130 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.131 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.132 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.133 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.134 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.134 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.135 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:21.179 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-10-01 03:31:21.185 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-01 03:31:21.189 1041 WARNING oslo_config.cfg [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-10-01 03:31:21.208 1041 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-10-01 03:31:25.243 1041 WARNING oslo_db.sqlalchemy.session [req-16cf1e4d-6469-4b57-a782-336d50e3ac4e - - - - -] SQL connection failed. -1 attempts left.
+2015-10-01 03:31:35.899 1041 INFO oslo_messaging._drivers.impl_rabbit [req-16cf1e4d-6469-4b57-a782-336d50e3ac4e - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-01 03:31:35.949 1041 INFO oslo_messaging._drivers.impl_rabbit [req-16cf1e4d-6469-4b57-a782-336d50e3ac4e - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-01 03:59:41.628 1041 INFO nova.openstack.common.service [req-34236843-08ed-4baa-8085-9c934cb0765d - - - - -] Caught SIGTERM, exiting
+2015-10-01 03:59:41.633 1041 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-10-02 20:23:45.080 1051 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-10-02 20:23:45.206 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.207 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.207 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.208 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.209 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.210 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.210 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.211 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-02 20:23:45.223 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-10-02 20:23:45.227 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-02 20:23:45.231 1051 WARNING oslo_config.cfg [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-10-02 20:23:45.247 1051 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-10-02 20:23:47.306 1051 WARNING oslo_db.sqlalchemy.session [req-b49fd7b6-cefe-4337-ae7b-e9a6d17b0a86 - - - - -] SQL connection failed. -1 attempts left.
+2015-10-02 20:23:57.321 1051 WARNING oslo_db.sqlalchemy.session [req-b49fd7b6-cefe-4337-ae7b-e9a6d17b0a86 - - - - -] SQL connection failed. -2 attempts left.
+2015-10-02 20:24:07.891 1051 INFO oslo_messaging._drivers.impl_rabbit [req-b49fd7b6-cefe-4337-ae7b-e9a6d17b0a86 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-02 20:24:07.912 1051 INFO oslo_messaging._drivers.impl_rabbit [req-b49fd7b6-cefe-4337-ae7b-e9a6d17b0a86 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-03 03:13:23.870 1051 INFO nova.openstack.common.service [req-4ba709a9-691d-4784-8833-1891cc7b4be8 - - - - -] Caught SIGTERM, exiting
+2015-10-03 03:13:24.442 1051 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-10-04 14:48:16.535 1034 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-10-04 14:48:16.683 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.684 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.684 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.685 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.686 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.686 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.687 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.775 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:16.777 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-10-04 14:48:16.781 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-04 14:48:16.783 1034 WARNING oslo_config.cfg [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-10-04 14:48:16.808 1034 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-10-04 14:48:18.832 1034 WARNING oslo_db.sqlalchemy.session [req-76274892-92a0-412a-a9cb-5276f82264dd - - - - -] SQL connection failed. -1 attempts left.
+2015-10-04 14:48:29.513 1034 INFO oslo_messaging._drivers.impl_rabbit [req-76274892-92a0-412a-a9cb-5276f82264dd - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-04 14:48:29.541 1034 INFO oslo_messaging._drivers.impl_rabbit [req-76274892-92a0-412a-a9cb-5276f82264dd - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-04 15:39:57.726 1034 INFO nova.openstack.common.service [req-b910fb79-ee02-4fab-a4ee-96d1c339a71e - - - - -] Caught SIGTERM, exiting
+2015-10-04 15:39:58.487 1034 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-10-04 15:40:54.033 982 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-10-04 15:40:54.116 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.116 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.117 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.117 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.118 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.118 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.119 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.119 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:40:54.120 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-10-04 15:40:54.123 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-04 15:40:54.125 982 WARNING oslo_config.cfg [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-10-04 15:40:54.138 982 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-10-04 15:40:56.179 982 WARNING oslo_db.sqlalchemy.session [req-687e843a-975c-434c-8928-33f763a2fc2d - - - - -] SQL connection failed. -1 attempts left.
+2015-10-04 15:41:07.153 982 INFO oslo_messaging._drivers.impl_rabbit [req-687e843a-975c-434c-8928-33f763a2fc2d - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-04 15:41:07.180 982 INFO oslo_messaging._drivers.impl_rabbit [req-687e843a-975c-434c-8928-33f763a2fc2d - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-04 22:48:01.556 982 INFO nova.openstack.common.service [req-ad6b6f35-793d-4e9d-91a3-6051385b5d40 - - - - -] Caught SIGTERM, exiting
+2015-10-04 22:48:02.336 982 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-10-16 14:53:36.560 968 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2015-10-16 14:53:36.619 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.620 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.620 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.621 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.621 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.622 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.622 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.623 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:36.623 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2015-10-16 14:53:36.627 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-16 14:53:36.629 968 WARNING oslo_config.cfg [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2015-10-16 14:53:36.635 968 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2015-10-16 14:53:38.032 968 WARNING oslo_db.sqlalchemy.session [req-f53803d6-785f-4b43-ae39-fb8844d979a5 - - - - -] SQL connection failed. -1 attempts left.
+2015-10-16 14:53:48.052 968 WARNING oslo_db.sqlalchemy.session [req-f53803d6-785f-4b43-ae39-fb8844d979a5 - - - - -] SQL connection failed. -2 attempts left.
+2015-10-16 14:53:58.374 968 INFO oslo_messaging._drivers.impl_rabbit [req-f53803d6-785f-4b43-ae39-fb8844d979a5 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-16 14:53:58.392 968 INFO oslo_messaging._drivers.impl_rabbit [req-f53803d6-785f-4b43-ae39-fb8844d979a5 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-16 15:23:23.081 968 INFO nova.openstack.common.service [req-370f8b7b-c076-44f2-90be-a2795e518919 - - - - -] Caught SIGTERM, exiting
+2015-10-16 15:23:23.597 968 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2015-10-16 15:23:23.603 968 ERROR nova.servicegroup.drivers.db [req-d9dfb1a4-fa0d-4c00-89d4-f0de0b3b292e - - - - -] model server went away
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db Traceback (most recent call last):
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/servicegroup/drivers/db.py", line 112, in _report_state
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     service.service_ref, state_catalog)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/conductor/api.py", line 164, in service_update
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return self._manager.service_update(context, service, values)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/utils.py", line 887, in wrapper
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return func(*args, **kwargs)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/server.py", line 142, in inner
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return func(*args, **kwargs)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/conductor/manager.py", line 335, in service_update
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     svc = self.db.service_update(context, service['id'], values)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/api.py", line 153, in service_update
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return IMPL.service_update(context, service_id, values)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 271, in wrapped
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return f(*args, **kwargs)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 555, in service_update
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     service_ref = _service_get(context, service_id, session=session)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 458, in _service_get
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     result = query.first()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2341, in first
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     ret = list(self[0:1])
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2208, in __getitem__
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return list(res)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2412, in __iter__
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return self._execute_and_instances(context)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2425, in _execute_and_instances
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     close_with_result=True)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2416, in _connection_from_session
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     **kw)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 854, in connection
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     close_with_result=close_with_result)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 858, in _connection_for_bind
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return self.transaction._connection_for_bind(engine)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 322, in _connection_for_bind
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     conn = bind.contextual_connect()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 210, in contextual_connect
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     **kwargs)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 85, in __init__
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     self.dispatch.engine_connect(self, _branch)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/event/attr.py", line 260, in __call__
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     fn(*args, **kw)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/session.py", line 344, in _connect_ping_listener
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     connection.scalar(select([1]))
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 659, in scalar
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return self.execute(object, *multiparams, **params).scalar()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 729, in execute
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return meth(self, multiparams, params)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/sql/elements.py", line 321, in _execute_on_connection
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return connection._execute_clauseelement(self, multiparams, params)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 826, in _execute_clauseelement
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     compiled_sql, distilled_params
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 893, in _execute_context
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     None, None)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 258, in _handle_dbapi_exception
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     e, self.dialect, self.engine)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 324, in _handle_dbapi_exception_noconnection
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     six.reraise(type(newraise), newraise, exc_info[2])
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 887, in _execute_context
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     conn = self._revalidate_connection()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 270, in _revalidate_connection
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     _connection=self)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 225, in raw_connection
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     self.pool.unique_connection, _connection)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 221, in _wrap_pool_connect
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     six.reraise(*sys.exc_info())
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 215, in _wrap_pool_connect
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return fn()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 280, in unique_connection
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     return _ConnectionFairy._checkout(self)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     fairy = _ConnectionRecord.checkout(pool)
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 442, in checkout
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     dbapi_connection = rec.get_connection()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 505, in get_connection
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     self.connection = self.__connect()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     connection = self.__pool._creator()
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 200, in connect
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db     raise original_exception
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db DBConnectionError: (OperationalError) (2003, "Can't connect to MySQL server on '192.168.0.10' (111)") None None
+2015-10-16 15:23:23.603 968 TRACE nova.servicegroup.drivers.db 
+2016-02-16 21:27:22.268 954 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2016-02-16 21:27:22.375 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.376 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.376 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.385 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.386 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.387 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.388 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.388 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:22.390 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2016-02-16 21:27:22.485 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-16 21:27:22.489 954 WARNING oslo_config.cfg [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2016-02-16 21:27:22.572 954 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2016-02-16 21:27:26.456 954 WARNING oslo_db.sqlalchemy.session [req-722ffa3f-b9f0-4420-8436-4f02314b6321 - - - - -] SQL connection failed. -1 attempts left.
+2016-02-16 21:27:37.601 954 INFO oslo_messaging._drivers.impl_rabbit [req-722ffa3f-b9f0-4420-8436-4f02314b6321 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-16 21:27:37.633 954 INFO oslo_messaging._drivers.impl_rabbit [req-722ffa3f-b9f0-4420-8436-4f02314b6321 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-16 21:56:22.618 954 INFO nova.openstack.common.service [req-04a9f806-ea52-4af6-a3e0-ea0a1579e1d5 - - - - -] Caught SIGTERM, exiting
+2016-02-16 21:56:22.911 954 ERROR nova.servicegroup.drivers.db [req-af378082-ebd5-4986-9d71-c638ba91a634 - - - - -] model server went away
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db Traceback (most recent call last):
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/servicegroup/drivers/db.py", line 112, in _report_state
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     service.service_ref, state_catalog)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/conductor/api.py", line 164, in service_update
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return self._manager.service_update(context, service, values)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/utils.py", line 887, in wrapper
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return func(*args, **kwargs)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/server.py", line 142, in inner
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return func(*args, **kwargs)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/conductor/manager.py", line 335, in service_update
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     svc = self.db.service_update(context, service['id'], values)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/api.py", line 153, in service_update
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return IMPL.service_update(context, service_id, values)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 271, in wrapped
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return f(*args, **kwargs)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 555, in service_update
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     service_ref = _service_get(context, service_id, session=session)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 458, in _service_get
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     result = query.first()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2341, in first
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     ret = list(self[0:1])
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2208, in __getitem__
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return list(res)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2412, in __iter__
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return self._execute_and_instances(context)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2425, in _execute_and_instances
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     close_with_result=True)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2416, in _connection_from_session
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     **kw)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 854, in connection
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     close_with_result=close_with_result)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 858, in _connection_for_bind
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return self.transaction._connection_for_bind(engine)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 322, in _connection_for_bind
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     conn = bind.contextual_connect()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 210, in contextual_connect
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     **kwargs)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 85, in __init__
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     self.dispatch.engine_connect(self, _branch)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/event/attr.py", line 260, in __call__
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     fn(*args, **kw)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/session.py", line 344, in _connect_ping_listener
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     connection.scalar(select([1]))
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 659, in scalar
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return self.execute(object, *multiparams, **params).scalar()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 729, in execute
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return meth(self, multiparams, params)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/sql/elements.py", line 321, in _execute_on_connection
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return connection._execute_clauseelement(self, multiparams, params)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 826, in _execute_clauseelement
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     compiled_sql, distilled_params
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 893, in _execute_context
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     None, None)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 258, in _handle_dbapi_exception
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     e, self.dialect, self.engine)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 324, in _handle_dbapi_exception_noconnection
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     six.reraise(type(newraise), newraise, exc_info[2])
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 887, in _execute_context
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     conn = self._revalidate_connection()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 270, in _revalidate_connection
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     _connection=self)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 225, in raw_connection
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     self.pool.unique_connection, _connection)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 221, in _wrap_pool_connect
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     six.reraise(*sys.exc_info())
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 215, in _wrap_pool_connect
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return fn()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 280, in unique_connection
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     return _ConnectionFairy._checkout(self)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 641, in _checkout
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     fairy = _ConnectionRecord.checkout(pool)
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 442, in checkout
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     dbapi_connection = rec.get_connection()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 505, in get_connection
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     self.connection = self.__connect()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 537, in __connect
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     connection = self.__pool._creator()
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/compat/handle_error.py", line 200, in connect
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db     raise original_exception
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db DBConnectionError: (OperationalError) (2003, "Can't connect to MySQL server on '192.168.0.10' (111)") None None
+2016-02-16 21:56:22.911 954 TRACE nova.servicegroup.drivers.db 
+2016-02-16 21:56:23.497 954 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2016-02-22 19:24:45.984 981 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2016-02-22 19:24:46.069 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.070 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.070 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.071 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.072 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.072 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.073 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.073 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:24:46.075 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2016-02-22 19:24:46.095 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 19:24:46.098 981 WARNING oslo_config.cfg [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2016-02-22 19:24:46.118 981 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2016-02-22 19:24:48.258 981 WARNING oslo_db.sqlalchemy.session [req-0c899336-135d-48a5-b57e-32a79f76eff9 - - - - -] SQL connection failed. -1 attempts left.
+2016-02-22 19:24:59.276 981 INFO oslo_messaging._drivers.impl_rabbit [req-0c899336-135d-48a5-b57e-32a79f76eff9 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-22 19:24:59.299 981 INFO oslo_messaging._drivers.impl_rabbit [req-0c899336-135d-48a5-b57e-32a79f76eff9 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-22 19:26:01.095 981 INFO nova.openstack.common.service [req-0a42872c-7fa6-4cbf-b77a-51969e50dcb2 - - - - -] Caught SIGTERM, exiting
+2016-02-22 19:26:01.763 981 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2016-02-22 19:39:21.573 1040 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2016-02-22 19:39:21.651 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.652 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.652 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.653 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.653 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.654 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.654 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.655 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:21.655 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2016-02-22 19:39:21.674 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 19:39:21.678 1040 WARNING oslo_config.cfg [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2016-02-22 19:39:21.704 1040 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2016-02-22 19:39:23.674 1040 WARNING oslo_db.sqlalchemy.session [req-dc18cca0-4a54-443d-a65d-ec099213bac4 - - - - -] SQL connection failed. -1 attempts left.
+2016-02-22 19:39:34.558 1040 INFO oslo_messaging._drivers.impl_rabbit [req-dc18cca0-4a54-443d-a65d-ec099213bac4 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-22 19:39:34.598 1040 INFO oslo_messaging._drivers.impl_rabbit [req-dc18cca0-4a54-443d-a65d-ec099213bac4 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-22 22:26:03.446 1040 INFO nova.openstack.common.service [req-1dfbebfe-a903-455d-8fdf-00418f6aefb5 - - - - -] Caught SIGTERM, exiting
+2016-02-22 22:26:03.891 1040 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2016-02-23 19:46:58.813 1034 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2016-02-23 19:46:59.002 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.040 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.041 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.042 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.043 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.044 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.045 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.046 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-23 19:46:59.048 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2016-02-23 19:46:59.075 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-23 19:46:59.080 1034 WARNING oslo_config.cfg [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2016-02-23 19:46:59.118 1034 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2016-02-23 19:47:05.089 1034 WARNING oslo_db.sqlalchemy.session [req-58eab0c6-bfd8-4356-840a-c4bc9643c372 - - - - -] SQL connection failed. -1 attempts left.
+2016-02-23 19:47:15.701 1034 WARNING oslo_db.sqlalchemy.session [req-58eab0c6-bfd8-4356-840a-c4bc9643c372 - - - - -] SQL connection failed. -2 attempts left.
+2016-02-23 19:47:27.713 1034 INFO oslo_messaging._drivers.impl_rabbit [req-58eab0c6-bfd8-4356-840a-c4bc9643c372 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-23 19:47:27.881 1034 INFO oslo_messaging._drivers.impl_rabbit [req-58eab0c6-bfd8-4356-840a-c4bc9643c372 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-23 23:40:02.442 1034 INFO nova.openstack.common.service [req-0a55753c-3c64-471d-83f1-2dd0665712d6 - - - - -] Caught SIGTERM, exiting
+2016-02-23 23:40:02.992 1034 ERROR oslo_messaging._drivers.impl_rabbit [-] Failed to consume message from queue: 
+2016-02-24 19:46:19.428 1017 INFO nova.openstack.common.periodic_task [-] Skipping periodic task _periodic_update_dns because its interval is negative
+2016-02-24 19:46:19.573 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.574 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.574 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.575 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.576 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.577 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.577 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.578 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:19.579 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2016-02-24 19:46:19.599 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-24 19:46:19.602 1017 WARNING oslo_config.cfg [req-a1362da7-edf4-465a-8baf-1795f7ff7bb2 - - - - -] Option "url_timeout" from group "neutron" is deprecated. Use option "timeout" from group "neutron".
+2016-02-24 19:46:19.629 1017 INFO nova.service [-] Starting cert node (version 2015.1.0-3.el7)
+2016-02-24 19:46:21.994 1017 WARNING oslo_db.sqlalchemy.session [req-8474e352-3b86-4ce2-973d-9b90cdae529c - - - - -] SQL connection failed. -1 attempts left.
+2016-02-24 19:46:32.988 1017 INFO oslo_messaging._drivers.impl_rabbit [req-8474e352-3b86-4ce2-973d-9b90cdae529c - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-24 19:46:33.027 1017 INFO oslo_messaging._drivers.impl_rabbit [req-8474e352-3b86-4ce2-973d-9b90cdae529c - - - - -] Connected to AMQP server on 192.168.0.10:5672
