@@ -642,3 +642,5 @@
   642  ./git_cmd.txt
   643  chmod 777 git_cmd.txt
   644  ./git_cmd.txt
+  645  vi git_cmd.txt
+  646  ./git_cmd.txt
