@@ -936,3 +936,6 @@
 2016-02-25 22:45:45.114 2635 INFO cinder.volume.manager [req-7f3036b7-e8a5-4ad9-a189-9692e73664be - - - - -] Updating volume status
 2016-02-25 22:46:45.114 2635 INFO cinder.volume.manager [req-6e3f2c08-3aa2-407c-9b4b-c798028bf42e - - - - -] Updating volume status
 2016-02-25 22:47:45.113 2635 INFO cinder.volume.manager [req-a05eff78-ea82-4aa1-8914-a57e3954a99c - - - - -] Updating volume status
+2016-02-25 22:48:45.104 2635 INFO cinder.volume.manager [req-3c12f8b1-a39e-471f-bd4e-54f2cf0626d0 - - - - -] Updating volume status
+2016-02-25 22:49:45.114 2635 INFO cinder.volume.manager [req-b66a8c61-da71-47ce-8be0-496a7dcd4441 - - - - -] Updating volume status
+2016-02-25 22:51:45.114 2635 INFO cinder.volume.manager [req-6284016d-380b-4b16-ade7-0640db1c8b95 - - - - -] Updating volume status

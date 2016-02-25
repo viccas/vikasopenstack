@@ -655,3 +655,12 @@
   655  mkdir glance
   656  mkdir rabbitmq
   657  ./git_cmd.txt
+  658  vi git_cmd.txt
+  659  ls /var/log
+  660  vi git_cmd.txt
+  661  mkdir nova
+  662  mkdir neutron
+  663  ls
+  664  pwd
+  665  ls nova
+  666  ./git_cmd.txt

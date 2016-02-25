@@ -6627,3 +6627,15 @@
 2016-02-25 22:48:02.080 14750 INFO keystone.common.wsgi [-] POST /tokens?
 2016-02-25 22:48:02.166 14750 WARNING keystone.common.wsgi [-] Authorization failed. The request you have made requires authentication. from 192.168.0.10
 2016-02-25 22:48:02.720 19663 INFO keystone.token.persistence.backends.sql [-] Total expired tokens removed: 0
+2016-02-25 22:49:00.091 14750 INFO keystone.common.wsgi [-] POST /tokens?
+2016-02-25 22:49:00.154 14750 WARNING keystone.common.wsgi [-] Authorization failed. The request you have made requires authentication. from 192.168.0.10
+2016-02-25 22:49:03.299 19791 INFO keystone.token.persistence.backends.sql [-] Total expired tokens removed: 4
+2016-02-25 22:49:32.149 14750 INFO keystone.common.wsgi [-] GET /?
+2016-02-25 22:49:32.160 14750 INFO keystone.common.wsgi [-] POST /tokens?
+2016-02-25 22:49:32.226 14750 WARNING keystone.common.wsgi [-] Authorization failed. The request you have made requires authentication. from 192.168.0.10
+2016-02-25 22:50:02.997 19873 INFO keystone.token.persistence.backends.sql [-] Total expired tokens removed: 0
+2016-02-25 22:51:01.244 14750 INFO keystone.common.wsgi [-] GET /?
+2016-02-25 22:51:01.263 14750 INFO keystone.common.wsgi [-] POST /tokens?
+2016-02-25 22:51:01.333 14750 WARNING keystone.common.wsgi [-] Authorization failed. The request you have made requires authentication. from 192.168.0.10
+2016-02-25 22:51:02.856 19952 INFO keystone.token.persistence.backends.sql [-] Total expired tokens removed: 0
+2016-02-25 22:52:03.500 20024 INFO keystone.token.persistence.backends.sql [-] Total expired tokens removed: 5
