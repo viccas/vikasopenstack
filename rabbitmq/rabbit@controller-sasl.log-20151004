@@ -1,0 +1,108 @@
+
+=SUPERVISOR REPORT==== 30-Sep-2015::21:55:29 ===
+     Supervisor: {<0.359.0>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 30-Sep-2015::21:55:29 ===
+     Supervisor: {<0.587.0>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 30-Sep-2015::22:10:17 ===
+     Supervisor: {<0.402.0>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 30-Sep-2015::22:10:17 ===
+     Supervisor: {<0.465.0>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 30-Sep-2015::22:10:17 ===
+     Supervisor: {<0.350.0>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 30-Sep-2015::22:10:17 ===
+     Supervisor: {<0.400.0>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 1-Oct-2015::03:30:00 ===
+     Supervisor: {<0.14107.2>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 1-Oct-2015::03:30:00 ===
+     Supervisor: {<0.14368.2>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+
+
+=SUPERVISOR REPORT==== 4-Oct-2015::15:40:00 ===
+     Supervisor: {<0.245.0>,rabbit_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},
+                  {name,channel_sup},
+                  {mfargs,{rabbit_channel_sup,start_link,[]}},
+                  {restart_type,temporary},
+                  {shutdown,infinity},
+                  {child_type,supervisor}]
+

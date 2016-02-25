@@ -1,0 +1,390 @@
+2015-06-22 21:08:51.326 19075 INFO cinder.volume.manager [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Determined volume DB was empty at startup.
+2015-06-22 21:08:51.352 19075 WARNING cinder.volume.targets.lio [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-06-22 21:08:51.767 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.770 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.771 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.773 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.775 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.777 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.778 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.779 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-06-22 21:08:51.785 19075 WARNING oslo_config.cfg [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-06-22 21:08:51.792 19075 INFO cinder.service [req-5365aafb-8fb7-4cad-bb3d-e93cbe374609 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-06-22 21:08:51.796 19075 INFO cinder.backup.manager [req-68e754ab-53ce-4742-989c-f07ce3013e48 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-06-22 21:08:52.797 19075 INFO cinder.backup.manager [req-68e754ab-53ce-4742-989c-f07ce3013e48 - - - - -] Cleaning up incomplete backup operations.
+2015-06-22 21:08:52.918 19075 INFO oslo_messaging._drivers.impl_rabbit [req-997a537a-cde7-423d-9945-b0a4a938ab4d - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-06-22 21:08:52.951 19075 INFO oslo_messaging._drivers.impl_rabbit [req-997a537a-cde7-423d-9945-b0a4a938ab4d - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-06-22 21:32:01.087 19075 INFO cinder.openstack.common.service [req-5e225238-3fe7-43c1-916f-5d8e4a0dc8fe - - - - -] Caught SIGTERM, exiting
+2015-06-22 22:07:17.154 1031 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-06-22 22:07:27.219 1031 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-06-22 22:07:37.489 1031 INFO cinder.volume.manager [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Determined volume DB was empty at startup.
+2015-06-22 22:07:37.512 1031 WARNING cinder.volume.targets.lio [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-06-22 22:07:37.774 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.776 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.777 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.778 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.778 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.779 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.780 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.782 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-06-22 22:07:37.785 1031 WARNING oslo_config.cfg [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-06-22 22:07:37.789 1031 INFO cinder.service [req-f1dbda84-6c49-4281-8022-e71089b3fd1b - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-06-22 22:07:37.793 1031 INFO cinder.backup.manager [req-644b399c-ab98-4ea2-b771-0034284e5730 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-06-22 22:07:38.618 1031 INFO cinder.backup.manager [req-644b399c-ab98-4ea2-b771-0034284e5730 - - - - -] Cleaning up incomplete backup operations.
+2015-06-22 22:07:38.803 1031 INFO oslo_messaging._drivers.impl_rabbit [req-214e0616-665b-4221-9fed-82e2a518d4ca - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-06-22 22:07:38.855 1031 INFO oslo_messaging._drivers.impl_rabbit [req-214e0616-665b-4221-9fed-82e2a518d4ca - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-06-22 22:37:01.012 1031 INFO cinder.openstack.common.service [req-c1173e92-c81e-48b6-8646-c62b942f5d73 - - - - -] Caught SIGTERM, exiting
+2015-09-30 19:05:36.517 974 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-09-30 19:05:46.599 974 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-09-30 19:05:56.900 974 INFO cinder.volume.manager [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Determined volume DB was empty at startup.
+2015-09-30 19:05:56.942 974 WARNING cinder.volume.targets.lio [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-09-30 19:05:57.229 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.231 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.232 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.238 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.239 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.240 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.241 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.242 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-09-30 19:05:57.246 974 WARNING oslo_config.cfg [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-09-30 19:05:57.253 974 INFO cinder.service [req-9a33269a-0520-4a9a-a81b-4d4ddaf4bb31 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-09-30 19:05:57.256 974 INFO cinder.backup.manager [req-40baa51e-ae1b-49b4-b10d-71d678b3cf9e - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-09-30 19:05:58.127 974 INFO cinder.backup.manager [req-40baa51e-ae1b-49b4-b10d-71d678b3cf9e - - - - -] Cleaning up incomplete backup operations.
+2015-09-30 19:05:58.268 974 INFO oslo_messaging._drivers.impl_rabbit [req-f6b7f8e9-2087-4c55-89a5-57d851f8b8c2 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-09-30 19:05:58.289 974 INFO oslo_messaging._drivers.impl_rabbit [req-f6b7f8e9-2087-4c55-89a5-57d851f8b8c2 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-09-30 21:55:25.110 974 INFO cinder.openstack.common.service [req-5466d790-85f3-4dbe-a936-906ea83e2823 - - - - -] Caught SIGTERM, exiting
+2015-09-30 22:02:01.326 962 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-09-30 22:02:11.357 962 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-09-30 22:02:21.673 962 INFO cinder.volume.manager [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Determined volume DB was empty at startup.
+2015-09-30 22:02:21.711 962 WARNING cinder.volume.targets.lio [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-09-30 22:02:22.026 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.030 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.032 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.033 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.034 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.035 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.036 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.036 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:02:22.039 962 WARNING oslo_config.cfg [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-09-30 22:02:22.044 962 INFO cinder.service [req-d6a77f0e-91bc-4d23-8c64-ac274695c9b0 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-09-30 22:02:22.047 962 INFO cinder.backup.manager [req-6d044ae8-887b-46d1-b3c8-a473c8b86370 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-09-30 22:02:22.850 962 INFO cinder.backup.manager [req-6d044ae8-887b-46d1-b3c8-a473c8b86370 - - - - -] Cleaning up incomplete backup operations.
+2015-09-30 22:02:23.099 962 INFO oslo_messaging._drivers.impl_rabbit [req-7fbeff0f-1342-405e-89a4-f02ba6163af4 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-09-30 22:02:23.129 962 INFO oslo_messaging._drivers.impl_rabbit [req-7fbeff0f-1342-405e-89a4-f02ba6163af4 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-09-30 22:10:12.546 962 INFO cinder.openstack.common.service [req-30cd128c-3e4e-471d-98ad-1f5a07bb60f5 - - - - -] Caught SIGTERM, exiting
+2015-09-30 22:11:11.134 961 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-09-30 22:11:21.214 961 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-09-30 22:11:31.714 961 INFO cinder.volume.manager [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Determined volume DB was empty at startup.
+2015-09-30 22:11:31.762 961 WARNING cinder.volume.targets.lio [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-09-30 22:11:32.354 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.358 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.364 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.365 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.366 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.368 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.369 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.371 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-09-30 22:11:32.387 961 WARNING oslo_config.cfg [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-09-30 22:11:32.420 961 INFO cinder.service [req-92eae263-eaee-4b26-b2f3-a88e58d38e74 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-09-30 22:11:32.433 961 INFO cinder.backup.manager [req-ede60657-6aa3-4dc5-93d9-a8f1f3c1ce26 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-09-30 22:11:34.912 961 INFO cinder.backup.manager [req-ede60657-6aa3-4dc5-93d9-a8f1f3c1ce26 - - - - -] Cleaning up incomplete backup operations.
+2015-09-30 22:11:35.380 961 INFO oslo_messaging._drivers.impl_rabbit [req-c6295f08-6359-4f2c-96b0-e0830ed9231a - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-09-30 22:11:35.459 961 INFO oslo_messaging._drivers.impl_rabbit [req-c6295f08-6359-4f2c-96b0-e0830ed9231a - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-01 03:29:55.243 961 INFO cinder.openstack.common.service [req-7203d902-90a9-40da-8899-196ea5daf51e - - - - -] Caught SIGTERM, exiting
+2015-10-01 03:31:15.294 1022 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-01 03:31:25.349 1022 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-01 03:31:36.037 1022 INFO cinder.volume.manager [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Determined volume DB was empty at startup.
+2015-10-01 03:31:36.158 1022 WARNING cinder.volume.targets.lio [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-10-01 03:31:36.610 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.613 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.614 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.615 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.616 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.617 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.618 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.619 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-01 03:31:36.623 1022 WARNING oslo_config.cfg [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-01 03:31:36.628 1022 INFO cinder.service [req-b2534b8f-8204-4ba9-a54d-82e05bb4001e - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-10-01 03:31:36.631 1022 INFO cinder.backup.manager [req-781a4d3c-f4a7-45da-9d88-4974ba706394 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-10-01 03:31:37.921 1022 INFO cinder.backup.manager [req-781a4d3c-f4a7-45da-9d88-4974ba706394 - - - - -] Cleaning up incomplete backup operations.
+2015-10-01 03:31:38.633 1022 INFO oslo_messaging._drivers.impl_rabbit [req-0ab8c363-41f7-40c5-84ba-2751fadbbaf1 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-01 03:31:38.829 1022 INFO oslo_messaging._drivers.impl_rabbit [req-0ab8c363-41f7-40c5-84ba-2751fadbbaf1 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-01 03:59:40.573 1022 INFO cinder.openstack.common.service [req-4c200012-3c4d-4f4a-92a9-092ec943424a - - - - -] Caught SIGTERM, exiting
+2015-10-02 20:23:41.954 1028 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-02 20:23:51.981 1028 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-02 20:24:02.419 1028 INFO cinder.volume.manager [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Determined volume DB was empty at startup.
+2015-10-02 20:24:02.468 1028 WARNING cinder.volume.targets.lio [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-10-02 20:24:03.062 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.070 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.071 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.072 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.073 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.074 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.075 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.076 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-02 20:24:03.133 1028 WARNING oslo_config.cfg [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-02 20:24:03.139 1028 INFO cinder.service [req-b89dcb31-5c69-483e-b3a3-732f56986391 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-10-02 20:24:03.143 1028 INFO cinder.backup.manager [req-14cf8657-5c95-48ca-96be-438dcb0a4a59 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-10-02 20:24:05.165 1028 INFO cinder.backup.manager [req-14cf8657-5c95-48ca-96be-438dcb0a4a59 - - - - -] Cleaning up incomplete backup operations.
+2015-10-02 20:24:05.515 1028 INFO oslo_messaging._drivers.impl_rabbit [req-6f1b8d9d-35f4-4a08-8cb9-b392f8014fa2 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-02 20:24:05.638 1028 INFO oslo_messaging._drivers.impl_rabbit [req-6f1b8d9d-35f4-4a08-8cb9-b392f8014fa2 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-03 03:13:23.247 1028 INFO cinder.openstack.common.service [req-543c3be4-20b1-40c1-bba0-13afc9a75142 - - - - -] Caught SIGTERM, exiting
+2015-10-04 14:48:10.909 1022 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-04 14:48:20.943 1022 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-04 14:48:31.309 1022 INFO cinder.volume.manager [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Determined volume DB was empty at startup.
+2015-10-04 14:48:31.343 1022 WARNING cinder.volume.targets.lio [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-10-04 14:48:31.620 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.622 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.622 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.623 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.624 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.626 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.627 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.627 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-04 14:48:31.631 1022 WARNING oslo_config.cfg [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-04 14:48:31.636 1022 INFO cinder.service [req-7f985d34-b000-4d46-8ae3-ff2fe9e168ae - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-10-04 14:48:31.640 1022 INFO cinder.backup.manager [req-c7d515af-172e-422f-a3f2-55879fdfa13b - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-10-04 14:48:31.966 1022 ERROR cinder.backup.manager [req-c7d515af-172e-422f-a3f2-55879fdfa13b - - - - -] Error encountered during initialization of driver: LVMVolumeDriver.
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager Traceback (most recent call last):
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/backup/manager.py", line 175, in _init_volume_driver
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager     driver.check_for_setup_error()
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/osprofiler/profiler.py", line 105, in wrapper
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager     return f(*args, **kwargs)
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py", line 263, in check_for_setup_error
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager     lvm_conf=lvm_conf_file)
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 86, in __init__
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager     if self._vg_exists() is False:
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 123, in _vg_exists
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager     run_as_root=True)
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/utils.py", line 143, in execute
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager     return processutils.execute(*cmd, **kwargs)
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/oslo_concurrency/processutils.py", line 233, in execute
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager     cmd=sanitized_cmd)
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager ProcessExecutionError: Unexpected error while running command.
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager Exit code: 5
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager Stdout: u''
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2015-10-04 14:48:31.966 1022 TRACE cinder.backup.manager 
+2015-10-04 14:48:31.986 1022 INFO cinder.backup.manager [req-c7d515af-172e-422f-a3f2-55879fdfa13b - - - - -] Cleaning up incomplete backup operations.
+2015-10-04 14:48:32.153 1022 INFO oslo_messaging._drivers.impl_rabbit [req-f3829821-3150-4583-bae1-9ac84763781a - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-04 14:48:32.187 1022 INFO oslo_messaging._drivers.impl_rabbit [req-f3829821-3150-4583-bae1-9ac84763781a - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-04 15:39:57.584 1022 INFO cinder.openstack.common.service [req-1816da1d-cf55-4aeb-9715-a48aa44866b9 - - - - -] Caught SIGTERM, exiting
+2015-10-04 15:40:51.063 961 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-04 15:41:01.089 961 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-04 15:41:11.411 961 INFO cinder.volume.manager [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Determined volume DB was empty at startup.
+2015-10-04 15:41:11.440 961 WARNING cinder.volume.targets.lio [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-10-04 15:41:11.780 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.783 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.784 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.785 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.786 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.787 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.788 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.789 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.793 961 WARNING oslo_config.cfg [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-04 15:41:11.798 961 INFO cinder.service [req-7cda8f7a-6643-425d-8e87-423175e4407b - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-10-04 15:41:11.801 961 INFO cinder.backup.manager [req-d36b573f-32aa-4e9f-a03a-00fb32d1b993 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-10-04 15:41:12.734 961 INFO cinder.backup.manager [req-d36b573f-32aa-4e9f-a03a-00fb32d1b993 - - - - -] Cleaning up incomplete backup operations.
+2015-10-04 15:41:13.028 961 INFO oslo_messaging._drivers.impl_rabbit [req-5fd96195-9209-4004-b334-92787d16baf0 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-04 15:41:13.094 961 INFO oslo_messaging._drivers.impl_rabbit [req-5fd96195-9209-4004-b334-92787d16baf0 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-04 22:48:01.239 961 INFO cinder.openstack.common.service [req-1061ade2-066a-42f6-a4fb-a0199ec7136c - - - - -] Caught SIGTERM, exiting
+2015-10-16 14:53:32.249 937 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-16 14:53:42.317 937 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-16 14:53:52.665 937 INFO cinder.volume.manager [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Determined volume DB was empty at startup.
+2015-10-16 14:53:52.711 937 WARNING cinder.volume.targets.lio [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-10-16 14:53:53.166 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.169 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.170 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.171 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.172 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.173 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.174 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.175 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.178 937 WARNING oslo_config.cfg [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-16 14:53:53.182 937 INFO cinder.service [req-b1b8d1ee-28b0-49c3-abfb-f74170011b00 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2015-10-16 14:53:53.185 937 INFO cinder.backup.manager [req-10a653c4-1af2-4a8d-8c8d-2dc853124223 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2015-10-16 14:53:54.251 937 INFO cinder.backup.manager [req-10a653c4-1af2-4a8d-8c8d-2dc853124223 - - - - -] Cleaning up incomplete backup operations.
+2015-10-16 14:53:54.416 937 INFO oslo_messaging._drivers.impl_rabbit [req-d3e824d7-496e-4998-add4-58fdb7594d92 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-16 14:53:54.482 937 INFO oslo_messaging._drivers.impl_rabbit [req-d3e824d7-496e-4998-add4-58fdb7594d92 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-16 15:23:22.823 937 INFO cinder.openstack.common.service [req-094d151f-2530-4812-bf16-d1072e20d362 - - - - -] Caught SIGTERM, exiting
+2016-02-16 21:27:18.736 932 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-16 21:27:28.792 932 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-16 21:27:39.255 932 INFO cinder.volume.manager [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Determined volume DB was empty at startup.
+2016-02-16 21:27:39.285 932 WARNING cinder.volume.targets.lio [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-16 21:27:39.702 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.706 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.707 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.709 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.710 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.712 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.713 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.715 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.720 932 WARNING oslo_config.cfg [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-16 21:27:39.730 932 INFO cinder.service [req-676835eb-9ccd-4f52-b251-a1100f920139 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2016-02-16 21:27:39.735 932 INFO cinder.backup.manager [req-03d455c9-97e1-471a-876c-e4a97d509332 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2016-02-16 21:27:40.679 932 ERROR cinder.backup.manager [req-03d455c9-97e1-471a-876c-e4a97d509332 - - - - -] Error encountered during initialization of driver: LVMVolumeDriver.
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager Traceback (most recent call last):
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/backup/manager.py", line 175, in _init_volume_driver
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager     driver.check_for_setup_error()
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/osprofiler/profiler.py", line 105, in wrapper
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager     return f(*args, **kwargs)
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py", line 263, in check_for_setup_error
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager     lvm_conf=lvm_conf_file)
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 86, in __init__
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager     if self._vg_exists() is False:
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 123, in _vg_exists
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager     run_as_root=True)
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/utils.py", line 143, in execute
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager     return processutils.execute(*cmd, **kwargs)
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/oslo_concurrency/processutils.py", line 233, in execute
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager     cmd=sanitized_cmd)
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager ProcessExecutionError: Unexpected error while running command.
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager Exit code: 5
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager Stdout: u''
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-16 21:27:40.679 932 TRACE cinder.backup.manager 
+2016-02-16 21:27:40.712 932 INFO cinder.backup.manager [req-03d455c9-97e1-471a-876c-e4a97d509332 - - - - -] Cleaning up incomplete backup operations.
+2016-02-16 21:27:41.060 932 INFO oslo_messaging._drivers.impl_rabbit [req-33c1edd9-3a21-4c82-b15b-7947e1ff5315 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-16 21:27:41.116 932 INFO oslo_messaging._drivers.impl_rabbit [req-33c1edd9-3a21-4c82-b15b-7947e1ff5315 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-16 21:56:21.973 932 INFO cinder.openstack.common.service [req-e55e42e8-bd51-4155-9a1d-c099eb6af710 - - - - -] Caught SIGTERM, exiting
+2016-02-22 19:24:42.100 964 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-22 19:24:52.169 964 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-22 19:25:02.509 964 INFO cinder.volume.manager [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Determined volume DB was empty at startup.
+2016-02-22 19:25:02.547 964 WARNING cinder.volume.targets.lio [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-22 19:25:02.861 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.864 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.864 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.866 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.866 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.867 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.868 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.869 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.872 964 WARNING oslo_config.cfg [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 19:25:02.877 964 INFO cinder.service [req-c0a6d2b7-39ea-4887-a506-bb82c632a645 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2016-02-22 19:25:02.881 964 INFO cinder.backup.manager [req-6a4ab2ef-500e-41b8-8d62-6ca213ee19b9 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2016-02-22 19:25:03.198 964 ERROR cinder.backup.manager [req-6a4ab2ef-500e-41b8-8d62-6ca213ee19b9 - - - - -] Error encountered during initialization of driver: LVMVolumeDriver.
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager Traceback (most recent call last):
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/backup/manager.py", line 175, in _init_volume_driver
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager     driver.check_for_setup_error()
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/osprofiler/profiler.py", line 105, in wrapper
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager     return f(*args, **kwargs)
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py", line 263, in check_for_setup_error
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager     lvm_conf=lvm_conf_file)
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 86, in __init__
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager     if self._vg_exists() is False:
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 123, in _vg_exists
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager     run_as_root=True)
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/utils.py", line 143, in execute
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager     return processutils.execute(*cmd, **kwargs)
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/oslo_concurrency/processutils.py", line 233, in execute
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager     cmd=sanitized_cmd)
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager ProcessExecutionError: Unexpected error while running command.
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager Exit code: 5
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager Stdout: u''
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-22 19:25:03.198 964 TRACE cinder.backup.manager 
+2016-02-22 19:25:03.217 964 INFO cinder.backup.manager [req-6a4ab2ef-500e-41b8-8d62-6ca213ee19b9 - - - - -] Cleaning up incomplete backup operations.
+2016-02-22 19:25:03.353 964 INFO oslo_messaging._drivers.impl_rabbit [req-f669eb45-79ba-4c51-adff-768edb805a5c - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-22 19:25:03.384 964 INFO oslo_messaging._drivers.impl_rabbit [req-f669eb45-79ba-4c51-adff-768edb805a5c - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-22 19:26:00.695 964 INFO cinder.openstack.common.service [req-685b6d4a-8e4a-4932-ac2f-b6b50020c1f6 - - - - -] Caught SIGTERM, exiting
+2016-02-22 19:39:17.497 1021 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-22 19:39:27.613 1021 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-22 19:39:38.300 1021 INFO cinder.volume.manager [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Determined volume DB was empty at startup.
+2016-02-22 19:39:38.329 1021 WARNING cinder.volume.targets.lio [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-22 19:39:38.717 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.722 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.724 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.725 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.727 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.728 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.729 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.730 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.738 1021 WARNING oslo_config.cfg [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 19:39:38.748 1021 INFO cinder.service [req-ee679ff4-5f4e-40c1-a7da-41015991ed02 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2016-02-22 19:39:38.752 1021 INFO cinder.backup.manager [req-421347d2-1b5f-45a5-884b-78452feaac7a - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2016-02-22 19:39:39.151 1021 ERROR cinder.backup.manager [req-421347d2-1b5f-45a5-884b-78452feaac7a - - - - -] Error encountered during initialization of driver: LVMVolumeDriver.
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager Traceback (most recent call last):
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/backup/manager.py", line 175, in _init_volume_driver
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager     driver.check_for_setup_error()
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/osprofiler/profiler.py", line 105, in wrapper
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager     return f(*args, **kwargs)
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py", line 263, in check_for_setup_error
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager     lvm_conf=lvm_conf_file)
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 86, in __init__
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager     if self._vg_exists() is False:
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 123, in _vg_exists
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager     run_as_root=True)
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/cinder/utils.py", line 143, in execute
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager     return processutils.execute(*cmd, **kwargs)
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager   File "/usr/lib/python2.7/site-packages/oslo_concurrency/processutils.py", line 233, in execute
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager     cmd=sanitized_cmd)
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager ProcessExecutionError: Unexpected error while running command.
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager Exit code: 5
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager Stdout: u''
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-22 19:39:39.151 1021 TRACE cinder.backup.manager 
+2016-02-22 19:39:39.173 1021 INFO cinder.backup.manager [req-421347d2-1b5f-45a5-884b-78452feaac7a - - - - -] Cleaning up incomplete backup operations.
+2016-02-22 19:39:39.513 1021 INFO oslo_messaging._drivers.impl_rabbit [req-c964e2b3-2a94-405f-a797-85ed1903b077 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-22 19:39:39.535 1021 INFO oslo_messaging._drivers.impl_rabbit [req-c964e2b3-2a94-405f-a797-85ed1903b077 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-22 22:26:02.783 1021 INFO cinder.openstack.common.service [req-f8a00eba-8870-4d19-937a-fe1768cbd276 - - - - -] Caught SIGTERM, exiting
+2016-02-23 19:46:53.858 1016 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-23 19:47:03.983 1016 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-23 19:47:14.022 1016 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 8 attempts left.
+2016-02-23 19:47:25.077 1016 INFO cinder.volume.manager [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Determined volume DB was empty at startup.
+2016-02-23 19:47:25.138 1016 WARNING cinder.volume.targets.lio [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-23 19:47:25.603 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.609 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.611 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.613 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.614 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.628 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.629 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.631 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-23 19:47:25.636 1016 WARNING oslo_config.cfg [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-23 19:47:25.656 1016 INFO cinder.service [req-2b27c728-fc86-4f91-a06f-7b99d9b048a5 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2016-02-23 19:47:25.662 1016 INFO cinder.backup.manager [req-4b7f1964-2ba0-4208-af5d-3b89dc6309f4 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2016-02-23 19:47:29.483 1016 INFO cinder.backup.manager [req-4b7f1964-2ba0-4208-af5d-3b89dc6309f4 - - - - -] Cleaning up incomplete backup operations.
+2016-02-23 19:47:30.001 1016 INFO oslo_messaging._drivers.impl_rabbit [req-2b234a78-3e88-4801-8211-024fed62144e - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-23 19:47:30.110 1016 INFO oslo_messaging._drivers.impl_rabbit [req-2b234a78-3e88-4801-8211-024fed62144e - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-23 23:40:01.742 1016 INFO cinder.openstack.common.service [req-d2f39ec6-70f6-4e65-9620-26ab2e5e1063 - - - - -] Caught SIGTERM, exiting
+2016-02-24 19:46:15.338 992 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-24 19:46:25.385 992 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-24 19:46:35.766 992 INFO cinder.volume.manager [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Determined volume DB was empty at startup.
+2016-02-24 19:46:35.844 992 WARNING cinder.volume.targets.lio [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-24 19:46:36.225 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.228 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.229 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.230 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.231 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.232 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.233 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.234 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-24 19:46:36.237 992 WARNING oslo_config.cfg [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-24 19:46:36.243 992 INFO cinder.service [req-8aa3b166-f326-4442-a87d-39730ffaa158 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2016-02-24 19:46:36.246 992 INFO cinder.backup.manager [req-a9c7268a-4563-4664-9c80-c88d156b87a7 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2016-02-24 19:46:37.343 992 INFO cinder.backup.manager [req-a9c7268a-4563-4664-9c80-c88d156b87a7 - - - - -] Cleaning up incomplete backup operations.
+2016-02-24 19:46:37.515 992 INFO oslo_messaging._drivers.impl_rabbit [req-e018b8a3-01d4-4a8b-9b4a-f8b87f147c25 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-24 19:46:37.539 992 INFO oslo_messaging._drivers.impl_rabbit [req-e018b8a3-01d4-4a8b-9b4a-f8b87f147c25 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-24 23:02:19.898 992 INFO cinder.openstack.common.service [req-58f9ffa2-6d29-48a9-8b19-48ed6df5d6a0 - - - - -] Caught SIGTERM, exiting
+2016-02-25 19:46:50.781 986 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-25 19:47:00.834 986 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-25 19:47:11.263 986 INFO cinder.volume.manager [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Determined volume DB was empty at startup.
+2016-02-25 19:47:11.294 986 WARNING cinder.volume.targets.lio [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-25 19:47:11.740 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.743 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.744 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.745 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.746 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.747 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.748 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.750 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-25 19:47:11.758 986 WARNING oslo_config.cfg [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-25 19:47:11.771 986 INFO cinder.service [req-fb48932b-f342-4044-b01c-828197825706 - - - - -] Starting cinder-backup node (version 2015.1.0)
+2016-02-25 19:47:11.779 986 INFO cinder.backup.manager [req-581cb6e9-10e6-4c85-8b00-42feef5db75b - - - - -] Starting volume driver LVMVolumeDriver (3.0.0).
+2016-02-25 19:47:13.245 986 INFO cinder.backup.manager [req-581cb6e9-10e6-4c85-8b00-42feef5db75b - - - - -] Cleaning up incomplete backup operations.
+2016-02-25 19:47:13.564 986 INFO oslo_messaging._drivers.impl_rabbit [req-a439ae3a-1985-40dc-8ce3-a4ef818e2831 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-25 19:47:13.634 986 INFO oslo_messaging._drivers.impl_rabbit [req-a439ae3a-1985-40dc-8ce3-a4ef818e2831 - - - - -] Connected to AMQP server on 192.168.0.10:5672

@@ -646,3 +646,12 @@
   646  ./git_cmd.txt
   647  vi git_cmd.txt
   648  ./git_cmd.txt
+  649  pwd
+  650  ls
+  651  mkdir nova
+  652  mkdir keystone
+  653  mkdir swift
+  654  mkdir cinder
+  655  mkdir glance
+  656  mkdir rabbitmq
+  657  ./git_cmd.txt

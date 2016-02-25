@@ -1,0 +1,806 @@
+2015-10-04 15:39:57.581 1020 INFO cinder.openstack.common.service [-] Caught SIGTERM, stopping children
+2015-10-04 15:39:57.586 1020 INFO cinder.openstack.common.service [-] Waiting on 4 children to exit
+2015-10-04 15:39:57.587 1020 INFO cinder.openstack.common.service [-] Child 2769 killed by signal 15
+2015-10-04 15:39:57.588 1020 INFO cinder.openstack.common.service [-] Child 2770 killed by signal 15
+2015-10-04 15:39:57.596 1020 INFO cinder.openstack.common.service [-] Child 2771 killed by signal 15
+2015-10-04 15:39:57.597 1020 INFO cinder.openstack.common.service [-] Child 2772 killed by signal 15
+2015-10-04 15:40:45.579 960 WARNING cinder.api [-] The v1 api is deprecated and will be removed in the Liberty release. You should set enable_v1_api=false and enable_v2_api=true in your cinder.conf file.
+2015-10-04 15:40:50.003 960 INFO cinder.api.extensions [-] Initializing extension manager.
+2015-10-04 15:40:50.058 960 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2015-10-04 15:40:50.089 960 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2015-10-04 15:40:50.110 960 INFO cinder.api.extensions [-] Loaded extension: backups
+2015-10-04 15:40:50.115 960 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2015-10-04 15:40:50.156 960 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2015-10-04 15:40:50.168 960 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2015-10-04 15:40:50.175 960 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2015-10-04 15:40:50.179 960 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2015-10-04 15:40:50.190 960 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2015-10-04 15:40:50.195 960 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2015-10-04 15:40:50.238 960 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2015-10-04 15:40:52.333 960 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2015-10-04 15:40:52.371 960 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2015-10-04 15:40:52.386 960 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2015-10-04 15:40:52.410 960 INFO cinder.api.extensions [-] Loaded extension: os-services
+2015-10-04 15:40:52.413 960 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2015-10-04 15:40:52.417 960 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2015-10-04 15:40:52.453 960 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2015-10-04 15:40:52.459 960 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2015-10-04 15:40:52.462 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2015-10-04 15:40:52.482 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2015-10-04 15:40:52.486 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2015-10-04 15:40:52.495 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2015-10-04 15:40:52.499 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2015-10-04 15:40:52.502 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2015-10-04 15:40:52.526 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2015-10-04 15:40:52.555 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2015-10-04 15:40:52.583 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2015-10-04 15:40:52.589 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2015-10-04 15:40:52.602 960 INFO cinder.api.extensions [-] Loaded extension: encryption
+2015-10-04 15:40:52.632 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2015-10-04 15:40:52.853 960 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-04 15:41:02.875 960 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-04 15:41:13.184 960 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2015-10-04 15:41:13.205 960 WARNING cinder.openstack.common.versionutils [-] Deprecated: RequestBodySizeLimiter() is deprecated as of Kilo in favor of oslo_middleware.RequestBodySizeLimiter and may be removed in M.
+2015-10-04 15:41:13.231 960 INFO cinder.api.extensions [-] Initializing extension manager.
+2015-10-04 15:41:13.235 960 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2015-10-04 15:41:13.236 960 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2015-10-04 15:41:13.236 960 INFO cinder.api.extensions [-] Loaded extension: backups
+2015-10-04 15:41:13.237 960 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2015-10-04 15:41:13.238 960 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2015-10-04 15:41:13.239 960 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2015-10-04 15:41:13.239 960 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2015-10-04 15:41:13.241 960 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2015-10-04 15:41:13.242 960 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2015-10-04 15:41:13.242 960 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2015-10-04 15:41:13.243 960 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2015-10-04 15:41:13.244 960 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2015-10-04 15:41:13.245 960 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2015-10-04 15:41:13.246 960 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2015-10-04 15:41:13.247 960 INFO cinder.api.extensions [-] Loaded extension: os-services
+2015-10-04 15:41:13.248 960 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2015-10-04 15:41:13.248 960 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2015-10-04 15:41:13.249 960 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2015-10-04 15:41:13.251 960 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2015-10-04 15:41:13.252 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2015-10-04 15:41:13.252 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2015-10-04 15:41:13.253 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2015-10-04 15:41:13.254 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2015-10-04 15:41:13.255 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2015-10-04 15:41:13.257 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2015-10-04 15:41:13.257 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2015-10-04 15:41:13.258 960 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2015-10-04 15:41:13.259 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2015-10-04 15:41:13.261 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2015-10-04 15:41:13.262 960 INFO cinder.api.extensions [-] Loaded extension: encryption
+2015-10-04 15:41:13.262 960 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2015-10-04 15:41:13.554 960 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2015-10-04 15:41:13.581 960 INFO cinder.wsgi [-] osapi_volume listening on 0.0.0.0:8776
+2015-10-04 15:41:13.582 960 INFO cinder.openstack.common.service [-] Starting 4 workers
+2015-10-04 15:41:13.609 960 INFO cinder.openstack.common.service [-] Started child 2695
+2015-10-04 15:41:13.663 2695 INFO eventlet.wsgi.server [-] (2695) wsgi starting up on http://0.0.0.0:8776/
+2015-10-04 15:41:13.691 960 INFO cinder.openstack.common.service [-] Started child 2698
+2015-10-04 15:41:13.777 960 INFO cinder.openstack.common.service [-] Started child 2700
+2015-10-04 15:41:13.777 2698 INFO eventlet.wsgi.server [-] (2698) wsgi starting up on http://0.0.0.0:8776/
+2015-10-04 15:41:13.824 960 INFO cinder.openstack.common.service [-] Started child 2701
+2015-10-04 15:41:13.818 2700 INFO eventlet.wsgi.server [-] (2700) wsgi starting up on http://0.0.0.0:8776/
+2015-10-04 15:41:13.835 2701 INFO eventlet.wsgi.server [-] (2701) wsgi starting up on http://0.0.0.0:8776/
+2015-10-04 15:41:13.861 960 WARNING oslo_config.cfg [-] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.862 960 WARNING oslo_config.cfg [-] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.863 960 WARNING oslo_config.cfg [-] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.864 960 WARNING oslo_config.cfg [-] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.864 960 WARNING oslo_config.cfg [-] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.865 960 WARNING oslo_config.cfg [-] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.865 960 WARNING oslo_config.cfg [-] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.866 960 WARNING oslo_config.cfg [-] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:13.871 960 WARNING oslo_config.cfg [-] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-04 20:48:14.992 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 42720)
+2015-10-04 20:48:15.790 2698 INFO cinder.api.openstack.wsgi [req-61a62b5a-84e6-4fa5-ade6-2a025ac0ffd3 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-04 20:48:15.981 2698 WARNING cinder.quota [req-ee7296be-6e6e-44b2-ae79-63fddcdc37f5 - - - - -] Deprecated: Default quota for resource: snapshots_iscsi is set by the default quota flag: quota_snapshots_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:48:15.983 2698 WARNING cinder.quota [req-ee7296be-6e6e-44b2-ae79-63fddcdc37f5 - - - - -] Deprecated: Default quota for resource: backup_gigabytes is set by the default quota flag: quota_backup_gigabytes, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:48:15.984 2698 WARNING cinder.quota [req-ee7296be-6e6e-44b2-ae79-63fddcdc37f5 - - - - -] Deprecated: Default quota for resource: volumes_iscsi is set by the default quota flag: quota_volumes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:48:15.985 2698 WARNING cinder.quota [req-ee7296be-6e6e-44b2-ae79-63fddcdc37f5 - - - - -] Deprecated: Default quota for resource: backups is set by the default quota flag: quota_backups, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:48:15.987 2698 WARNING cinder.quota [req-ee7296be-6e6e-44b2-ae79-63fddcdc37f5 - - - - -] Deprecated: Default quota for resource: gigabytes_iscsi is set by the default quota flag: quota_gigabytes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:48:16.014 2698 INFO cinder.api.openstack.wsgi [req-102e9f37-4697-41b6-a1b2-a04a372230ba - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-04 20:48:16.015 2698 INFO eventlet.wsgi.server [req-102e9f37-4697-41b6-a1b2-a04a372230ba - - - - -] 192.168.0.10 - - [04/Oct/2015 20:48:16] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 1.011081
+2015-10-04 20:49:02.896 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 42742)
+2015-10-04 20:49:03.671 2700 INFO cinder.api.openstack.wsgi [req-cbe3d1d5-7b1e-4115-acd1-21861342cc24 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-04 20:49:03.860 2700 WARNING cinder.quota [req-8a89ef59-40c8-4ddf-a02b-bcfb18d7106d - - - - -] Deprecated: Default quota for resource: snapshots_iscsi is set by the default quota flag: quota_snapshots_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:49:03.862 2700 WARNING cinder.quota [req-8a89ef59-40c8-4ddf-a02b-bcfb18d7106d - - - - -] Deprecated: Default quota for resource: backup_gigabytes is set by the default quota flag: quota_backup_gigabytes, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:49:03.863 2700 WARNING cinder.quota [req-8a89ef59-40c8-4ddf-a02b-bcfb18d7106d - - - - -] Deprecated: Default quota for resource: volumes_iscsi is set by the default quota flag: quota_volumes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:49:03.864 2700 WARNING cinder.quota [req-8a89ef59-40c8-4ddf-a02b-bcfb18d7106d - - - - -] Deprecated: Default quota for resource: backups is set by the default quota flag: quota_backups, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:49:03.866 2700 WARNING cinder.quota [req-8a89ef59-40c8-4ddf-a02b-bcfb18d7106d - - - - -] Deprecated: Default quota for resource: gigabytes_iscsi is set by the default quota flag: quota_gigabytes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:49:03.892 2700 INFO cinder.api.openstack.wsgi [req-85ff4cd1-b1f4-4263-8737-da9e809211ae - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-04 20:49:03.895 2700 INFO eventlet.wsgi.server [req-85ff4cd1-b1f4-4263-8737-da9e809211ae - - - - -] 192.168.0.10 - - [04/Oct/2015 20:49:03] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 0.989048
+2015-10-04 20:55:07.626 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 42856)
+2015-10-04 20:55:08.389 2695 INFO cinder.api.openstack.wsgi [req-a2d044bc-980d-46a8-b742-cc21570cacfc e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False
+2015-10-04 20:55:08.565 2695 WARNING cinder.quota [req-21d01190-6ecc-4642-a23b-64d2ce2edc09 - - - - -] Deprecated: Default quota for resource: snapshots_iscsi is set by the default quota flag: quota_snapshots_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:55:08.567 2695 WARNING cinder.quota [req-21d01190-6ecc-4642-a23b-64d2ce2edc09 - - - - -] Deprecated: Default quota for resource: backup_gigabytes is set by the default quota flag: quota_backup_gigabytes, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:55:08.568 2695 WARNING cinder.quota [req-21d01190-6ecc-4642-a23b-64d2ce2edc09 - - - - -] Deprecated: Default quota for resource: volumes_iscsi is set by the default quota flag: quota_volumes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:55:08.570 2695 WARNING cinder.quota [req-21d01190-6ecc-4642-a23b-64d2ce2edc09 - - - - -] Deprecated: Default quota for resource: backups is set by the default quota flag: quota_backups, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:55:08.571 2695 WARNING cinder.quota [req-21d01190-6ecc-4642-a23b-64d2ce2edc09 - - - - -] Deprecated: Default quota for resource: gigabytes_iscsi is set by the default quota flag: quota_gigabytes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:55:08.572 2695 INFO cinder.api.openstack.wsgi [req-21d01190-6ecc-4642-a23b-64d2ce2edc09 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False returned with HTTP 200
+2015-10-04 20:55:08.573 2695 INFO eventlet.wsgi.server [req-21d01190-6ecc-4642-a23b-64d2ce2edc09 - - - - -] 192.168.0.10 - - [04/Oct/2015 20:55:08] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False HTTP/1.1" 200 479 0.936937
+2015-10-04 20:56:17.860 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 42878)
+2015-10-04 20:56:18.612 2701 INFO cinder.api.openstack.wsgi [req-7aedb78f-4d5c-40e9-9671-3c41035fbe72 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False
+2015-10-04 20:56:18.779 2701 WARNING cinder.quota [req-7cf123f1-1cc4-45c2-aca5-7753160d4ac7 - - - - -] Deprecated: Default quota for resource: snapshots_iscsi is set by the default quota flag: quota_snapshots_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:56:18.780 2701 WARNING cinder.quota [req-7cf123f1-1cc4-45c2-aca5-7753160d4ac7 - - - - -] Deprecated: Default quota for resource: backup_gigabytes is set by the default quota flag: quota_backup_gigabytes, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:56:18.782 2701 WARNING cinder.quota [req-7cf123f1-1cc4-45c2-aca5-7753160d4ac7 - - - - -] Deprecated: Default quota for resource: volumes_iscsi is set by the default quota flag: quota_volumes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:56:18.783 2701 WARNING cinder.quota [req-7cf123f1-1cc4-45c2-aca5-7753160d4ac7 - - - - -] Deprecated: Default quota for resource: backups is set by the default quota flag: quota_backups, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:56:18.784 2701 WARNING cinder.quota [req-7cf123f1-1cc4-45c2-aca5-7753160d4ac7 - - - - -] Deprecated: Default quota for resource: gigabytes_iscsi is set by the default quota flag: quota_gigabytes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-04 20:56:18.785 2701 INFO cinder.api.openstack.wsgi [req-7cf123f1-1cc4-45c2-aca5-7753160d4ac7 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False returned with HTTP 200
+2015-10-04 20:56:18.787 2701 INFO eventlet.wsgi.server [req-7cf123f1-1cc4-45c2-aca5-7753160d4ac7 - - - - -] 192.168.0.10 - - [04/Oct/2015 20:56:18] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False HTTP/1.1" 200 479 0.916259
+2015-10-04 20:56:19.006 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 42890)
+2015-10-04 20:56:19.119 2698 INFO cinder.api.openstack.wsgi [req-58864e29-9526-4c96-9954-158e4c8495d8 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False
+2015-10-04 20:56:19.149 2698 INFO cinder.api.openstack.wsgi [req-ecd2deab-48a8-4748-824b-e724caf0bcac - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False returned with HTTP 200
+2015-10-04 20:56:19.151 2698 INFO eventlet.wsgi.server [req-ecd2deab-48a8-4748-824b-e724caf0bcac - - - - -] 192.168.0.10 - - [04/Oct/2015 20:56:19] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False HTTP/1.1" 200 479 0.140888
+2015-10-04 20:56:19.820 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 42905)
+2015-10-04 20:56:19.834 2695 INFO cinder.api.openstack.wsgi [req-b081f556-edc4-45f4-a562-4a0a98fa4399 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail
+2015-10-04 20:56:19.850 2695 INFO cinder.api.openstack.wsgi [req-b081f556-edc4-45f4-a562-4a0a98fa4399 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 20:56:19.852 2695 INFO eventlet.wsgi.server [req-b081f556-edc4-45f4-a562-4a0a98fa4399 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [04/Oct/2015 20:56:19] "GET /v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail HTTP/1.1" 200 279 0.028389
+2015-10-04 20:56:19.856 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 42906)
+2015-10-04 20:56:19.860 2695 INFO cinder.api.openstack.wsgi [req-3757168e-8826-4087-a1eb-5f302654a2e5 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46
+2015-10-04 20:56:19.876 2695 INFO cinder.api.openstack.wsgi [req-3757168e-8826-4087-a1eb-5f302654a2e5 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 returned with HTTP 200
+2015-10-04 20:56:19.877 2695 INFO eventlet.wsgi.server [req-3757168e-8826-4087-a1eb-5f302654a2e5 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [04/Oct/2015 20:56:19] "GET /v2/300b2cc45c3846939e589310ae714e46/volumes/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 HTTP/1.1" 200 277 0.019241
+2015-10-04 20:56:19.881 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 42907)
+2015-10-04 20:56:19.893 2701 INFO cinder.api.openstack.wsgi [req-ff62dabb-faeb-4821-b0d9-c944bef1cc4c e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46
+2015-10-04 20:56:19.915 2701 INFO cinder.api.openstack.wsgi [req-ff62dabb-faeb-4821-b0d9-c944bef1cc4c e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 returned with HTTP 200
+2015-10-04 20:56:19.916 2701 INFO eventlet.wsgi.server [req-ff62dabb-faeb-4821-b0d9-c944bef1cc4c e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [04/Oct/2015 20:56:19] "GET /v2/300b2cc45c3846939e589310ae714e46/snapshots/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 HTTP/1.1" 200 279 0.031373
+2015-10-04 20:56:20.175 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 42914)
+2015-10-04 20:56:20.182 2695 INFO cinder.api.openstack.wsgi [req-125cf999-36d9-4d7d-a2bb-421b23c8f062 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] PUT http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46
+2015-10-04 20:56:20.263 2695 INFO cinder.api.openstack.wsgi [req-31fb8300-a621-43cd-842f-3a37b8710ea7 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46 returned with HTTP 200
+2015-10-04 20:56:20.265 2695 INFO eventlet.wsgi.server [req-31fb8300-a621-43cd-842f-3a37b8710ea7 - - - - -] 192.168.0.10 - - [04/Oct/2015 20:56:20] "PUT /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46 HTTP/1.1" 200 437 0.086056
+2015-10-04 20:56:32.651 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 42927)
+2015-10-04 20:56:32.657 2701 INFO cinder.api.openstack.wsgi [req-dc2c5bbe-7765-4375-bc80-a7f1e1f513ee e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-04 20:56:32.703 2701 INFO cinder.api.openstack.wsgi [req-0b4aa67e-8250-454a-a171-10cb5b7b9e7d - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-04 20:56:32.704 2701 INFO eventlet.wsgi.server [req-0b4aa67e-8250-454a-a171-10cb5b7b9e7d - - - - -] 192.168.0.10 - - [04/Oct/2015 20:56:32] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 0.051007
+2015-10-04 20:58:09.783 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 42962)
+2015-10-04 20:58:09.883 2698 INFO cinder.api.openstack.wsgi [req-2700ea27-b46b-4fad-ae2a-c80a9b74e6c8 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-04 20:58:09.934 2698 INFO cinder.api.openstack.wsgi [req-8b9cea6e-d12c-4f1b-aa61-ec76bd15fe20 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-04 20:58:09.936 2698 INFO eventlet.wsgi.server [req-8b9cea6e-d12c-4f1b-aa61-ec76bd15fe20 - - - - -] 192.168.0.10 - - [04/Oct/2015 20:58:09] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 0.143560
+2015-10-04 20:58:26.183 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 42978)
+2015-10-04 20:58:26.192 2698 INFO cinder.api.openstack.wsgi [req-d0c30131-558f-4c99-93be-6ff78f81b57b e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False
+2015-10-04 20:58:26.214 2698 INFO cinder.api.openstack.wsgi [req-f5f8e4ca-f937-460b-8c35-7da14901b8cb - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False returned with HTTP 200
+2015-10-04 20:58:26.216 2698 INFO eventlet.wsgi.server [req-f5f8e4ca-f937-460b-8c35-7da14901b8cb - - - - -] 192.168.0.10 - - [04/Oct/2015 20:58:26] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False HTTP/1.1" 200 479 0.028150
+2015-10-04 21:00:29.224 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 43001)
+2015-10-04 21:00:29.362 2695 INFO cinder.api.openstack.wsgi [req-bb138b20-eac0-4be0-9086-031868c6a5cb e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False
+2015-10-04 21:00:29.396 2695 INFO cinder.api.openstack.wsgi [req-8474cc0a-ba4a-43d3-851f-e3df021c4616 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False returned with HTTP 200
+2015-10-04 21:00:29.397 2695 INFO eventlet.wsgi.server [req-8474cc0a-ba4a-43d3-851f-e3df021c4616 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:00:29] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False HTTP/1.1" 200 479 0.166388
+2015-10-04 21:00:29.710 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 43012)
+2015-10-04 21:00:29.716 2695 INFO cinder.api.openstack.wsgi [req-a23c0e8b-851f-445b-b339-074227e9b1d9 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False
+2015-10-04 21:00:29.741 2695 INFO cinder.api.openstack.wsgi [req-f4b8ba3e-513f-45c1-8cdc-58a24221af92 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False returned with HTTP 200
+2015-10-04 21:00:29.743 2695 INFO eventlet.wsgi.server [req-f4b8ba3e-513f-45c1-8cdc-58a24221af92 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:00:29] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46?usage=False HTTP/1.1" 200 479 0.030730
+2015-10-04 21:00:30.244 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 43024)
+2015-10-04 21:00:30.251 2695 INFO cinder.api.openstack.wsgi [req-cb73f80b-1d41-42a3-99df-e8117dc02026 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail
+2015-10-04 21:00:30.257 2695 INFO cinder.api.openstack.wsgi [req-cb73f80b-1d41-42a3-99df-e8117dc02026 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:00:30.259 2695 INFO eventlet.wsgi.server [req-cb73f80b-1d41-42a3-99df-e8117dc02026 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [04/Oct/2015 21:00:30] "GET /v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail HTTP/1.1" 200 279 0.013343
+2015-10-04 21:00:30.264 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43025)
+2015-10-04 21:00:30.276 2698 INFO cinder.api.openstack.wsgi [req-f7fe77e8-bb85-4499-9844-6fb4837531e9 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46
+2015-10-04 21:00:30.299 2698 INFO cinder.api.openstack.wsgi [req-f7fe77e8-bb85-4499-9844-6fb4837531e9 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 returned with HTTP 200
+2015-10-04 21:00:30.300 2698 INFO eventlet.wsgi.server [req-f7fe77e8-bb85-4499-9844-6fb4837531e9 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [04/Oct/2015 21:00:30] "GET /v2/300b2cc45c3846939e589310ae714e46/volumes/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 HTTP/1.1" 200 277 0.031949
+2015-10-04 21:00:30.304 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43026)
+2015-10-04 21:00:30.308 2698 INFO cinder.api.openstack.wsgi [req-f5658cae-b3c6-496f-8598-84668c77e2da e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46
+2015-10-04 21:00:30.328 2698 INFO cinder.api.openstack.wsgi [req-f5658cae-b3c6-496f-8598-84668c77e2da e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 returned with HTTP 200
+2015-10-04 21:00:30.329 2698 INFO eventlet.wsgi.server [req-f5658cae-b3c6-496f-8598-84668c77e2da e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [04/Oct/2015 21:00:30] "GET /v2/300b2cc45c3846939e589310ae714e46/snapshots/detail?alltenants=1&tenant_id=300b2cc45c3846939e589310ae714e46 HTTP/1.1" 200 279 0.024372
+2015-10-04 21:00:30.582 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43033)
+2015-10-04 21:00:30.588 2698 INFO cinder.api.openstack.wsgi [req-db94badd-3572-4d51-86ac-167b950d4161 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] PUT http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46
+2015-10-04 21:00:30.651 2698 INFO cinder.api.openstack.wsgi [req-57645d56-327a-4f17-8971-3c1d49a3fbd8 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46 returned with HTTP 200
+2015-10-04 21:00:30.652 2698 INFO eventlet.wsgi.server [req-57645d56-327a-4f17-8971-3c1d49a3fbd8 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:00:30] "PUT /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46 HTTP/1.1" 200 437 0.068891
+2015-10-04 21:00:33.336 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43039)
+2015-10-04 21:00:33.342 2698 INFO cinder.api.openstack.wsgi [req-fbe029b0-4f70-4a68-898b-3da63d17f643 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults
+2015-10-04 21:00:33.358 2698 INFO cinder.api.openstack.wsgi [req-01308869-7cc4-4a13-b0d4-63d5b6270378 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults returned with HTTP 200
+2015-10-04 21:00:33.360 2698 INFO eventlet.wsgi.server [req-01308869-7cc4-4a13-b0d4-63d5b6270378 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:00:33] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults HTTP/1.1" 200 479 0.021622
+2015-10-04 21:00:59.939 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43110)
+2015-10-04 21:01:00.042 2700 INFO cinder.api.openstack.wsgi [req-59581bf7-8bfb-40df-b10f-46d486560b02 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults
+2015-10-04 21:01:00.070 2700 INFO cinder.api.openstack.wsgi [req-b4b05085-a3b1-481f-ab56-592889a9f223 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults returned with HTTP 200
+2015-10-04 21:01:00.072 2700 INFO eventlet.wsgi.server [req-b4b05085-a3b1-481f-ab56-592889a9f223 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:01:00] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults HTTP/1.1" 200 479 0.126447
+2015-10-04 21:01:00.335 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43119)
+2015-10-04 21:01:00.340 2700 INFO cinder.api.openstack.wsgi [req-4cb43bf4-4fb4-4465-8e2d-75e13698c40f e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] PUT http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/0cfffdef2c62421f8378ca64360865a1
+2015-10-04 21:01:00.420 2700 INFO cinder.api.openstack.wsgi [req-50e7ecd3-5a38-46bd-a315-5fb10cbaa72f - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/0cfffdef2c62421f8378ca64360865a1 returned with HTTP 200
+2015-10-04 21:01:00.421 2700 INFO eventlet.wsgi.server [req-50e7ecd3-5a38-46bd-a315-5fb10cbaa72f - - - - -] 192.168.0.10 - - [04/Oct/2015 21:01:00] "PUT /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/0cfffdef2c62421f8378ca64360865a1 HTTP/1.1" 200 437 0.085242
+2015-10-04 21:03:47.968 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 43156)
+2015-10-04 21:03:48.070 2701 INFO cinder.api.openstack.wsgi [req-5eeaa92f-118b-4e17-9e50-35946ffe2070 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults
+2015-10-04 21:03:48.094 2701 INFO cinder.api.openstack.wsgi [req-29e7e998-540f-4705-a8c0-5441a455b279 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults returned with HTTP 200
+2015-10-04 21:03:48.096 2701 INFO eventlet.wsgi.server [req-29e7e998-540f-4705-a8c0-5441a455b279 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:03:48] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults HTTP/1.1" 200 479 0.119819
+2015-10-04 21:09:34.777 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43198)
+2015-10-04 21:09:34.910 2700 INFO cinder.api.openstack.wsgi [req-fcae71d0-0f20-4059-9760-41ad8bf1c887 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults
+2015-10-04 21:09:34.944 2700 INFO cinder.api.openstack.wsgi [req-eac28b19-1cb3-4ca8-8eae-88b9b09dd94c - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults returned with HTTP 200
+2015-10-04 21:09:34.945 2700 INFO eventlet.wsgi.server [req-eac28b19-1cb3-4ca8-8eae-88b9b09dd94c - - - - -] 192.168.0.10 - - [04/Oct/2015 21:09:34] "GET /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/300b2cc45c3846939e589310ae714e46/defaults HTTP/1.1" 200 479 0.160272
+2015-10-04 21:09:35.256 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43208)
+2015-10-04 21:09:35.262 2700 INFO cinder.api.openstack.wsgi [req-04352016-b7f3-4b9d-a4d5-f88bdb067d4f e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] PUT http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750
+2015-10-04 21:09:35.335 2700 INFO cinder.api.openstack.wsgi [req-17afbec9-5103-4027-be09-07017b4fac07 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750 returned with HTTP 200
+2015-10-04 21:09:35.336 2700 INFO eventlet.wsgi.server [req-17afbec9-5103-4027-be09-07017b4fac07 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:09:35] "PUT /v2/300b2cc45c3846939e589310ae714e46/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750 HTTP/1.1" 200 434 0.078545
+2015-10-04 21:17:45.959 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 43365)
+2015-10-04 21:17:46.060 2695 INFO cinder.api.openstack.wsgi [req-203f0897-cf1a-45b1-a80e-ff8bd29b9a3f ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits
+2015-10-04 21:17:46.113 2695 INFO cinder.api.openstack.wsgi [req-0e32dbf1-a600-4b4c-8a9a-bd8d387705d2 - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits returned with HTTP 200
+2015-10-04 21:17:46.114 2695 INFO eventlet.wsgi.server [req-0e32dbf1-a600-4b4c-8a9a-bd8d387705d2 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:17:46] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/limits HTTP/1.1" 200 562 0.148761
+2015-10-04 21:18:04.137 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43383)
+2015-10-04 21:18:04.243 2698 INFO cinder.api.openstack.wsgi [req-3bb12861-af70-43b9-b4a5-a80f61c27bbc ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits
+2015-10-04 21:18:04.291 2698 INFO cinder.api.openstack.wsgi [req-f36f808e-4aa6-48a9-a823-4095e75bb2dc - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits returned with HTTP 200
+2015-10-04 21:18:04.293 2698 INFO eventlet.wsgi.server [req-f36f808e-4aa6-48a9-a823-4095e75bb2dc - - - - -] 192.168.0.10 - - [04/Oct/2015 21:18:04] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/limits HTTP/1.1" 200 562 0.149156
+2015-10-04 21:19:01.047 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 43405)
+2015-10-04 21:19:01.159 2701 INFO cinder.api.openstack.wsgi [req-4699e0a9-85a9-4884-82f2-eddd270c45f4 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:19:01.174 2701 INFO cinder.api.openstack.wsgi [req-4699e0a9-85a9-4884-82f2-eddd270c45f4 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:19:01.176 2701 INFO eventlet.wsgi.server [req-4699e0a9-85a9-4884-82f2-eddd270c45f4 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:19:01] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.123555
+2015-10-04 21:19:01.181 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 43407)
+2015-10-04 21:19:01.185 2701 INFO cinder.api.openstack.wsgi [req-d578b64b-13c8-43c5-97fa-6cab262a4e4f ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available
+2015-10-04 21:19:01.243 2701 INFO cinder.api.openstack.wsgi [req-d578b64b-13c8-43c5-97fa-6cab262a4e4f ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available returned with HTTP 200
+2015-10-04 21:19:01.244 2701 INFO eventlet.wsgi.server [req-d578b64b-13c8-43c5-97fa-6cab262a4e4f ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:19:01] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available HTTP/1.1" 200 277 0.062214
+2015-10-04 21:19:01.249 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 43408)
+2015-10-04 21:19:01.255 2701 INFO cinder.api.openstack.wsgi [req-016fc7b8-82cb-4464-82bd-b7ebf2b87754 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available
+2015-10-04 21:19:01.265 2701 INFO cinder.api.openstack.wsgi [req-016fc7b8-82cb-4464-82bd-b7ebf2b87754 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available returned with HTTP 200
+2015-10-04 21:19:01.266 2701 INFO eventlet.wsgi.server [req-016fc7b8-82cb-4464-82bd-b7ebf2b87754 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:19:01] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available HTTP/1.1" 200 279 0.016598
+2015-10-04 21:20:03.126 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43430)
+2015-10-04 21:20:03.236 2700 INFO cinder.api.openstack.wsgi [req-2d06a649-b040-4759-b77c-5cb33078541a ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:20:03.257 2700 INFO cinder.api.openstack.wsgi [req-2d06a649-b040-4759-b77c-5cb33078541a ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:20:03.259 2700 INFO eventlet.wsgi.server [req-2d06a649-b040-4759-b77c-5cb33078541a ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:20:03] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.125588
+2015-10-04 21:20:03.269 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 43432)
+2015-10-04 21:20:03.280 2701 INFO cinder.api.openstack.wsgi [req-78ef95dd-e27f-4860-9ff5-d9a07b63195b ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available
+2015-10-04 21:20:03.330 2701 INFO cinder.api.openstack.wsgi [req-78ef95dd-e27f-4860-9ff5-d9a07b63195b ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available returned with HTTP 200
+2015-10-04 21:20:03.332 2701 INFO eventlet.wsgi.server [req-78ef95dd-e27f-4860-9ff5-d9a07b63195b ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:20:03] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available HTTP/1.1" 200 277 0.058766
+2015-10-04 21:20:03.338 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43433)
+2015-10-04 21:20:03.349 2698 INFO cinder.api.openstack.wsgi [req-c7f2a48d-1c71-4207-8a59-9eda76aec739 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available
+2015-10-04 21:20:03.367 2698 INFO cinder.api.openstack.wsgi [req-c7f2a48d-1c71-4207-8a59-9eda76aec739 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available returned with HTTP 200
+2015-10-04 21:20:03.368 2698 INFO eventlet.wsgi.server [req-c7f2a48d-1c71-4207-8a59-9eda76aec739 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:20:03] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available HTTP/1.1" 200 279 0.026763
+2015-10-04 21:20:03.449 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 43437)
+2015-10-04 21:20:03.464 2695 INFO cinder.api.openstack.wsgi [req-3507f4d1-b1f5-407c-b176-2d1d70a5aa30 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False
+2015-10-04 21:20:03.495 2695 INFO cinder.api.openstack.wsgi [req-8a5fe951-946d-4751-a323-672dddb1497c - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False returned with HTTP 200
+2015-10-04 21:20:03.497 2695 INFO eventlet.wsgi.server [req-8a5fe951-946d-4751-a323-672dddb1497c - - - - -] 192.168.0.10 - - [04/Oct/2015 21:20:03] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False HTTP/1.1" 200 476 0.043142
+2015-10-04 21:20:03.808 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43448)
+2015-10-04 21:20:03.816 2698 INFO cinder.api.openstack.wsgi [req-38e9c559-95a2-4b03-9367-93fe9c62c975 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:20:03.825 2698 INFO cinder.api.openstack.wsgi [req-38e9c559-95a2-4b03-9367-93fe9c62c975 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:20:03.827 2698 INFO eventlet.wsgi.server [req-38e9c559-95a2-4b03-9367-93fe9c62c975 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:20:03] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.016749
+2015-10-04 21:20:03.831 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43449)
+2015-10-04 21:20:03.836 2698 INFO cinder.api.openstack.wsgi [req-ca8f535f-c0cf-48b2-b2ee-be7b39b7fc69 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750
+2015-10-04 21:20:03.893 2698 INFO cinder.api.openstack.wsgi [req-ca8f535f-c0cf-48b2-b2ee-be7b39b7fc69 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 returned with HTTP 200
+2015-10-04 21:20:03.894 2698 INFO eventlet.wsgi.server [req-ca8f535f-c0cf-48b2-b2ee-be7b39b7fc69 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:20:03] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 HTTP/1.1" 200 277 0.061818
+2015-10-04 21:20:03.899 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43450)
+2015-10-04 21:20:03.903 2700 INFO cinder.api.openstack.wsgi [req-d5100a94-10a1-4f55-9fa9-545d0e55d682 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750
+2015-10-04 21:20:03.923 2700 INFO cinder.api.openstack.wsgi [req-d5100a94-10a1-4f55-9fa9-545d0e55d682 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 returned with HTTP 200
+2015-10-04 21:20:03.925 2700 INFO eventlet.wsgi.server [req-d5100a94-10a1-4f55-9fa9-545d0e55d682 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:20:03] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 HTTP/1.1" 200 279 0.024782
+2015-10-04 21:21:44.556 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 43527)
+2015-10-04 21:21:44.574 2701 INFO cinder.api.openstack.wsgi [req-102544bc-a7e5-49ad-8d01-926db6865d49 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:21:44.585 2701 INFO cinder.api.openstack.wsgi [req-102544bc-a7e5-49ad-8d01-926db6865d49 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:21:44.586 2701 INFO eventlet.wsgi.server [req-102544bc-a7e5-49ad-8d01-926db6865d49 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:21:44] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.024339
+2015-10-04 21:21:44.593 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 43528)
+2015-10-04 21:21:44.606 2695 INFO cinder.api.openstack.wsgi [req-e9d8c0fd-3ab5-4406-a13f-9f332855c709 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available
+2015-10-04 21:21:44.664 2695 INFO cinder.api.openstack.wsgi [req-e9d8c0fd-3ab5-4406-a13f-9f332855c709 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available returned with HTTP 200
+2015-10-04 21:21:44.665 2695 INFO eventlet.wsgi.server [req-e9d8c0fd-3ab5-4406-a13f-9f332855c709 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:21:44] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available HTTP/1.1" 200 277 0.068011
+2015-10-04 21:21:44.670 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 43529)
+2015-10-04 21:21:44.674 2695 INFO cinder.api.openstack.wsgi [req-816f25cc-8dbb-4421-9953-368b999da45e ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available
+2015-10-04 21:21:44.688 2695 INFO cinder.api.openstack.wsgi [req-816f25cc-8dbb-4421-9953-368b999da45e ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available returned with HTTP 200
+2015-10-04 21:21:44.689 2695 INFO eventlet.wsgi.server [req-816f25cc-8dbb-4421-9953-368b999da45e ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:21:44] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available HTTP/1.1" 200 279 0.018011
+2015-10-04 21:21:44.772 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43533)
+2015-10-04 21:21:44.784 2698 INFO cinder.api.openstack.wsgi [req-983624e9-b1c9-4c84-8cf9-ee19d89aafcf ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False
+2015-10-04 21:21:44.813 2698 INFO cinder.api.openstack.wsgi [req-80af8360-0ec5-4129-b5d9-26f5653ea12a - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False returned with HTTP 200
+2015-10-04 21:21:44.815 2698 INFO eventlet.wsgi.server [req-80af8360-0ec5-4129-b5d9-26f5653ea12a - - - - -] 192.168.0.10 - - [04/Oct/2015 21:21:44] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False HTTP/1.1" 200 476 0.039086
+2015-10-04 21:21:45.115 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43543)
+2015-10-04 21:21:45.122 2698 INFO cinder.api.openstack.wsgi [req-aa52110e-9c5b-4567-bdad-21d1c173cb82 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:21:45.128 2698 INFO cinder.api.openstack.wsgi [req-aa52110e-9c5b-4567-bdad-21d1c173cb82 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:21:45.129 2698 INFO eventlet.wsgi.server [req-aa52110e-9c5b-4567-bdad-21d1c173cb82 ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:21:45] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.012518
+2015-10-04 21:21:45.133 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43544)
+2015-10-04 21:21:45.136 2698 INFO cinder.api.openstack.wsgi [req-aed3255e-44f6-4149-ae08-b2eac658e3ef ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750
+2015-10-04 21:21:45.175 2698 INFO cinder.api.openstack.wsgi [req-aed3255e-44f6-4149-ae08-b2eac658e3ef ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 returned with HTTP 200
+2015-10-04 21:21:45.176 2698 INFO eventlet.wsgi.server [req-aed3255e-44f6-4149-ae08-b2eac658e3ef ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:21:45] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 HTTP/1.1" 200 277 0.042409
+2015-10-04 21:21:45.180 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43545)
+2015-10-04 21:21:45.183 2698 INFO cinder.api.openstack.wsgi [req-77b26cbb-47de-49aa-b66a-02332777226f ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750
+2015-10-04 21:21:45.194 2698 INFO cinder.api.openstack.wsgi [req-77b26cbb-47de-49aa-b66a-02332777226f ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 returned with HTTP 200
+2015-10-04 21:21:45.195 2698 INFO eventlet.wsgi.server [req-77b26cbb-47de-49aa-b66a-02332777226f ce6cdeec4c5147559b49659801b7a8e7 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:21:45] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 HTTP/1.1" 200 279 0.014655
+2015-10-04 21:38:37.177 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43922)
+2015-10-04 21:38:37.297 2700 INFO cinder.api.openstack.wsgi [req-8927d142-089d-4cdd-9015-b8b91cc5033d 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits
+2015-10-04 21:38:37.348 2700 INFO cinder.api.openstack.wsgi [req-8580c251-2cd2-40b4-904c-9d61fcef4a83 - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits returned with HTTP 200
+2015-10-04 21:38:37.350 2700 INFO eventlet.wsgi.server [req-8580c251-2cd2-40b4-904c-9d61fcef4a83 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:38:37] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/limits HTTP/1.1" 200 562 0.164464
+2015-10-04 21:38:54.350 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43939)
+2015-10-04 21:38:54.366 2700 INFO cinder.api.openstack.wsgi [req-b5d2d273-7270-4e5e-9a27-8592b27ed959 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits
+2015-10-04 21:38:54.415 2700 INFO cinder.api.openstack.wsgi [req-8a798e64-78a5-40e5-ae2a-7ae69b8000be - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits returned with HTTP 200
+2015-10-04 21:38:54.417 2700 INFO eventlet.wsgi.server [req-8a798e64-78a5-40e5-ae2a-7ae69b8000be - - - - -] 192.168.0.10 - - [04/Oct/2015 21:38:54] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/limits HTTP/1.1" 200 562 0.059139
+2015-10-04 21:39:37.627 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43969)
+2015-10-04 21:39:37.648 2700 INFO cinder.api.openstack.wsgi [req-ef965211-6a94-4fd3-8987-cf3a95f56e7e 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:39:37.663 2700 INFO cinder.api.openstack.wsgi [req-ef965211-6a94-4fd3-8987-cf3a95f56e7e 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:39:37.664 2700 INFO eventlet.wsgi.server [req-ef965211-6a94-4fd3-8987-cf3a95f56e7e 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:39:37] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.030683
+2015-10-04 21:39:37.668 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43970)
+2015-10-04 21:39:37.672 2700 INFO cinder.api.openstack.wsgi [req-a5d92e5f-9840-420b-b791-3a2f7fc14b61 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available
+2015-10-04 21:39:37.735 2700 INFO cinder.api.openstack.wsgi [req-a5d92e5f-9840-420b-b791-3a2f7fc14b61 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available returned with HTTP 200
+2015-10-04 21:39:37.737 2700 INFO eventlet.wsgi.server [req-a5d92e5f-9840-420b-b791-3a2f7fc14b61 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:39:37] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available HTTP/1.1" 200 277 0.067105
+2015-10-04 21:39:37.742 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43971)
+2015-10-04 21:39:37.860 2698 INFO cinder.api.openstack.wsgi [req-c62022cb-f387-4457-86e3-1e48fcaf5636 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available
+2015-10-04 21:39:37.881 2698 INFO cinder.api.openstack.wsgi [req-c62022cb-f387-4457-86e3-1e48fcaf5636 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available returned with HTTP 200
+2015-10-04 21:39:37.883 2698 INFO eventlet.wsgi.server [req-c62022cb-f387-4457-86e3-1e48fcaf5636 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:39:37] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available HTTP/1.1" 200 279 0.137080
+2015-10-04 21:40:31.147 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 43995)
+2015-10-04 21:40:31.169 2698 INFO cinder.api.openstack.wsgi [req-7891ff8b-d834-4566-b711-35761cee4685 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:40:31.182 2698 INFO cinder.api.openstack.wsgi [req-7891ff8b-d834-4566-b711-35761cee4685 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:40:31.183 2698 INFO eventlet.wsgi.server [req-7891ff8b-d834-4566-b711-35761cee4685 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:40:31] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.026483
+2015-10-04 21:40:31.189 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43996)
+2015-10-04 21:40:31.204 2700 INFO cinder.api.openstack.wsgi [req-ac252860-b412-48b5-80c8-dc3a0ce9c20a 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available
+2015-10-04 21:40:31.268 2700 INFO cinder.api.openstack.wsgi [req-ac252860-b412-48b5-80c8-dc3a0ce9c20a 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available returned with HTTP 200
+2015-10-04 21:40:31.270 2700 INFO eventlet.wsgi.server [req-ac252860-b412-48b5-80c8-dc3a0ce9c20a 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:40:31] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?bootable=1&status=available HTTP/1.1" 200 277 0.076608
+2015-10-04 21:40:31.274 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 43997)
+2015-10-04 21:40:31.278 2700 INFO cinder.api.openstack.wsgi [req-8c32dacf-3a37-4433-a3c4-e793de64ede5 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available
+2015-10-04 21:40:31.288 2700 INFO cinder.api.openstack.wsgi [req-8c32dacf-3a37-4433-a3c4-e793de64ede5 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available returned with HTTP 200
+2015-10-04 21:40:31.289 2700 INFO eventlet.wsgi.server [req-8c32dacf-3a37-4433-a3c4-e793de64ede5 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:40:31] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?status=available HTTP/1.1" 200 279 0.014091
+2015-10-04 21:40:31.386 2698 INFO eventlet.wsgi.server [-] (2698) accepted ('192.168.0.10', 44001)
+2015-10-04 21:40:31.392 2698 INFO cinder.api.openstack.wsgi [req-9a4718fb-30f5-40bc-97ba-3243542e123b 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False
+2015-10-04 21:40:31.420 2698 INFO cinder.api.openstack.wsgi [req-04612e42-509f-4c47-a88d-0bd5a9568827 - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False returned with HTTP 200
+2015-10-04 21:40:31.421 2698 INFO eventlet.wsgi.server [req-04612e42-509f-4c47-a88d-0bd5a9568827 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:40:31] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-quota-sets/6eeec5f15aa14710b658f63ffc75b750?usage=False HTTP/1.1" 200 476 0.033088
+2015-10-04 21:40:31.819 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 44011)
+2015-10-04 21:40:31.829 2700 INFO cinder.api.openstack.wsgi [req-86d622a3-951b-4512-a6a0-43c5c8577b3d 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail
+2015-10-04 21:40:31.836 2700 INFO cinder.api.openstack.wsgi [req-86d622a3-951b-4512-a6a0-43c5c8577b3d 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 21:40:31.837 2700 INFO eventlet.wsgi.server [req-86d622a3-951b-4512-a6a0-43c5c8577b3d 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:40:31] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/os-volume-transfer/detail HTTP/1.1" 200 279 0.016159
+2015-10-04 21:40:31.841 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 44012)
+2015-10-04 21:40:31.844 2700 INFO cinder.api.openstack.wsgi [req-aebb1131-b6a1-464f-a83c-9d7b7e098b3e 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750
+2015-10-04 21:40:31.885 2700 INFO cinder.api.openstack.wsgi [req-aebb1131-b6a1-464f-a83c-9d7b7e098b3e 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 returned with HTTP 200
+2015-10-04 21:40:31.886 2700 INFO eventlet.wsgi.server [req-aebb1131-b6a1-464f-a83c-9d7b7e098b3e 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:40:31] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/volumes/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 HTTP/1.1" 200 277 0.044345
+2015-10-04 21:40:31.890 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 44013)
+2015-10-04 21:40:31.894 2700 INFO cinder.api.openstack.wsgi [req-3c052f75-9970-44bc-a1df-962a847f80b9 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750
+2015-10-04 21:40:31.904 2700 INFO cinder.api.openstack.wsgi [req-3c052f75-9970-44bc-a1df-962a847f80b9 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 returned with HTTP 200
+2015-10-04 21:40:31.905 2700 INFO eventlet.wsgi.server [req-3c052f75-9970-44bc-a1df-962a847f80b9 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] 192.168.0.10 - - [04/Oct/2015 21:40:31] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/snapshots/detail?alltenants=1&tenant_id=6eeec5f15aa14710b658f63ffc75b750 HTTP/1.1" 200 279 0.014293
+2015-10-04 21:45:40.428 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 44271)
+2015-10-04 21:45:40.535 2695 INFO cinder.api.openstack.wsgi [req-8557c838-201d-4b26-bb15-29b9d53ec846 3e317db15f894937b180b5c5fa8767ad 6eeec5f15aa14710b658f63ffc75b750 - - -] GET http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits
+2015-10-04 21:45:40.589 2695 INFO cinder.api.openstack.wsgi [req-559899d9-dc69-488c-bb22-c929e82d7993 - - - - -] http://192.168.0.10:8776/v2/6eeec5f15aa14710b658f63ffc75b750/limits returned with HTTP 200
+2015-10-04 21:45:40.591 2695 INFO eventlet.wsgi.server [req-559899d9-dc69-488c-bb22-c929e82d7993 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:45:40] "GET /v2/6eeec5f15aa14710b658f63ffc75b750/limits HTTP/1.1" 200 562 0.156464
+2015-10-04 21:48:38.689 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 44435)
+2015-10-04 21:48:38.797 2701 INFO cinder.api.openstack.wsgi [req-c5ee6b11-72b5-48b6-90b8-3a6855b7a4a1 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-04 21:48:38.848 2701 INFO cinder.api.openstack.wsgi [req-2f095d4d-c623-4faf-9f40-9b0210492fc9 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-04 21:48:38.849 2701 INFO eventlet.wsgi.server [req-2f095d4d-c623-4faf-9f40-9b0210492fc9 - - - - -] 192.168.0.10 - - [04/Oct/2015 21:48:38] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 0.153144
+2015-10-04 22:18:26.973 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 44907)
+2015-10-04 22:18:27.183 2695 INFO cinder.api.openstack.wsgi [req-ae5671ab-c102-4621-9cb9-ac5575d0ada6 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] GET http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/limits
+2015-10-04 22:18:27.244 2695 INFO cinder.api.openstack.wsgi [req-0eada867-1111-47b6-bbac-c40611a2d57f - - - - -] http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/limits returned with HTTP 200
+2015-10-04 22:18:27.246 2695 INFO eventlet.wsgi.server [req-0eada867-1111-47b6-bbac-c40611a2d57f - - - - -] 192.168.0.10 - - [04/Oct/2015 22:18:27] "GET /v2/a411280ca390483ea2161209371d133a/limits HTTP/1.1" 200 565 0.263990
+2015-10-04 22:18:44.370 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 44923)
+2015-10-04 22:18:44.388 2695 INFO cinder.api.openstack.wsgi [req-e519ed46-0fbe-47b3-813a-5a8751dab7b4 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] GET http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/limits
+2015-10-04 22:18:44.443 2695 INFO cinder.api.openstack.wsgi [req-7a39dd6d-8db1-434e-afc5-471de5f5a223 - - - - -] http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/limits returned with HTTP 200
+2015-10-04 22:18:44.444 2695 INFO eventlet.wsgi.server [req-7a39dd6d-8db1-434e-afc5-471de5f5a223 - - - - -] 192.168.0.10 - - [04/Oct/2015 22:18:44] "GET /v2/a411280ca390483ea2161209371d133a/limits HTTP/1.1" 200 565 0.065619
+2015-10-04 22:41:48.175 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 45243)
+2015-10-04 22:41:48.305 2695 INFO cinder.api.openstack.wsgi [req-a7e72f4e-35c7-450f-a344-c0bb07db9f73 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] GET http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/os-volume-transfer/detail
+2015-10-04 22:41:48.317 2695 INFO cinder.api.openstack.wsgi [req-a7e72f4e-35c7-450f-a344-c0bb07db9f73 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/os-volume-transfer/detail returned with HTTP 200
+2015-10-04 22:41:48.319 2695 INFO eventlet.wsgi.server [req-a7e72f4e-35c7-450f-a344-c0bb07db9f73 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] 192.168.0.10 - - [04/Oct/2015 22:41:48] "GET /v2/a411280ca390483ea2161209371d133a/os-volume-transfer/detail HTTP/1.1" 200 279 0.136937
+2015-10-04 22:41:48.326 2700 INFO eventlet.wsgi.server [-] (2700) accepted ('192.168.0.10', 45245)
+2015-10-04 22:41:48.525 2700 INFO cinder.api.openstack.wsgi [req-33b2c311-a0f1-4509-abbf-29d5236c9acd c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] GET http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/volumes/detail
+2015-10-04 22:41:48.587 2700 INFO cinder.api.openstack.wsgi [req-33b2c311-a0f1-4509-abbf-29d5236c9acd c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/volumes/detail returned with HTTP 200
+2015-10-04 22:41:48.588 2700 INFO eventlet.wsgi.server [req-33b2c311-a0f1-4509-abbf-29d5236c9acd c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] 192.168.0.10 - - [04/Oct/2015 22:41:48] "GET /v2/a411280ca390483ea2161209371d133a/volumes/detail HTTP/1.1" 200 277 0.259164
+2015-10-04 22:41:48.706 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 45251)
+2015-10-04 22:41:48.908 2701 INFO cinder.api.openstack.wsgi [req-494edcc1-cefe-491b-8dc3-9eddf3803465 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] GET http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/snapshots/detail
+2015-10-04 22:41:48.930 2701 INFO cinder.api.openstack.wsgi [req-494edcc1-cefe-491b-8dc3-9eddf3803465 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/snapshots/detail returned with HTTP 200
+2015-10-04 22:41:48.932 2701 INFO eventlet.wsgi.server [req-494edcc1-cefe-491b-8dc3-9eddf3803465 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] 192.168.0.10 - - [04/Oct/2015 22:41:48] "GET /v2/a411280ca390483ea2161209371d133a/snapshots/detail HTTP/1.1" 200 279 0.221672
+2015-10-04 22:41:49.011 2695 INFO eventlet.wsgi.server [-] (2695) accepted ('192.168.0.10', 45256)
+2015-10-04 22:41:49.015 2695 INFO cinder.api.openstack.wsgi [req-7c5183cd-0b73-4176-846d-e0ed18ffd220 c9b7d3be7fe843c78412ff510457ddd3 a411280ca390483ea2161209371d133a - - -] GET http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/limits
+2015-10-04 22:41:49.058 2695 INFO cinder.api.openstack.wsgi [req-749b152b-6490-4697-a074-12d109d51661 - - - - -] http://192.168.0.10:8776/v2/a411280ca390483ea2161209371d133a/limits returned with HTTP 200
+2015-10-04 22:41:49.060 2695 INFO eventlet.wsgi.server [req-749b152b-6490-4697-a074-12d109d51661 - - - - -] 192.168.0.10 - - [04/Oct/2015 22:41:49] "GET /v2/a411280ca390483ea2161209371d133a/limits HTTP/1.1" 200 565 0.047662
+2015-10-04 22:44:41.205 2701 INFO eventlet.wsgi.server [-] (2701) accepted ('192.168.0.10', 45337)
+2015-10-04 22:44:41.304 2701 INFO cinder.api.openstack.wsgi [req-d9307e0a-7df4-4742-a240-f644e31aef53 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-04 22:44:41.365 2701 INFO cinder.api.openstack.wsgi [req-ff762be5-a38f-4309-9790-e7f644de3102 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-04 22:44:41.366 2701 INFO eventlet.wsgi.server [req-ff762be5-a38f-4309-9790-e7f644de3102 - - - - -] 192.168.0.10 - - [04/Oct/2015 22:44:41] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 0.154527
+2015-10-04 22:48:01.221 960 INFO cinder.openstack.common.service [-] Caught SIGTERM, stopping children
+2015-10-04 22:48:01.226 960 INFO cinder.openstack.common.service [-] Waiting on 4 children to exit
+2015-10-04 22:48:01.255 960 INFO cinder.openstack.common.service [-] Child 2698 killed by signal 15
+2015-10-04 22:48:01.256 960 INFO cinder.openstack.common.service [-] Child 2701 killed by signal 15
+2015-10-04 22:48:01.461 960 INFO cinder.openstack.common.service [-] Child 2695 killed by signal 15
+2015-10-04 22:48:01.462 960 INFO cinder.openstack.common.service [-] Child 2700 killed by signal 15
+2015-10-16 14:53:25.790 936 WARNING cinder.api [-] The v1 api is deprecated and will be removed in the Liberty release. You should set enable_v1_api=false and enable_v2_api=true in your cinder.conf file.
+2015-10-16 14:53:30.548 936 INFO cinder.api.extensions [-] Initializing extension manager.
+2015-10-16 14:53:30.663 936 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2015-10-16 14:53:30.700 936 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2015-10-16 14:53:30.766 936 INFO cinder.api.extensions [-] Loaded extension: backups
+2015-10-16 14:53:30.807 936 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2015-10-16 14:53:30.829 936 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2015-10-16 14:53:30.865 936 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2015-10-16 14:53:30.893 936 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2015-10-16 14:53:30.910 936 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2015-10-16 14:53:30.929 936 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2015-10-16 14:53:30.968 936 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2015-10-16 14:53:30.998 936 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2015-10-16 14:53:34.391 936 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2015-10-16 14:53:34.431 936 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2015-10-16 14:53:34.447 936 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2015-10-16 14:53:34.463 936 INFO cinder.api.extensions [-] Loaded extension: os-services
+2015-10-16 14:53:34.488 936 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2015-10-16 14:53:34.504 936 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2015-10-16 14:53:34.572 936 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2015-10-16 14:53:34.595 936 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2015-10-16 14:53:34.611 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2015-10-16 14:53:34.620 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2015-10-16 14:53:34.634 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2015-10-16 14:53:34.650 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2015-10-16 14:53:34.665 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2015-10-16 14:53:34.669 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2015-10-16 14:53:34.693 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2015-10-16 14:53:34.699 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2015-10-16 14:53:34.757 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2015-10-16 14:53:34.773 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2015-10-16 14:53:34.789 936 INFO cinder.api.extensions [-] Loaded extension: encryption
+2015-10-16 14:53:34.791 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2015-10-16 14:53:35.017 936 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-16 14:53:45.036 936 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-16 14:53:55.196 936 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2015-10-16 14:53:55.211 936 WARNING cinder.openstack.common.versionutils [-] Deprecated: RequestBodySizeLimiter() is deprecated as of Kilo in favor of oslo_middleware.RequestBodySizeLimiter and may be removed in M.
+2015-10-16 14:53:55.239 936 INFO cinder.api.extensions [-] Initializing extension manager.
+2015-10-16 14:53:55.245 936 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2015-10-16 14:53:55.246 936 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2015-10-16 14:53:55.247 936 INFO cinder.api.extensions [-] Loaded extension: backups
+2015-10-16 14:53:55.248 936 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2015-10-16 14:53:55.249 936 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2015-10-16 14:53:55.250 936 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2015-10-16 14:53:55.252 936 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2015-10-16 14:53:55.253 936 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2015-10-16 14:53:55.254 936 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2015-10-16 14:53:55.255 936 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2015-10-16 14:53:55.256 936 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2015-10-16 14:53:55.257 936 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2015-10-16 14:53:55.258 936 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2015-10-16 14:53:55.259 936 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2015-10-16 14:53:55.260 936 INFO cinder.api.extensions [-] Loaded extension: os-services
+2015-10-16 14:53:55.261 936 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2015-10-16 14:53:55.263 936 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2015-10-16 14:53:55.264 936 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2015-10-16 14:53:55.265 936 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2015-10-16 14:53:55.266 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2015-10-16 14:53:55.267 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2015-10-16 14:53:55.268 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2015-10-16 14:53:55.269 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2015-10-16 14:53:55.271 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2015-10-16 14:53:55.272 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2015-10-16 14:53:55.273 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2015-10-16 14:53:55.274 936 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2015-10-16 14:53:55.276 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2015-10-16 14:53:55.277 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2015-10-16 14:53:55.278 936 INFO cinder.api.extensions [-] Loaded extension: encryption
+2015-10-16 14:53:55.279 936 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2015-10-16 14:53:55.411 936 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2015-10-16 14:53:55.420 936 INFO cinder.wsgi [-] osapi_volume listening on 0.0.0.0:8776
+2015-10-16 14:53:55.421 936 INFO cinder.openstack.common.service [-] Starting 4 workers
+2015-10-16 14:53:55.453 936 INFO cinder.openstack.common.service [-] Started child 2727
+2015-10-16 14:53:55.471 2727 INFO eventlet.wsgi.server [-] (2727) wsgi starting up on http://0.0.0.0:8776/
+2015-10-16 14:53:55.478 936 INFO cinder.openstack.common.service [-] Started child 2729
+2015-10-16 14:53:55.503 2729 INFO eventlet.wsgi.server [-] (2729) wsgi starting up on http://0.0.0.0:8776/
+2015-10-16 14:53:55.506 936 INFO cinder.openstack.common.service [-] Started child 2730
+2015-10-16 14:53:55.528 2730 INFO eventlet.wsgi.server [-] (2730) wsgi starting up on http://0.0.0.0:8776/
+2015-10-16 14:53:55.543 936 INFO cinder.openstack.common.service [-] Started child 2732
+2015-10-16 14:53:55.563 2732 INFO eventlet.wsgi.server [-] (2732) wsgi starting up on http://0.0.0.0:8776/
+2015-10-16 14:53:55.575 936 WARNING oslo_config.cfg [-] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.576 936 WARNING oslo_config.cfg [-] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.577 936 WARNING oslo_config.cfg [-] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.578 936 WARNING oslo_config.cfg [-] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.578 936 WARNING oslo_config.cfg [-] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.579 936 WARNING oslo_config.cfg [-] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.580 936 WARNING oslo_config.cfg [-] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.580 936 WARNING oslo_config.cfg [-] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.584 936 WARNING oslo_config.cfg [-] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-16 15:17:42.926 2729 INFO eventlet.wsgi.server [-] (2729) accepted ('192.168.0.10', 53067)
+2015-10-16 15:17:43.837 2729 INFO cinder.api.openstack.wsgi [req-90eaa92b-b839-494e-88c7-b3db05e1f0c3 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-16 15:17:44.052 2729 WARNING cinder.quota [req-6efe8c29-d82f-43a6-af26-6150904ff668 - - - - -] Deprecated: Default quota for resource: snapshots_iscsi is set by the default quota flag: quota_snapshots_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:17:44.054 2729 WARNING cinder.quota [req-6efe8c29-d82f-43a6-af26-6150904ff668 - - - - -] Deprecated: Default quota for resource: backup_gigabytes is set by the default quota flag: quota_backup_gigabytes, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:17:44.055 2729 WARNING cinder.quota [req-6efe8c29-d82f-43a6-af26-6150904ff668 - - - - -] Deprecated: Default quota for resource: volumes_iscsi is set by the default quota flag: quota_volumes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:17:44.056 2729 WARNING cinder.quota [req-6efe8c29-d82f-43a6-af26-6150904ff668 - - - - -] Deprecated: Default quota for resource: backups is set by the default quota flag: quota_backups, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:17:44.057 2729 WARNING cinder.quota [req-6efe8c29-d82f-43a6-af26-6150904ff668 - - - - -] Deprecated: Default quota for resource: gigabytes_iscsi is set by the default quota flag: quota_gigabytes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:17:44.091 2729 INFO cinder.api.openstack.wsgi [req-f8acb3a3-3b35-453e-b871-6462010eeba4 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-16 15:17:44.093 2729 INFO eventlet.wsgi.server [req-f8acb3a3-3b35-453e-b871-6462010eeba4 - - - - -] 192.168.0.10 - - [16/Oct/2015 15:17:44] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 1.153801
+2015-10-16 15:19:00.872 2732 INFO eventlet.wsgi.server [-] (2732) accepted ('192.168.0.10', 53107)
+2015-10-16 15:19:01.680 2732 INFO cinder.api.openstack.wsgi [req-9aa18c00-8700-4d58-9908-af292a6a6d5c e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail
+2015-10-16 15:19:01.847 2732 INFO cinder.api.openstack.wsgi [req-9aa18c00-8700-4d58-9908-af292a6a6d5c e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail returned with HTTP 200
+2015-10-16 15:19:01.849 2732 INFO eventlet.wsgi.server [req-9aa18c00-8700-4d58-9908-af292a6a6d5c e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [16/Oct/2015 15:19:01] "GET /v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail HTTP/1.1" 200 279 0.968998
+2015-10-16 15:19:01.855 2732 INFO eventlet.wsgi.server [-] (2732) accepted ('192.168.0.10', 53112)
+2015-10-16 15:19:01.863 2732 INFO cinder.api.openstack.wsgi [req-d87741f0-3338-4be2-915b-3d648f6dca6a e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail
+2015-10-16 15:19:01.925 2732 INFO cinder.api.openstack.wsgi [req-d87741f0-3338-4be2-915b-3d648f6dca6a e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail returned with HTTP 200
+2015-10-16 15:19:01.926 2732 INFO eventlet.wsgi.server [req-d87741f0-3338-4be2-915b-3d648f6dca6a e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [16/Oct/2015 15:19:01] "GET /v2/300b2cc45c3846939e589310ae714e46/volumes/detail HTTP/1.1" 200 277 0.067535
+2015-10-16 15:19:02.017 2727 INFO eventlet.wsgi.server [-] (2727) accepted ('192.168.0.10', 53114)
+2015-10-16 15:19:02.959 2727 INFO cinder.api.openstack.wsgi [req-7c8a8850-97ac-4df4-be7d-48e092921f7d e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail
+2015-10-16 15:19:03.111 2727 INFO cinder.api.openstack.wsgi [req-7c8a8850-97ac-4df4-be7d-48e092921f7d e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail returned with HTTP 200
+2015-10-16 15:19:03.112 2727 INFO eventlet.wsgi.server [req-7c8a8850-97ac-4df4-be7d-48e092921f7d e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [16/Oct/2015 15:19:03] "GET /v2/300b2cc45c3846939e589310ae714e46/snapshots/detail HTTP/1.1" 200 279 1.088135
+2015-10-16 15:19:03.187 2727 INFO eventlet.wsgi.server [-] (2727) accepted ('192.168.0.10', 53121)
+2015-10-16 15:19:03.192 2727 INFO cinder.api.openstack.wsgi [req-a110d232-3ba2-4ae3-93da-74609f1aaf7d e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-16 15:19:03.214 2727 WARNING cinder.quota [req-0754b2c3-622f-4be0-8df9-5dae00826439 - - - - -] Deprecated: Default quota for resource: snapshots_iscsi is set by the default quota flag: quota_snapshots_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:19:03.215 2727 WARNING cinder.quota [req-0754b2c3-622f-4be0-8df9-5dae00826439 - - - - -] Deprecated: Default quota for resource: backup_gigabytes is set by the default quota flag: quota_backup_gigabytes, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:19:03.216 2727 WARNING cinder.quota [req-0754b2c3-622f-4be0-8df9-5dae00826439 - - - - -] Deprecated: Default quota for resource: volumes_iscsi is set by the default quota flag: quota_volumes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:19:03.218 2727 WARNING cinder.quota [req-0754b2c3-622f-4be0-8df9-5dae00826439 - - - - -] Deprecated: Default quota for resource: backups is set by the default quota flag: quota_backups, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:19:03.219 2727 WARNING cinder.quota [req-0754b2c3-622f-4be0-8df9-5dae00826439 - - - - -] Deprecated: Default quota for resource: gigabytes_iscsi is set by the default quota flag: quota_gigabytes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2015-10-16 15:19:03.243 2727 INFO cinder.api.openstack.wsgi [req-603fb1f7-ceca-4238-95c7-f84dd396b8d0 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-16 15:19:03.245 2727 INFO eventlet.wsgi.server [req-603fb1f7-ceca-4238-95c7-f84dd396b8d0 - - - - -] 192.168.0.10 - - [16/Oct/2015 15:19:03] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 0.055757
+2015-10-16 15:20:14.293 2730 INFO eventlet.wsgi.server [-] (2730) accepted ('192.168.0.10', 53147)
+2015-10-16 15:20:15.044 2730 INFO cinder.api.openstack.wsgi [req-b6e2750c-fa03-401e-9182-b34975546b93 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail
+2015-10-16 15:20:15.203 2730 INFO cinder.api.openstack.wsgi [req-b6e2750c-fa03-401e-9182-b34975546b93 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail returned with HTTP 200
+2015-10-16 15:20:15.205 2730 INFO eventlet.wsgi.server [req-b6e2750c-fa03-401e-9182-b34975546b93 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [16/Oct/2015 15:20:15] "GET /v2/300b2cc45c3846939e589310ae714e46/os-volume-transfer/detail HTTP/1.1" 200 279 0.901660
+2015-10-16 15:20:15.218 2729 INFO eventlet.wsgi.server [-] (2729) accepted ('192.168.0.10', 53152)
+2015-10-16 15:20:15.229 2729 INFO cinder.api.openstack.wsgi [req-459113ae-ad77-45b9-8524-ae5edbbd4e41 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail
+2015-10-16 15:20:15.289 2729 INFO cinder.api.openstack.wsgi [req-459113ae-ad77-45b9-8524-ae5edbbd4e41 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/volumes/detail returned with HTTP 200
+2015-10-16 15:20:15.291 2729 INFO eventlet.wsgi.server [req-459113ae-ad77-45b9-8524-ae5edbbd4e41 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [16/Oct/2015 15:20:15] "GET /v2/300b2cc45c3846939e589310ae714e46/volumes/detail HTTP/1.1" 200 277 0.068990
+2015-10-16 15:20:15.374 2729 INFO eventlet.wsgi.server [-] (2729) accepted ('192.168.0.10', 53155)
+2015-10-16 15:20:15.383 2729 INFO cinder.api.openstack.wsgi [req-9e49aea0-ccf0-4158-a8d8-e7e3a596e08a e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail
+2015-10-16 15:20:15.401 2729 INFO cinder.api.openstack.wsgi [req-9e49aea0-ccf0-4158-a8d8-e7e3a596e08a e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/snapshots/detail returned with HTTP 200
+2015-10-16 15:20:15.402 2729 INFO eventlet.wsgi.server [req-9e49aea0-ccf0-4158-a8d8-e7e3a596e08a e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] 192.168.0.10 - - [16/Oct/2015 15:20:15] "GET /v2/300b2cc45c3846939e589310ae714e46/snapshots/detail HTTP/1.1" 200 279 0.024975
+2015-10-16 15:20:15.488 2727 INFO eventlet.wsgi.server [-] (2727) accepted ('192.168.0.10', 53157)
+2015-10-16 15:20:15.499 2727 INFO cinder.api.openstack.wsgi [req-4a394c23-75cf-4c93-8d85-2f2d7ac99ac5 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2015-10-16 15:20:15.547 2727 INFO cinder.api.openstack.wsgi [req-e1ee2ba9-2077-46d4-8d73-d0ecc9ed21e4 - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2015-10-16 15:20:15.549 2727 INFO eventlet.wsgi.server [req-e1ee2ba9-2077-46d4-8d73-d0ecc9ed21e4 - - - - -] 192.168.0.10 - - [16/Oct/2015 15:20:15] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 0.057224
+2015-10-16 15:23:22.799 936 INFO cinder.openstack.common.service [-] Caught SIGTERM, stopping children
+2015-10-16 15:23:22.804 936 INFO cinder.openstack.common.service [-] Waiting on 4 children to exit
+2015-10-16 15:23:22.940 936 INFO cinder.openstack.common.service [-] Child 2727 killed by signal 15
+2015-10-16 15:23:22.942 936 INFO cinder.openstack.common.service [-] Child 2732 killed by signal 15
+2015-10-16 15:23:22.946 936 INFO cinder.openstack.common.service [-] Child 2730 killed by signal 15
+2015-10-16 15:23:22.949 936 INFO cinder.openstack.common.service [-] Child 2729 killed by signal 15
+2016-02-16 21:27:09.994 929 WARNING cinder.api [-] The v1 api is deprecated and will be removed in the Liberty release. You should set enable_v1_api=false and enable_v2_api=true in your cinder.conf file.
+2016-02-16 21:27:16.966 929 INFO cinder.api.extensions [-] Initializing extension manager.
+2016-02-16 21:27:17.061 929 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2016-02-16 21:27:17.102 929 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2016-02-16 21:27:17.140 929 INFO cinder.api.extensions [-] Loaded extension: backups
+2016-02-16 21:27:17.190 929 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2016-02-16 21:27:17.237 929 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2016-02-16 21:27:17.240 929 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2016-02-16 21:27:17.341 929 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2016-02-16 21:27:17.345 929 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2016-02-16 21:27:17.367 929 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2016-02-16 21:27:17.386 929 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2016-02-16 21:27:17.389 929 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2016-02-16 21:27:19.952 929 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2016-02-16 21:27:19.980 929 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2016-02-16 21:27:20.014 929 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2016-02-16 21:27:20.021 929 INFO cinder.api.extensions [-] Loaded extension: os-services
+2016-02-16 21:27:20.024 929 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2016-02-16 21:27:20.027 929 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2016-02-16 21:27:20.092 929 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2016-02-16 21:27:20.094 929 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2016-02-16 21:27:20.098 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2016-02-16 21:27:20.115 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2016-02-16 21:27:20.121 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2016-02-16 21:27:20.143 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2016-02-16 21:27:20.164 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2016-02-16 21:27:20.171 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2016-02-16 21:27:20.225 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2016-02-16 21:27:20.236 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2016-02-16 21:27:20.281 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2016-02-16 21:27:20.287 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2016-02-16 21:27:20.291 929 INFO cinder.api.extensions [-] Loaded extension: encryption
+2016-02-16 21:27:20.300 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2016-02-16 21:27:20.505 929 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-16 21:27:30.547 929 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-16 21:27:40.912 929 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2016-02-16 21:27:40.929 929 WARNING cinder.openstack.common.versionutils [-] Deprecated: RequestBodySizeLimiter() is deprecated as of Kilo in favor of oslo_middleware.RequestBodySizeLimiter and may be removed in M.
+2016-02-16 21:27:40.979 929 INFO cinder.api.extensions [-] Initializing extension manager.
+2016-02-16 21:27:40.986 929 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2016-02-16 21:27:40.988 929 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2016-02-16 21:27:40.989 929 INFO cinder.api.extensions [-] Loaded extension: backups
+2016-02-16 21:27:40.990 929 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2016-02-16 21:27:40.991 929 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2016-02-16 21:27:40.993 929 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2016-02-16 21:27:40.994 929 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2016-02-16 21:27:40.995 929 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2016-02-16 21:27:40.996 929 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2016-02-16 21:27:41.005 929 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2016-02-16 21:27:41.006 929 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2016-02-16 21:27:41.008 929 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2016-02-16 21:27:41.009 929 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2016-02-16 21:27:41.010 929 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2016-02-16 21:27:41.011 929 INFO cinder.api.extensions [-] Loaded extension: os-services
+2016-02-16 21:27:41.013 929 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2016-02-16 21:27:41.014 929 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2016-02-16 21:27:41.021 929 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2016-02-16 21:27:41.023 929 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2016-02-16 21:27:41.024 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2016-02-16 21:27:41.025 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2016-02-16 21:27:41.026 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2016-02-16 21:27:41.027 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2016-02-16 21:27:41.028 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2016-02-16 21:27:41.029 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2016-02-16 21:27:41.030 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2016-02-16 21:27:41.032 929 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2016-02-16 21:27:41.038 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2016-02-16 21:27:41.039 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2016-02-16 21:27:41.040 929 INFO cinder.api.extensions [-] Loaded extension: encryption
+2016-02-16 21:27:41.041 929 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2016-02-16 21:27:41.239 929 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2016-02-16 21:27:41.249 929 INFO cinder.wsgi [-] osapi_volume listening on 0.0.0.0:8776
+2016-02-16 21:27:41.250 929 INFO cinder.openstack.common.service [-] Starting 4 workers
+2016-02-16 21:27:41.282 929 INFO cinder.openstack.common.service [-] Started child 2680
+2016-02-16 21:27:41.328 2680 INFO eventlet.wsgi.server [-] (2680) wsgi starting up on http://0.0.0.0:8776/
+2016-02-16 21:27:41.343 929 INFO cinder.openstack.common.service [-] Started child 2681
+2016-02-16 21:27:41.367 2681 INFO eventlet.wsgi.server [-] (2681) wsgi starting up on http://0.0.0.0:8776/
+2016-02-16 21:27:41.387 929 INFO cinder.openstack.common.service [-] Started child 2682
+2016-02-16 21:27:41.408 2682 INFO eventlet.wsgi.server [-] (2682) wsgi starting up on http://0.0.0.0:8776/
+2016-02-16 21:27:41.427 929 INFO cinder.openstack.common.service [-] Started child 2683
+2016-02-16 21:27:41.450 2683 INFO eventlet.wsgi.server [-] (2683) wsgi starting up on http://0.0.0.0:8776/
+2016-02-16 21:27:41.467 929 WARNING oslo_config.cfg [-] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.469 929 WARNING oslo_config.cfg [-] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.469 929 WARNING oslo_config.cfg [-] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.470 929 WARNING oslo_config.cfg [-] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.471 929 WARNING oslo_config.cfg [-] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.472 929 WARNING oslo_config.cfg [-] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.472 929 WARNING oslo_config.cfg [-] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.473 929 WARNING oslo_config.cfg [-] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.478 929 WARNING oslo_config.cfg [-] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-16 21:56:21.958 929 INFO cinder.openstack.common.service [-] Caught SIGTERM, stopping children
+2016-02-16 21:56:21.977 929 INFO cinder.openstack.common.service [-] Waiting on 4 children to exit
+2016-02-16 21:56:21.978 929 INFO cinder.openstack.common.service [-] Child 2680 killed by signal 15
+2016-02-16 21:56:21.992 929 INFO cinder.openstack.common.service [-] Child 2681 killed by signal 15
+2016-02-16 21:56:21.994 929 INFO cinder.openstack.common.service [-] Child 2683 killed by signal 15
+2016-02-16 21:56:22.195 929 INFO cinder.openstack.common.service [-] Child 2682 killed by signal 15
+2016-02-22 19:24:35.546 963 WARNING cinder.api [-] The v1 api is deprecated and will be removed in the Liberty release. You should set enable_v1_api=false and enable_v2_api=true in your cinder.conf file.
+2016-02-22 19:24:40.466 963 INFO cinder.api.extensions [-] Initializing extension manager.
+2016-02-22 19:24:40.563 963 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2016-02-22 19:24:40.617 963 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2016-02-22 19:24:40.629 963 INFO cinder.api.extensions [-] Loaded extension: backups
+2016-02-22 19:24:40.679 963 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2016-02-22 19:24:40.693 963 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2016-02-22 19:24:40.711 963 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2016-02-22 19:24:40.731 963 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2016-02-22 19:24:40.756 963 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2016-02-22 19:24:40.771 963 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2016-02-22 19:24:40.791 963 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2016-02-22 19:24:40.811 963 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2016-02-22 19:24:43.421 963 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2016-02-22 19:24:43.435 963 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2016-02-22 19:24:43.453 963 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2016-02-22 19:24:43.480 963 INFO cinder.api.extensions [-] Loaded extension: os-services
+2016-02-22 19:24:43.492 963 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2016-02-22 19:24:43.500 963 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2016-02-22 19:24:43.560 963 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2016-02-22 19:24:43.575 963 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2016-02-22 19:24:43.584 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2016-02-22 19:24:43.593 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2016-02-22 19:24:43.611 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2016-02-22 19:24:43.620 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2016-02-22 19:24:43.626 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2016-02-22 19:24:43.631 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2016-02-22 19:24:43.651 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2016-02-22 19:24:43.654 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2016-02-22 19:24:43.687 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2016-02-22 19:24:43.692 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2016-02-22 19:24:43.695 963 INFO cinder.api.extensions [-] Loaded extension: encryption
+2016-02-22 19:24:43.699 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2016-02-22 19:24:43.882 963 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-22 19:24:53.910 963 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-22 19:25:04.072 963 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2016-02-22 19:25:04.080 963 WARNING cinder.openstack.common.versionutils [-] Deprecated: RequestBodySizeLimiter() is deprecated as of Kilo in favor of oslo_middleware.RequestBodySizeLimiter and may be removed in M.
+2016-02-22 19:25:04.099 963 INFO cinder.api.extensions [-] Initializing extension manager.
+2016-02-22 19:25:04.103 963 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2016-02-22 19:25:04.104 963 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2016-02-22 19:25:04.105 963 INFO cinder.api.extensions [-] Loaded extension: backups
+2016-02-22 19:25:04.106 963 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2016-02-22 19:25:04.106 963 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2016-02-22 19:25:04.107 963 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2016-02-22 19:25:04.108 963 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2016-02-22 19:25:04.109 963 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2016-02-22 19:25:04.110 963 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2016-02-22 19:25:04.111 963 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2016-02-22 19:25:04.116 963 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2016-02-22 19:25:04.117 963 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2016-02-22 19:25:04.118 963 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2016-02-22 19:25:04.119 963 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2016-02-22 19:25:04.120 963 INFO cinder.api.extensions [-] Loaded extension: os-services
+2016-02-22 19:25:04.121 963 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2016-02-22 19:25:04.123 963 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2016-02-22 19:25:04.124 963 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2016-02-22 19:25:04.125 963 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2016-02-22 19:25:04.127 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2016-02-22 19:25:04.128 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2016-02-22 19:25:04.129 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2016-02-22 19:25:04.130 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2016-02-22 19:25:04.131 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2016-02-22 19:25:04.132 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2016-02-22 19:25:04.134 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2016-02-22 19:25:04.135 963 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2016-02-22 19:25:04.136 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2016-02-22 19:25:04.137 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2016-02-22 19:25:04.138 963 INFO cinder.api.extensions [-] Loaded extension: encryption
+2016-02-22 19:25:04.138 963 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2016-02-22 19:25:04.222 963 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2016-02-22 19:25:04.227 963 INFO cinder.wsgi [-] osapi_volume listening on 0.0.0.0:8776
+2016-02-22 19:25:04.228 963 INFO cinder.openstack.common.service [-] Starting 4 workers
+2016-02-22 19:25:04.247 963 INFO cinder.openstack.common.service [-] Started child 2680
+2016-02-22 19:25:04.266 2680 INFO eventlet.wsgi.server [-] (2680) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:25:04.275 963 INFO cinder.openstack.common.service [-] Started child 2681
+2016-02-22 19:25:04.287 2681 INFO eventlet.wsgi.server [-] (2681) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:25:04.298 963 INFO cinder.openstack.common.service [-] Started child 2682
+2016-02-22 19:25:04.313 2682 INFO eventlet.wsgi.server [-] (2682) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:25:04.314 963 INFO cinder.openstack.common.service [-] Started child 2683
+2016-02-22 19:25:04.364 963 WARNING oslo_config.cfg [-] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.365 963 WARNING oslo_config.cfg [-] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.366 963 WARNING oslo_config.cfg [-] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.364 2683 INFO eventlet.wsgi.server [-] (2683) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:25:04.366 963 WARNING oslo_config.cfg [-] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.367 963 WARNING oslo_config.cfg [-] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.368 963 WARNING oslo_config.cfg [-] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.368 963 WARNING oslo_config.cfg [-] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.369 963 WARNING oslo_config.cfg [-] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:04.374 963 WARNING oslo_config.cfg [-] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 19:26:00.660 963 INFO cinder.openstack.common.service [-] Caught SIGTERM, stopping children
+2016-02-22 19:26:00.665 963 INFO cinder.openstack.common.service [-] Waiting on 4 children to exit
+2016-02-22 19:26:00.734 963 INFO cinder.openstack.common.service [-] Child 2680 killed by signal 15
+2016-02-22 19:26:00.919 963 INFO cinder.openstack.common.service [-] Child 2681 killed by signal 15
+2016-02-22 19:26:00.921 963 INFO cinder.openstack.common.service [-] Child 2682 killed by signal 15
+2016-02-22 19:26:00.955 963 INFO cinder.openstack.common.service [-] Child 2683 killed by signal 15
+2016-02-22 19:39:11.040 1020 WARNING cinder.api [-] The v1 api is deprecated and will be removed in the Liberty release. You should set enable_v1_api=false and enable_v2_api=true in your cinder.conf file.
+2016-02-22 19:39:15.581 1020 INFO cinder.api.extensions [-] Initializing extension manager.
+2016-02-22 19:39:15.714 1020 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2016-02-22 19:39:15.755 1020 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2016-02-22 19:39:15.795 1020 INFO cinder.api.extensions [-] Loaded extension: backups
+2016-02-22 19:39:15.822 1020 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2016-02-22 19:39:15.836 1020 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2016-02-22 19:39:15.876 1020 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2016-02-22 19:39:15.896 1020 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2016-02-22 19:39:15.900 1020 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2016-02-22 19:39:15.902 1020 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2016-02-22 19:39:15.984 1020 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2016-02-22 19:39:15.990 1020 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2016-02-22 19:39:18.247 1020 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2016-02-22 19:39:18.306 1020 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2016-02-22 19:39:18.327 1020 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2016-02-22 19:39:18.337 1020 INFO cinder.api.extensions [-] Loaded extension: os-services
+2016-02-22 19:39:18.364 1020 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2016-02-22 19:39:18.374 1020 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2016-02-22 19:39:18.389 1020 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2016-02-22 19:39:18.392 1020 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2016-02-22 19:39:18.404 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2016-02-22 19:39:18.417 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2016-02-22 19:39:18.425 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2016-02-22 19:39:18.428 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2016-02-22 19:39:18.443 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2016-02-22 19:39:18.446 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2016-02-22 19:39:18.474 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2016-02-22 19:39:18.480 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2016-02-22 19:39:18.496 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2016-02-22 19:39:18.500 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2016-02-22 19:39:18.504 1020 INFO cinder.api.extensions [-] Loaded extension: encryption
+2016-02-22 19:39:18.524 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2016-02-22 19:39:18.689 1020 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-22 19:39:28.712 1020 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-22 19:39:38.946 1020 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2016-02-22 19:39:38.955 1020 WARNING cinder.openstack.common.versionutils [-] Deprecated: RequestBodySizeLimiter() is deprecated as of Kilo in favor of oslo_middleware.RequestBodySizeLimiter and may be removed in M.
+2016-02-22 19:39:38.975 1020 INFO cinder.api.extensions [-] Initializing extension manager.
+2016-02-22 19:39:38.981 1020 INFO cinder.api.extensions [-] Loaded extension: os-admin-actions
+2016-02-22 19:39:38.982 1020 INFO cinder.api.extensions [-] Loaded extension: os-availability-zone
+2016-02-22 19:39:38.982 1020 INFO cinder.api.extensions [-] Loaded extension: backups
+2016-02-22 19:39:38.984 1020 INFO cinder.api.extensions [-] Loaded extension: cgsnapshots
+2016-02-22 19:39:38.985 1020 INFO cinder.api.extensions [-] Loaded extension: consistencygroups
+2016-02-22 19:39:38.986 1020 INFO cinder.api.extensions [-] Loaded extension: os-extended-services
+2016-02-22 19:39:38.988 1020 INFO cinder.api.extensions [-] Loaded extension: os-extended-snapshot-attributes
+2016-02-22 19:39:38.989 1020 INFO cinder.api.extensions [-] Loaded extension: os-hosts
+2016-02-22 19:39:38.990 1020 INFO cinder.api.extensions [-] Loaded extension: os-image-create
+2016-02-22 19:39:38.991 1020 INFO cinder.api.extensions [-] Loaded extension: qos-specs
+2016-02-22 19:39:38.992 1020 INFO cinder.api.extensions [-] Loaded extension: os-quota-class-sets
+2016-02-22 19:39:38.992 1020 INFO cinder.api.extensions [-] Loaded extension: os-quota-sets
+2016-02-22 19:39:38.994 1020 INFO cinder.api.extensions [-] Loaded extension: OS-SCH-HNT
+2016-02-22 19:39:38.995 1020 INFO cinder.api.extensions [-] Loaded extension: scheduler-stats
+2016-02-22 19:39:38.996 1020 INFO cinder.api.extensions [-] Loaded extension: os-services
+2016-02-22 19:39:38.997 1020 INFO cinder.api.extensions [-] Loaded extension: os-snapshot-actions
+2016-02-22 19:39:38.998 1020 INFO cinder.api.extensions [-] Loaded extension: os-types-extra-specs
+2016-02-22 19:39:38.999 1020 INFO cinder.api.extensions [-] Loaded extension: os-types-manage
+2016-02-22 19:39:39.000 1020 INFO cinder.api.extensions [-] Loaded extension: os-used-limits
+2016-02-22 19:39:39.002 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-actions
+2016-02-22 19:39:39.002 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-encryption-metadata
+2016-02-22 19:39:39.003 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-host-attr
+2016-02-22 19:39:39.004 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-image-meta
+2016-02-22 19:39:39.005 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-manage
+2016-02-22 19:39:39.006 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-mig-status-attr
+2016-02-22 19:39:39.007 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-replication
+2016-02-22 19:39:39.008 1020 INFO cinder.api.extensions [-] Loaded extension: os-vol-tenant-attr
+2016-02-22 19:39:39.008 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-transfer
+2016-02-22 19:39:39.009 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-type-access
+2016-02-22 19:39:39.010 1020 INFO cinder.api.extensions [-] Loaded extension: encryption
+2016-02-22 19:39:39.011 1020 INFO cinder.api.extensions [-] Loaded extension: os-volume-unmanage
+2016-02-22 19:39:39.172 1020 WARNING keystonemiddleware.auth_token [-] Configuring admin URI using auth fragments. This is deprecated, use 'identity_uri' instead.
+2016-02-22 19:39:39.185 1020 INFO cinder.wsgi [-] osapi_volume listening on 0.0.0.0:8776
+2016-02-22 19:39:39.187 1020 INFO cinder.openstack.common.service [-] Starting 4 workers
+2016-02-22 19:39:39.238 1020 INFO cinder.openstack.common.service [-] Started child 2714
+2016-02-22 19:39:39.310 2714 INFO eventlet.wsgi.server [-] (2714) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:39:39.319 1020 INFO cinder.openstack.common.service [-] Started child 2715
+2016-02-22 19:39:39.350 2715 INFO eventlet.wsgi.server [-] (2715) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:39:39.361 1020 INFO cinder.openstack.common.service [-] Started child 2717
+2016-02-22 19:39:39.418 2717 INFO eventlet.wsgi.server [-] (2717) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:39:39.426 1020 INFO cinder.openstack.common.service [-] Started child 2718
+2016-02-22 19:39:39.443 2718 INFO eventlet.wsgi.server [-] (2718) wsgi starting up on http://0.0.0.0:8776/
+2016-02-22 19:39:39.482 1020 WARNING oslo_config.cfg [-] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.485 1020 WARNING oslo_config.cfg [-] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.486 1020 WARNING oslo_config.cfg [-] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.487 1020 WARNING oslo_config.cfg [-] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.488 1020 WARNING oslo_config.cfg [-] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.489 1020 WARNING oslo_config.cfg [-] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.490 1020 WARNING oslo_config.cfg [-] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.491 1020 WARNING oslo_config.cfg [-] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.497 1020 WARNING oslo_config.cfg [-] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 20:12:06.292 2718 INFO eventlet.wsgi.server [-] (2718) accepted ('192.168.0.10', 39345)
+2016-02-22 20:12:07.167 2718 INFO cinder.api.openstack.wsgi [req-a9698032-7545-45a2-842e-4f8b8fc06a88 e9483918caa940a48fe882ba092c7e0b 300b2cc45c3846939e589310ae714e46 - - -] GET http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits
+2016-02-22 20:12:07.370 2718 WARNING cinder.quota [req-6c8e45a2-e46a-4ea9-9b92-96e2f8985432 - - - - -] Deprecated: Default quota for resource: snapshots_iscsi is set by the default quota flag: quota_snapshots_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2016-02-22 20:12:07.371 2718 WARNING cinder.quota [req-6c8e45a2-e46a-4ea9-9b92-96e2f8985432 - - - - -] Deprecated: Default quota for resource: backup_gigabytes is set by the default quota flag: quota_backup_gigabytes, it is now deprecated. Please use the default quota class for default quota.
+2016-02-22 20:12:07.373 2718 WARNING cinder.quota [req-6c8e45a2-e46a-4ea9-9b92-96e2f8985432 - - - - -] Deprecated: Default quota for resource: volumes_iscsi is set by the default quota flag: quota_volumes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2016-02-22 20:12:07.374 2718 WARNING cinder.quota [req-6c8e45a2-e46a-4ea9-9b92-96e2f8985432 - - - - -] Deprecated: Default quota for resource: backups is set by the default quota flag: quota_backups, it is now deprecated. Please use the default quota class for default quota.
+2016-02-22 20:12:07.375 2718 WARNING cinder.quota [req-6c8e45a2-e46a-4ea9-9b92-96e2f8985432 - - - - -] Deprecated: Default quota for resource: gigabytes_iscsi is set by the default quota flag: quota_gigabytes_iscsi, it is now deprecated. Please use the default quota class for default quota.
+2016-02-22 20:12:07.410 2718 INFO cinder.api.openstack.wsgi [req-862e9f11-fe0c-4f3e-84a0-c02aa48ec5bd - - - - -] http://192.168.0.10:8776/v2/300b2cc45c3846939e589310ae714e46/limits returned with HTTP 200
+2016-02-22 20:12:07.412 2718 INFO eventlet.wsgi.server [req-862e9f11-fe0c-4f3e-84a0-c02aa48ec5bd - - - - -] 192.168.0.10 - - [22/Feb/2016 20:12:07] "GET /v2/300b2cc45c3846939e589310ae714e46/limits HTTP/1.1" 200 565 1.106777

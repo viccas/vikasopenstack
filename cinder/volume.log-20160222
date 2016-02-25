@@ -1,0 +1,879 @@
+2015-10-04 15:19:27.218 2747 INFO cinder.volume.manager [req-93e2d826-5a18-48ff-a9ac-f4cebf2539c3 - - - - -] Updating volume status
+2015-10-04 15:19:27.222 2747 WARNING cinder.volume.manager [req-93e2d826-5a18-48ff-a9ac-f4cebf2539c3 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:20:27.219 2747 INFO cinder.volume.manager [req-71fec222-7146-4fb7-9535-0b267ed73be0 - - - - -] Updating volume status
+2015-10-04 15:20:27.223 2747 WARNING cinder.volume.manager [req-71fec222-7146-4fb7-9535-0b267ed73be0 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:21:27.219 2747 INFO cinder.volume.manager [req-4b11b122-9959-4e0f-aeea-c9f946372c9d - - - - -] Updating volume status
+2015-10-04 15:21:27.222 2747 WARNING cinder.volume.manager [req-4b11b122-9959-4e0f-aeea-c9f946372c9d - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:22:27.218 2747 INFO cinder.volume.manager [req-0b37aef5-a896-467f-9b52-6974b7fc56fd - - - - -] Updating volume status
+2015-10-04 15:22:27.220 2747 WARNING cinder.volume.manager [req-0b37aef5-a896-467f-9b52-6974b7fc56fd - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:23:27.220 2747 INFO cinder.volume.manager [req-c3f1e439-ea6d-420b-997d-adfe57add6a3 - - - - -] Updating volume status
+2015-10-04 15:23:27.224 2747 WARNING cinder.volume.manager [req-c3f1e439-ea6d-420b-997d-adfe57add6a3 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:24:27.220 2747 INFO cinder.volume.manager [req-e12f0fd3-39dd-491a-8746-ca4eb54efdda - - - - -] Updating volume status
+2015-10-04 15:24:27.223 2747 WARNING cinder.volume.manager [req-e12f0fd3-39dd-491a-8746-ca4eb54efdda - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:25:27.222 2747 INFO cinder.volume.manager [req-9350c8ed-431d-4f6a-a613-0fc7941059ea - - - - -] Updating volume status
+2015-10-04 15:25:27.226 2747 WARNING cinder.volume.manager [req-9350c8ed-431d-4f6a-a613-0fc7941059ea - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:26:27.221 2747 INFO cinder.volume.manager [req-a4d6c1b1-0ad3-4762-a52f-ef8a05429c35 - - - - -] Updating volume status
+2015-10-04 15:26:27.223 2747 WARNING cinder.volume.manager [req-a4d6c1b1-0ad3-4762-a52f-ef8a05429c35 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:27:27.221 2747 INFO cinder.volume.manager [req-03ef78fe-9d63-4bc0-82e7-1d66c10811e6 - - - - -] Updating volume status
+2015-10-04 15:27:27.225 2747 WARNING cinder.volume.manager [req-03ef78fe-9d63-4bc0-82e7-1d66c10811e6 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:28:27.222 2747 INFO cinder.volume.manager [req-87cb8881-6a7c-4ac4-986c-4bb19acb2bfc - - - - -] Updating volume status
+2015-10-04 15:28:27.225 2747 WARNING cinder.volume.manager [req-87cb8881-6a7c-4ac4-986c-4bb19acb2bfc - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:29:27.222 2747 INFO cinder.volume.manager [req-ad430a3b-ac49-4809-8733-90e27b7c6736 - - - - -] Updating volume status
+2015-10-04 15:29:27.225 2747 WARNING cinder.volume.manager [req-ad430a3b-ac49-4809-8733-90e27b7c6736 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:30:27.221 2747 INFO cinder.volume.manager [req-18327390-9169-4598-abcc-b2cf44309397 - - - - -] Updating volume status
+2015-10-04 15:30:27.227 2747 WARNING cinder.volume.manager [req-18327390-9169-4598-abcc-b2cf44309397 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:31:27.223 2747 INFO cinder.volume.manager [req-7b5ac81d-befa-4aa3-bbe6-34a6162b02a8 - - - - -] Updating volume status
+2015-10-04 15:31:27.225 2747 WARNING cinder.volume.manager [req-7b5ac81d-befa-4aa3-bbe6-34a6162b02a8 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:32:27.222 2747 INFO cinder.volume.manager [req-a1c9a61b-bbb8-4c92-9f6e-572c5d80943e - - - - -] Updating volume status
+2015-10-04 15:32:27.228 2747 WARNING cinder.volume.manager [req-a1c9a61b-bbb8-4c92-9f6e-572c5d80943e - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:33:27.223 2747 INFO cinder.volume.manager [req-a9e543bd-4064-4932-8f73-be16d644da12 - - - - -] Updating volume status
+2015-10-04 15:33:27.225 2747 WARNING cinder.volume.manager [req-a9e543bd-4064-4932-8f73-be16d644da12 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:34:27.225 2747 INFO cinder.volume.manager [req-8c6d9e36-76e6-4c39-8611-b5f3f7db1fb7 - - - - -] Updating volume status
+2015-10-04 15:34:27.230 2747 WARNING cinder.volume.manager [req-8c6d9e36-76e6-4c39-8611-b5f3f7db1fb7 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:35:27.223 2747 INFO cinder.volume.manager [req-d752d367-e766-4f1f-a94f-3c31b3034339 - - - - -] Updating volume status
+2015-10-04 15:35:27.227 2747 WARNING cinder.volume.manager [req-d752d367-e766-4f1f-a94f-3c31b3034339 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:36:27.223 2747 INFO cinder.volume.manager [req-ed3052b3-7798-4a6f-93db-a2222c49325c - - - - -] Updating volume status
+2015-10-04 15:36:27.226 2747 WARNING cinder.volume.manager [req-ed3052b3-7798-4a6f-93db-a2222c49325c - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:37:27.225 2747 INFO cinder.volume.manager [req-7b7c6997-8dcc-4112-b789-11f2b25867c5 - - - - -] Updating volume status
+2015-10-04 15:37:27.230 2747 WARNING cinder.volume.manager [req-7b7c6997-8dcc-4112-b789-11f2b25867c5 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:38:27.224 2747 INFO cinder.volume.manager [req-05aada6c-5cf9-48f9-9369-bf06ae4a1213 - - - - -] Updating volume status
+2015-10-04 15:38:27.227 2747 WARNING cinder.volume.manager [req-05aada6c-5cf9-48f9-9369-bf06ae4a1213 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:39:27.226 2747 INFO cinder.volume.manager [req-c328c871-adfa-4886-9be1-c5a37c123ab4 - - - - -] Updating volume status
+2015-10-04 15:39:27.231 2747 WARNING cinder.volume.manager [req-c328c871-adfa-4886-9be1-c5a37c123ab4 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2015-10-04 15:39:57.596 1024 INFO cinder.openstack.common.service [req-6a4f2541-11b9-4da1-8409-c2ed0e730259 - - - - -] Caught SIGTERM, stopping children
+2015-10-04 15:39:57.602 1024 INFO cinder.openstack.common.service [req-6a4f2541-11b9-4da1-8409-c2ed0e730259 - - - - -] Waiting on 1 children to exit
+2015-10-04 15:39:57.908 1024 INFO cinder.openstack.common.service [req-6a4f2541-11b9-4da1-8409-c2ed0e730259 - - - - -] Child 2747 killed by signal 15
+2015-10-04 15:40:50.906 963 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-04 15:41:00.960 963 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-04 15:41:11.292 963 INFO cinder.volume.manager [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Determined volume DB was empty at startup.
+2015-10-04 15:41:11.328 963 WARNING cinder.volume.targets.lio [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-10-04 15:41:11.653 963 INFO cinder.openstack.common.service [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Starting 1 workers
+2015-10-04 15:41:11.674 963 INFO cinder.openstack.common.service [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Started child 2652
+2015-10-04 15:41:11.696 2652 INFO cinder.service [-] Starting cinder-volume node (version 2015.1.0)
+2015-10-04 15:41:11.710 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.711 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.710 2652 INFO cinder.volume.manager [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Starting volume driver LVMVolumeDriver (3.0.0)
+2015-10-04 15:41:11.713 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.714 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.715 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.717 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.718 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.719 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:11.724 963 WARNING oslo_config.cfg [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-04 15:41:12.841 2652 INFO cinder.volume.manager [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Updating volume status
+2015-10-04 15:41:14.025 2652 WARNING oslo_config.cfg [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:14.028 2652 WARNING oslo_config.cfg [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:14.030 2652 WARNING oslo_config.cfg [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:14.033 2652 WARNING oslo_config.cfg [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:14.035 2652 WARNING oslo_config.cfg [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:14.039 2652 WARNING oslo_config.cfg [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-04 15:41:14.080 2652 INFO oslo_messaging._drivers.impl_rabbit [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-04 15:41:14.104 2652 INFO oslo_messaging._drivers.impl_rabbit [req-bd15dbc4-a712-4c6a-a1e3-ee5716f1682a - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-04 15:41:14.678 2652 INFO oslo_messaging._drivers.impl_rabbit [req-62a542cf-b360-4a8c-85a7-dbf9aef6a43d - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-04 15:41:14.700 2652 INFO oslo_messaging._drivers.impl_rabbit [req-62a542cf-b360-4a8c-85a7-dbf9aef6a43d - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-04 15:41:14.703 2652 WARNING oslo_config.cfg [req-62a542cf-b360-4a8c-85a7-dbf9aef6a43d - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-04 15:42:27.730 2652 INFO cinder.volume.manager [req-df24db91-dd70-4be1-b591-83c5ee971187 - - - - -] Updating volume status
+2015-10-04 15:43:27.731 2652 INFO cinder.volume.manager [req-f33eb6a4-48e0-4872-aa9e-a3f0a8eb4cc3 - - - - -] Updating volume status
+2015-10-04 15:44:27.731 2652 INFO cinder.volume.manager [req-573f40fd-af8a-4bb7-9c55-daeb5a48eb4a - - - - -] Updating volume status
+2015-10-04 15:45:27.731 2652 INFO cinder.volume.manager [req-a4e4b326-1624-4445-83c1-1edf7ab00626 - - - - -] Updating volume status
+2015-10-04 15:46:27.732 2652 INFO cinder.volume.manager [req-9f6932b9-7771-40e8-b9a6-74653133fe7e - - - - -] Updating volume status
+2015-10-04 15:47:27.735 2652 INFO cinder.volume.manager [req-f84b3aac-2241-40ef-b757-ba133da7bc94 - - - - -] Updating volume status
+2015-10-04 15:48:27.734 2652 INFO cinder.volume.manager [req-05548e93-da9c-4d55-b8db-44c799a2f1d7 - - - - -] Updating volume status
+2015-10-04 15:49:27.735 2652 INFO cinder.volume.manager [req-80458bb3-ab24-448c-901c-4c4f5dfd1090 - - - - -] Updating volume status
+2015-10-04 15:50:27.740 2652 INFO cinder.volume.manager [req-31028457-64b4-4e16-be67-b5e6dac172fe - - - - -] Updating volume status
+2015-10-04 15:51:27.737 2652 INFO cinder.volume.manager [req-fc88ab49-0c14-4e43-a9e7-4e7409367634 - - - - -] Updating volume status
+2015-10-04 15:52:27.738 2652 INFO cinder.volume.manager [req-faca3d58-6f21-4737-be83-a42b4c6b9e45 - - - - -] Updating volume status
+2015-10-04 15:53:27.738 2652 INFO cinder.volume.manager [req-d5db5d14-1f20-4275-b44c-61a51ec9d247 - - - - -] Updating volume status
+2015-10-04 15:54:27.736 2652 INFO cinder.volume.manager [req-34e6ff96-bcc2-4996-8e61-798f023fe192 - - - - -] Updating volume status
+2015-10-04 15:55:27.736 2652 INFO cinder.volume.manager [req-00e3078a-f0ea-4d83-97ff-27842521b082 - - - - -] Updating volume status
+2015-10-04 15:56:27.736 2652 INFO cinder.volume.manager [req-e174263b-8cc1-4e10-b4f5-2d423b45e2ef - - - - -] Updating volume status
+2015-10-04 15:57:27.738 2652 INFO cinder.volume.manager [req-7d74f755-531f-44b6-8d37-defc8041bbbb - - - - -] Updating volume status
+2015-10-04 15:58:27.738 2652 INFO cinder.volume.manager [req-3bec3a8e-e9f5-439d-8429-4e8c24ec731b - - - - -] Updating volume status
+2015-10-04 15:59:27.738 2652 INFO cinder.volume.manager [req-db3e097a-a9fa-487e-959e-d3eba065db6b - - - - -] Updating volume status
+2015-10-04 16:00:27.740 2652 INFO cinder.volume.manager [req-4cf54948-2c39-4219-a3b0-e45b87a0c908 - - - - -] Updating volume status
+2015-10-04 16:01:27.738 2652 INFO cinder.volume.manager [req-78305c2a-49fb-49be-843d-235ec762aa25 - - - - -] Updating volume status
+2015-10-04 16:02:27.737 2652 INFO cinder.volume.manager [req-452ea35e-1144-421d-80e7-656382326f32 - - - - -] Updating volume status
+2015-10-04 16:03:27.737 2652 INFO cinder.volume.manager [req-07d8afcf-6eb0-421f-8482-a193e0243852 - - - - -] Updating volume status
+2015-10-04 16:04:27.737 2652 INFO cinder.volume.manager [req-91071b36-0718-426f-9acb-d626f0d482b7 - - - - -] Updating volume status
+2015-10-04 16:05:27.741 2652 INFO cinder.volume.manager [req-d6da9f1a-8522-4241-a848-9068c77fa257 - - - - -] Updating volume status
+2015-10-04 16:06:27.741 2652 INFO cinder.volume.manager [req-e9255559-1643-45f4-9abe-b4295a2a587d - - - - -] Updating volume status
+2015-10-04 16:07:27.744 2652 INFO cinder.volume.manager [req-936c0b37-ecb1-4f00-b87d-5d37127e9f46 - - - - -] Updating volume status
+2015-10-04 16:08:27.742 2652 INFO cinder.volume.manager [req-1efd0395-96b3-4997-a315-f55090bd01db - - - - -] Updating volume status
+2015-10-04 16:09:27.744 2652 INFO cinder.volume.manager [req-2ca3bd21-be0a-4a14-931e-d33b4c4b49c9 - - - - -] Updating volume status
+2015-10-04 16:10:27.747 2652 INFO cinder.volume.manager [req-7a3a5382-9b40-40d2-b666-828d5cdc762b - - - - -] Updating volume status
+2015-10-04 16:11:27.741 2652 INFO cinder.volume.manager [req-8478f230-223b-4fd9-89f5-78db96f36f43 - - - - -] Updating volume status
+2015-10-04 16:12:27.746 2652 INFO cinder.volume.manager [req-2b738a8c-96e3-4554-a620-e29dd8e00174 - - - - -] Updating volume status
+2015-10-04 16:13:27.746 2652 INFO cinder.volume.manager [req-df6af469-2f1f-4fd7-aa15-9ab9553af5cf - - - - -] Updating volume status
+2015-10-04 16:14:27.747 2652 INFO cinder.volume.manager [req-c0e155da-1359-40a2-ad86-a98279b64f7c - - - - -] Updating volume status
+2015-10-04 16:15:27.747 2652 INFO cinder.volume.manager [req-a720703e-3d0f-4cb4-8573-053e22146089 - - - - -] Updating volume status
+2015-10-04 16:16:27.750 2652 INFO cinder.volume.manager [req-ca9b8baa-9c1b-442a-b1f1-3b61aa6cdf73 - - - - -] Updating volume status
+2015-10-04 16:17:27.745 2652 INFO cinder.volume.manager [req-3d11098b-83af-4f94-8016-8391b3182ad6 - - - - -] Updating volume status
+2015-10-04 16:18:27.750 2652 INFO cinder.volume.manager [req-3933aa95-725e-4e1e-a567-5b0152a7a317 - - - - -] Updating volume status
+2015-10-04 16:19:27.747 2652 INFO cinder.volume.manager [req-34de0e1d-226d-439c-9ee3-93a24c93dbf3 - - - - -] Updating volume status
+2015-10-04 16:20:27.739 2652 INFO cinder.volume.manager [req-9408b525-2e2c-432f-9250-1b3c9b9a8569 - - - - -] Updating volume status
+2015-10-04 16:21:27.748 2652 INFO cinder.volume.manager [req-42d44216-07de-4268-8fa2-f13c827aacb5 - - - - -] Updating volume status
+2015-10-04 16:22:27.751 2652 INFO cinder.volume.manager [req-21e23a18-9ae7-456b-bcf8-c8f1754e6056 - - - - -] Updating volume status
+2015-10-04 16:23:27.747 2652 INFO cinder.volume.manager [req-8b4be8c9-cbe9-48b5-9788-119d08bc0021 - - - - -] Updating volume status
+2015-10-04 16:24:27.747 2652 INFO cinder.volume.manager [req-c0be452d-249c-4748-ba90-d803fd9bafdd - - - - -] Updating volume status
+2015-10-04 16:25:27.748 2652 INFO cinder.volume.manager [req-94d3505f-c387-487b-8e45-b619e2850cab - - - - -] Updating volume status
+2015-10-04 16:27:27.746 2652 INFO cinder.volume.manager [req-504925ce-46f7-4288-838b-62895bc823ef - - - - -] Updating volume status
+2015-10-04 16:28:27.763 2652 INFO cinder.volume.manager [req-c655b4cd-f567-494d-993e-346af0ae31df - - - - -] Updating volume status
+2015-10-04 16:30:27.748 2652 INFO cinder.volume.manager [req-48e05f62-1cfc-460b-afd3-681372fb378f - - - - -] Updating volume status
+2015-10-04 16:31:27.751 2652 INFO cinder.volume.manager [req-11a07ad2-4fbd-4af9-9968-5b922038f411 - - - - -] Updating volume status
+2015-10-04 16:32:27.756 2652 INFO cinder.volume.manager [req-66e0f734-0465-46aa-8671-d39e41607e90 - - - - -] Updating volume status
+2015-10-04 16:33:27.756 2652 INFO cinder.volume.manager [req-a3d3c055-8fbb-4b0b-b1ce-d8a2ba8b9b75 - - - - -] Updating volume status
+2015-10-04 16:34:27.756 2652 INFO cinder.volume.manager [req-f7f8fd01-560c-4f8f-9ceb-274bec7ebf07 - - - - -] Updating volume status
+2015-10-04 16:35:27.755 2652 INFO cinder.volume.manager [req-11f8c4a2-e7fb-4f53-b908-693c1cd203ee - - - - -] Updating volume status
+2015-10-04 16:36:27.755 2652 INFO cinder.volume.manager [req-546eeeb1-504f-463e-a49f-5d0b7e2339b4 - - - - -] Updating volume status
+2015-10-04 16:37:27.755 2652 INFO cinder.volume.manager [req-713edf32-5a1b-46a4-9b1e-ae3283c50505 - - - - -] Updating volume status
+2015-10-04 16:38:27.757 2652 INFO cinder.volume.manager [req-2f475756-fbb4-4b56-8980-6849b7996511 - - - - -] Updating volume status
+2015-10-04 16:39:27.759 2652 INFO cinder.volume.manager [req-d0c47a9a-9cc6-4322-b4b6-742ead8f1f62 - - - - -] Updating volume status
+2015-10-04 16:40:27.756 2652 INFO cinder.volume.manager [req-ce9ef237-a9fd-4d17-b17b-fadd97c8d5cf - - - - -] Updating volume status
+2015-10-04 16:41:27.756 2652 INFO cinder.volume.manager [req-cd2576f2-5c69-4c7b-9ef6-bc886bfe2735 - - - - -] Updating volume status
+2015-10-04 16:42:27.756 2652 INFO cinder.volume.manager [req-e51671ca-1ad9-40c6-8017-fdcd14efb420 - - - - -] Updating volume status
+2015-10-04 16:43:27.757 2652 INFO cinder.volume.manager [req-6098493d-7eb0-429e-af17-b31f6f8a5271 - - - - -] Updating volume status
+2015-10-04 16:44:27.758 2652 INFO cinder.volume.manager [req-bc59b6be-252a-44f8-af46-0cd83a2296d2 - - - - -] Updating volume status
+2015-10-04 16:45:27.758 2652 INFO cinder.volume.manager [req-661a7211-1eb4-4b0c-93cc-c62f1d975f9d - - - - -] Updating volume status
+2015-10-04 16:46:27.757 2652 INFO cinder.volume.manager [req-22716a71-b3d8-4bb7-bafb-09cc6a176fe5 - - - - -] Updating volume status
+2015-10-04 16:47:27.758 2652 INFO cinder.volume.manager [req-99fcdc19-76f3-4759-ae1a-a84cbb6f271d - - - - -] Updating volume status
+2015-10-04 16:48:27.759 2652 INFO cinder.volume.manager [req-3191df84-a063-4d89-bc2e-ed931321ce2e - - - - -] Updating volume status
+2015-10-04 16:49:27.758 2652 INFO cinder.volume.manager [req-a192bf51-70bc-49eb-a8c1-9d9d9aca47ea - - - - -] Updating volume status
+2015-10-04 16:50:27.759 2652 INFO cinder.volume.manager [req-1fd0a136-8684-40cf-8a0d-98cca5dd382c - - - - -] Updating volume status
+2015-10-04 16:51:27.758 2652 INFO cinder.volume.manager [req-f7e0f93b-c3bd-4c5f-a1af-15346548c88e - - - - -] Updating volume status
+2015-10-04 16:52:27.758 2652 INFO cinder.volume.manager [req-c7b26929-1ca9-4c83-94c5-f45ca7ad7b4f - - - - -] Updating volume status
+2015-10-04 16:53:27.760 2652 INFO cinder.volume.manager [req-7508e4fa-2b89-4e3c-89f8-bd7305529587 - - - - -] Updating volume status
+2015-10-04 16:54:27.759 2652 INFO cinder.volume.manager [req-8b5cff6f-2462-4cc1-b74c-b51ff09210f1 - - - - -] Updating volume status
+2015-10-04 16:55:27.761 2652 INFO cinder.volume.manager [req-297fafeb-bf99-4425-b2ca-31a97c54d9ef - - - - -] Updating volume status
+2015-10-04 16:56:27.762 2652 INFO cinder.volume.manager [req-5e0554d6-eb17-4a76-99a8-6bfa5e65471f - - - - -] Updating volume status
+2015-10-04 16:57:27.768 2652 INFO cinder.volume.manager [req-d478b0ba-6697-42bc-8aed-abcf7e46b9a4 - - - - -] Updating volume status
+2015-10-04 16:58:27.763 2652 INFO cinder.volume.manager [req-00b8cfb6-7459-4aa6-8eee-d4a9e489bb62 - - - - -] Updating volume status
+2015-10-04 16:59:27.764 2652 INFO cinder.volume.manager [req-d2f31e4a-dad3-4e97-8c5c-16dfb9d28d3a - - - - -] Updating volume status
+2015-10-04 17:00:27.767 2652 INFO cinder.volume.manager [req-f4406db3-6c67-4f51-b680-e1a04721a351 - - - - -] Updating volume status
+2015-10-04 17:01:27.764 2652 INFO cinder.volume.manager [req-92cc3fb6-7871-4957-ab26-da41d6f0191e - - - - -] Updating volume status
+2015-10-04 17:02:27.765 2652 INFO cinder.volume.manager [req-2351121d-d47f-4e5d-b737-78a146e634c9 - - - - -] Updating volume status
+2015-10-04 17:03:27.767 2652 INFO cinder.volume.manager [req-711b0f9f-b347-4e01-aba6-4b4330bd97be - - - - -] Updating volume status
+2015-10-04 17:04:27.764 2652 INFO cinder.volume.manager [req-06212897-4ad3-4836-85da-94bd7bf0c4f8 - - - - -] Updating volume status
+2015-10-04 17:05:27.770 2652 INFO cinder.volume.manager [req-bffeaa70-9cd5-46bc-a349-3429eb267688 - - - - -] Updating volume status
+2015-10-04 17:06:27.766 2652 INFO cinder.volume.manager [req-54e3ff91-b001-43d5-9abc-a2e391e269b8 - - - - -] Updating volume status
+2015-10-04 17:07:27.768 2652 INFO cinder.volume.manager [req-f7bcea93-0ba0-4d5a-9693-1ec17d3be9af - - - - -] Updating volume status
+2015-10-04 17:08:27.769 2652 INFO cinder.volume.manager [req-9932da9a-3623-4f2a-b446-91f723eb23f1 - - - - -] Updating volume status
+2015-10-04 17:09:27.768 2652 INFO cinder.volume.manager [req-bc76f724-38a9-47c9-bc3a-cd59b5248c2d - - - - -] Updating volume status
+2015-10-04 17:10:27.771 2652 INFO cinder.volume.manager [req-8404edbb-a786-471a-83d1-46651bda0ee6 - - - - -] Updating volume status
+2015-10-04 17:11:27.769 2652 INFO cinder.volume.manager [req-63bafda1-3acb-4626-a1d6-5f35c7902b02 - - - - -] Updating volume status
+2015-10-04 17:12:27.768 2652 INFO cinder.volume.manager [req-0b9ef06e-e440-4488-9673-1d9e48ca9305 - - - - -] Updating volume status
+2015-10-04 17:13:27.772 2652 INFO cinder.volume.manager [req-4ebce998-08fa-4814-be21-c3e01d1d4079 - - - - -] Updating volume status
+2015-10-04 17:14:27.768 2652 INFO cinder.volume.manager [req-314d4d67-4224-4f21-932b-a9a35df895f6 - - - - -] Updating volume status
+2015-10-04 17:15:27.769 2652 INFO cinder.volume.manager [req-28e6c579-0660-466b-9c1a-a90fb4edf054 - - - - -] Updating volume status
+2015-10-04 17:16:27.769 2652 INFO cinder.volume.manager [req-adddd852-f7e3-430a-b04c-e94a2bb51f4b - - - - -] Updating volume status
+2015-10-04 17:17:27.771 2652 INFO cinder.volume.manager [req-73e1a7c0-132d-433f-b13b-a310dc65c8f9 - - - - -] Updating volume status
+2015-10-04 17:18:27.771 2652 INFO cinder.volume.manager [req-aeb333c7-56c1-4105-89e7-bfba06471a4c - - - - -] Updating volume status
+2015-10-04 17:19:27.773 2652 INFO cinder.volume.manager [req-02c5bde8-ee60-4798-aae5-64cf9b3d7947 - - - - -] Updating volume status
+2015-10-04 17:20:27.772 2652 INFO cinder.volume.manager [req-d2730115-648a-459c-9e15-60db15ff41fd - - - - -] Updating volume status
+2015-10-04 17:21:27.772 2652 INFO cinder.volume.manager [req-18ff335a-bcd3-4037-b9fd-209063a1b055 - - - - -] Updating volume status
+2015-10-04 17:22:27.772 2652 INFO cinder.volume.manager [req-12decc1c-18a8-4195-a7ce-092d2e3119ec - - - - -] Updating volume status
+2015-10-04 17:23:27.774 2652 INFO cinder.volume.manager [req-543dc1ca-a6e8-4c10-b7a2-415407d53f8c - - - - -] Updating volume status
+2015-10-04 17:24:27.764 2652 INFO cinder.volume.manager [req-d7f17830-7d40-43ce-8e84-fafe063b3169 - - - - -] Updating volume status
+2015-10-04 17:26:27.771 2652 INFO cinder.volume.manager [req-bc6ce6cf-6b7b-482d-92f9-bfd202e6d9bb - - - - -] Updating volume status
+2015-10-04 17:27:27.774 2652 INFO cinder.volume.manager [req-4d6e3c59-dcab-4509-8217-c5e53bb4ca31 - - - - -] Updating volume status
+2015-10-04 17:28:27.775 2652 INFO cinder.volume.manager [req-0e52c4be-17e2-46cd-bc62-c795973da9bc - - - - -] Updating volume status
+2015-10-04 17:29:27.774 2652 INFO cinder.volume.manager [req-4b24331a-5fd8-4b6c-a855-1b266d5bafd2 - - - - -] Updating volume status
+2015-10-04 17:30:27.774 2652 INFO cinder.volume.manager [req-39761a36-38cc-4511-9527-def35173866e - - - - -] Updating volume status
+2015-10-04 17:31:27.774 2652 INFO cinder.volume.manager [req-535964af-23b6-42e9-a3cf-cd0a7921ac3e - - - - -] Updating volume status
+2015-10-04 17:32:27.774 2652 INFO cinder.volume.manager [req-71d048a5-b46d-4467-87ac-4536c59d46ba - - - - -] Updating volume status
+2015-10-04 17:33:27.776 2652 INFO cinder.volume.manager [req-57733364-f4d2-4e4f-b9c9-a4c52906ecbf - - - - -] Updating volume status
+2015-10-04 17:34:27.785 2652 INFO cinder.volume.manager [req-dff6dffc-0dd3-44b7-960b-301ed99e53e6 - - - - -] Updating volume status
+2015-10-04 17:35:27.777 2652 INFO cinder.volume.manager [req-a9aa75b2-fcf3-495e-8bb8-c9b0de70f13c - - - - -] Updating volume status
+2015-10-04 17:36:27.778 2652 INFO cinder.volume.manager [req-495d5716-9716-4401-b175-e9ccd3cb567a - - - - -] Updating volume status
+2015-10-04 17:37:27.776 2652 INFO cinder.volume.manager [req-cfef65a8-b368-4ad4-b184-a37e6d5c62dd - - - - -] Updating volume status
+2015-10-04 17:38:27.776 2652 INFO cinder.volume.manager [req-b9d311df-f331-45ab-b8f7-77db7f4a711c - - - - -] Updating volume status
+2015-10-04 17:39:27.777 2652 INFO cinder.volume.manager [req-e17ccff0-322b-48b8-88be-e87544af2e3f - - - - -] Updating volume status
+2015-10-04 17:40:27.777 2652 INFO cinder.volume.manager [req-9c6f2036-0ad8-427e-91b5-b8875f52b9ff - - - - -] Updating volume status
+2015-10-04 17:41:27.778 2652 INFO cinder.volume.manager [req-2a8bec4e-4d2d-4cbf-bf00-f100a6b44abe - - - - -] Updating volume status
+2015-10-04 17:42:27.779 2652 INFO cinder.volume.manager [req-edd83bf5-9db6-49d1-a417-f0c13bf55765 - - - - -] Updating volume status
+2015-10-04 17:43:27.778 2652 INFO cinder.volume.manager [req-6d3154b9-4cfe-41d9-a0b7-29a43b7d7e52 - - - - -] Updating volume status
+2015-10-04 17:44:27.779 2652 INFO cinder.volume.manager [req-be360740-52f2-4376-9786-b15aa4a86faa - - - - -] Updating volume status
+2015-10-04 17:45:27.782 2652 INFO cinder.volume.manager [req-5d2fe810-caa8-4fc4-b545-d8d6797231c3 - - - - -] Updating volume status
+2015-10-04 17:46:27.779 2652 INFO cinder.volume.manager [req-bd9e109a-1bfc-49ec-be1f-579f2685cf5b - - - - -] Updating volume status
+2015-10-04 17:47:27.780 2652 INFO cinder.volume.manager [req-cd909984-5d40-4873-ab21-b4b5f94d2336 - - - - -] Updating volume status
+2015-10-04 17:48:27.780 2652 INFO cinder.volume.manager [req-2c699eec-74ed-448d-8caf-90300e145832 - - - - -] Updating volume status
+2015-10-04 17:49:27.781 2652 INFO cinder.volume.manager [req-3aa76c4d-3cf9-419b-b824-508749f39182 - - - - -] Updating volume status
+2015-10-04 17:50:27.784 2652 INFO cinder.volume.manager [req-94c5984f-1fd8-4ad0-88a4-21291805bf54 - - - - -] Updating volume status
+2015-10-04 17:51:27.781 2652 INFO cinder.volume.manager [req-69916d20-f94e-45d3-9329-dc2dfcb000d1 - - - - -] Updating volume status
+2015-10-04 17:52:27.782 2652 INFO cinder.volume.manager [req-32ce8a80-1a1c-437a-818a-90efffb5ec4d - - - - -] Updating volume status
+2015-10-04 17:53:27.783 2652 INFO cinder.volume.manager [req-0aa974ed-086b-406a-b499-449782cc5a5c - - - - -] Updating volume status
+2015-10-04 17:54:27.782 2652 INFO cinder.volume.manager [req-bcea976f-2b0d-4861-908e-1221739fcc52 - - - - -] Updating volume status
+2015-10-04 17:55:27.783 2652 INFO cinder.volume.manager [req-4c0f920d-251f-4e8e-867a-0160c0d63dee - - - - -] Updating volume status
+2015-10-04 17:56:27.783 2652 INFO cinder.volume.manager [req-438c5ca2-ef1d-4525-ac13-05f41fe91bda - - - - -] Updating volume status
+2015-10-04 17:57:27.786 2652 INFO cinder.volume.manager [req-77dc53d4-750d-4bdd-89f4-597774894609 - - - - -] Updating volume status
+2015-10-04 17:58:27.782 2652 INFO cinder.volume.manager [req-9c2aefbc-5540-4364-afc4-e1a9d9bb6eb9 - - - - -] Updating volume status
+2015-10-04 17:59:27.783 2652 INFO cinder.volume.manager [req-5c532656-cc68-4f8a-973d-79039ca35494 - - - - -] Updating volume status
+2015-10-04 18:00:27.784 2652 INFO cinder.volume.manager [req-a8647367-f62b-4b04-8073-1881f6a34a54 - - - - -] Updating volume status
+2015-10-04 18:01:27.784 2652 INFO cinder.volume.manager [req-65e2b9a2-c5eb-4909-82cb-5016756c5004 - - - - -] Updating volume status
+2015-10-04 18:02:27.784 2652 INFO cinder.volume.manager [req-d0cd4db8-3672-4ac3-aa65-eff9c5643a68 - - - - -] Updating volume status
+2015-10-04 18:03:27.786 2652 INFO cinder.volume.manager [req-32527bf1-a3c3-47bf-ada3-b27f030f4716 - - - - -] Updating volume status
+2015-10-04 18:04:27.789 2652 INFO cinder.volume.manager [req-f00390d3-46b6-4ad0-8e20-e4b7713051d7 - - - - -] Updating volume status
+2015-10-04 18:05:27.786 2652 INFO cinder.volume.manager [req-bbb1ee59-59e8-4c79-b452-d01935288ed9 - - - - -] Updating volume status
+2015-10-04 18:06:27.789 2652 INFO cinder.volume.manager [req-877f0bd0-52ae-4479-b485-c74a4dc948e6 - - - - -] Updating volume status
+2015-10-04 18:07:27.788 2652 INFO cinder.volume.manager [req-f16edb36-7d12-4246-be6c-b315921135c3 - - - - -] Updating volume status
+2015-10-04 18:08:27.789 2652 INFO cinder.volume.manager [req-c7fb13a4-62c5-4cca-bf6f-f696b53d4563 - - - - -] Updating volume status
+2015-10-04 18:09:27.789 2652 INFO cinder.volume.manager [req-06f97e9c-ca96-48a6-ba7f-2e2cf72ba3e3 - - - - -] Updating volume status
+2015-10-04 18:10:27.789 2652 INFO cinder.volume.manager [req-415cffa9-108a-4d3e-ab32-dec02b71c4f7 - - - - -] Updating volume status
+2015-10-04 18:11:27.788 2652 INFO cinder.volume.manager [req-cbe20db8-d1c1-473a-9ed1-b5003b715aab - - - - -] Updating volume status
+2015-10-04 18:12:27.788 2652 INFO cinder.volume.manager [req-967a58e8-aab5-4638-a998-d8ca4de6ccce - - - - -] Updating volume status
+2015-10-04 18:13:27.789 2652 INFO cinder.volume.manager [req-8165d486-a02f-42df-9766-6d1501abbe2e - - - - -] Updating volume status
+2015-10-04 18:14:27.791 2652 INFO cinder.volume.manager [req-7d3e9369-87a8-4606-bec9-89bef8a676a7 - - - - -] Updating volume status
+2015-10-04 18:15:27.791 2652 INFO cinder.volume.manager [req-f98e5d8b-040a-43bb-b245-150940e841fe - - - - -] Updating volume status
+2015-10-04 18:16:27.790 2652 INFO cinder.volume.manager [req-be294904-3cf7-4b7d-a02f-5faaf43171be - - - - -] Updating volume status
+2015-10-04 18:17:27.791 2652 INFO cinder.volume.manager [req-cf800f2b-450e-4c39-9208-2929ae7e148f - - - - -] Updating volume status
+2015-10-04 18:18:27.793 2652 INFO cinder.volume.manager [req-879765a9-9d3a-4068-a11c-7d8261b6698b - - - - -] Updating volume status
+2015-10-04 18:19:27.792 2652 INFO cinder.volume.manager [req-fd6a767c-84e4-4cbc-b5de-b00729ff8ab6 - - - - -] Updating volume status
+2015-10-04 18:20:27.791 2652 INFO cinder.volume.manager [req-ac7106a7-242f-4235-a3ce-87d124f9729e - - - - -] Updating volume status
+2015-10-04 18:21:27.791 2652 INFO cinder.volume.manager [req-31658afc-91d7-494b-aa73-3a80f614b190 - - - - -] Updating volume status
+2015-10-04 18:22:27.793 2652 INFO cinder.volume.manager [req-29f20eea-3f04-4aa0-8043-fe8ba4ccacdc - - - - -] Updating volume status
+2015-10-04 18:23:27.792 2652 INFO cinder.volume.manager [req-fb5e0b24-b7d3-4149-8cb5-4a64a15ae51f - - - - -] Updating volume status
+2015-10-04 18:24:27.786 2652 INFO cinder.volume.manager [req-685af0ca-2877-4bf9-b31f-c6b530a18a4f - - - - -] Updating volume status
+2015-10-04 18:25:27.793 2652 INFO cinder.volume.manager [req-69d1784b-3753-4a47-b27e-938dcfcf865e - - - - -] Updating volume status
+2015-10-04 18:26:27.793 2652 INFO cinder.volume.manager [req-8e77d45f-9b20-4305-b5bc-fe62f99a0bf1 - - - - -] Updating volume status
+2015-10-04 18:27:27.794 2652 INFO cinder.volume.manager [req-9c5b78e3-c77c-49b8-b1ea-ac904703d724 - - - - -] Updating volume status
+2015-10-04 18:28:27.794 2652 INFO cinder.volume.manager [req-788dc8ba-634a-4924-be51-2d2a927a4df9 - - - - -] Updating volume status
+2015-10-04 18:29:27.798 2652 INFO cinder.volume.manager [req-b2d4c45e-d85a-407a-896d-304220ced881 - - - - -] Updating volume status
+2015-10-04 18:31:27.794 2652 INFO cinder.volume.manager [req-a30fbd2a-ad56-4d25-997d-a59dc2887063 - - - - -] Updating volume status
+2015-10-04 18:32:27.796 2652 INFO cinder.volume.manager [req-b249c05f-42d8-4a83-a974-81d81ac25cc2 - - - - -] Updating volume status
+2015-10-04 18:33:27.797 2652 INFO cinder.volume.manager [req-6c797fd9-7a1f-4928-a186-107e0feb632d - - - - -] Updating volume status
+2015-10-04 18:34:27.798 2652 INFO cinder.volume.manager [req-c4d6baf3-5589-4e97-bab0-baab6934759d - - - - -] Updating volume status
+2015-10-04 18:35:27.799 2652 INFO cinder.volume.manager [req-2d648796-3175-4af5-94a6-fd264a1eb10a - - - - -] Updating volume status
+2015-10-04 18:36:27.799 2652 INFO cinder.volume.manager [req-39b0caf4-ff9c-4c3e-adf1-37673201facb - - - - -] Updating volume status
+2015-10-04 18:37:27.798 2652 INFO cinder.volume.manager [req-53d8d8c8-40fb-4a5f-b62f-f005c2d658c6 - - - - -] Updating volume status
+2015-10-04 18:38:27.801 2652 INFO cinder.volume.manager [req-8ca7608b-6d84-462f-af58-6ec5d4f9d49e - - - - -] Updating volume status
+2015-10-04 18:39:27.799 2652 INFO cinder.volume.manager [req-0398e145-0ed4-493d-a392-7cc9885d8616 - - - - -] Updating volume status
+2015-10-04 18:40:27.801 2652 INFO cinder.volume.manager [req-9d941c9e-ab5b-4bc6-8daa-a20545d5be6c - - - - -] Updating volume status
+2015-10-04 18:41:27.800 2652 INFO cinder.volume.manager [req-e7d3eaab-6b93-4495-9007-4baebd12563e - - - - -] Updating volume status
+2015-10-04 18:42:27.801 2652 INFO cinder.volume.manager [req-6431af5e-7b97-4e35-aa34-25395d7b32ba - - - - -] Updating volume status
+2015-10-04 18:43:27.808 2652 INFO cinder.volume.manager [req-02898f3b-36cd-4ec4-bc7d-3dfe31d94f22 - - - - -] Updating volume status
+2015-10-04 18:44:27.802 2652 INFO cinder.volume.manager [req-e83989a5-74df-46d0-92a3-fae2cec6bbae - - - - -] Updating volume status
+2015-10-04 18:45:27.801 2652 INFO cinder.volume.manager [req-6ef1cd88-039b-4d27-99e6-a7aada1ea9ef - - - - -] Updating volume status
+2015-10-04 18:46:27.801 2652 INFO cinder.volume.manager [req-617320bf-0a69-4945-acf9-d986fab62ac6 - - - - -] Updating volume status
+2015-10-04 18:47:27.803 2652 INFO cinder.volume.manager [req-84ba6c98-4c50-4d0a-acb8-2bae72636505 - - - - -] Updating volume status
+2015-10-04 18:48:27.813 2652 INFO cinder.volume.manager [req-d32cf5c6-60df-4faa-af3e-522e3a884a85 - - - - -] Updating volume status
+2015-10-04 18:49:27.807 2652 INFO cinder.volume.manager [req-fa47ce9c-fad2-4d72-9382-38aa85b1a79d - - - - -] Updating volume status
+2015-10-04 18:50:27.803 2652 INFO cinder.volume.manager [req-2253fa71-4991-4226-a36c-e34d561f96d4 - - - - -] Updating volume status
+2015-10-04 18:51:27.805 2652 INFO cinder.volume.manager [req-3dadd799-728a-4f7f-8ed6-8ab14233b454 - - - - -] Updating volume status
+2015-10-04 18:52:27.804 2652 INFO cinder.volume.manager [req-0496f640-8b46-4df2-ab4b-63670a0ff7ba - - - - -] Updating volume status
+2015-10-04 18:53:27.804 2652 INFO cinder.volume.manager [req-a9f9609c-ee61-4add-aa7a-6444764ec63b - - - - -] Updating volume status
+2015-10-04 18:54:27.804 2652 INFO cinder.volume.manager [req-0641b42c-5fad-417f-a8e7-a90b050e242e - - - - -] Updating volume status
+2015-10-04 18:55:27.805 2652 INFO cinder.volume.manager [req-e77bc834-2690-4531-8aef-8431c13039d9 - - - - -] Updating volume status
+2015-10-04 18:56:27.805 2652 INFO cinder.volume.manager [req-0b479097-2cb4-4ce1-aca1-250b140865bf - - - - -] Updating volume status
+2015-10-04 18:57:27.806 2652 INFO cinder.volume.manager [req-edd9d983-97f7-4dd4-ad69-efe3aebe09de - - - - -] Updating volume status
+2015-10-04 18:58:27.806 2652 INFO cinder.volume.manager [req-2217e442-d2a4-4603-99bd-d5ec0ffe52ef - - - - -] Updating volume status
+2015-10-04 18:59:27.809 2652 INFO cinder.volume.manager [req-a7f8bfd3-0430-4a81-b2c2-5a720211e1fe - - - - -] Updating volume status
+2015-10-04 19:00:27.811 2652 INFO cinder.volume.manager [req-269f4b75-af79-442c-ab07-63e6bf03130e - - - - -] Updating volume status
+2015-10-04 19:01:27.810 2652 INFO cinder.volume.manager [req-e19e0a55-247e-4731-a829-ee95a4bbc3ee - - - - -] Updating volume status
+2015-10-04 19:02:27.809 2652 INFO cinder.volume.manager [req-acfd874e-d34d-4129-8a2f-b071ea5bf432 - - - - -] Updating volume status
+2015-10-04 19:03:27.809 2652 INFO cinder.volume.manager [req-d0974ce9-a6c6-451e-af76-7ffa47850bcb - - - - -] Updating volume status
+2015-10-04 19:04:27.810 2652 INFO cinder.volume.manager [req-e4fdee08-7a2b-4d40-a85a-29c213d18e10 - - - - -] Updating volume status
+2015-10-04 19:05:27.809 2652 INFO cinder.volume.manager [req-4af22e05-6a7d-4259-8be1-6b96dffd30a1 - - - - -] Updating volume status
+2015-10-04 19:06:27.812 2652 INFO cinder.volume.manager [req-da91e968-e1e6-4f91-847e-ce762120ebbd - - - - -] Updating volume status
+2015-10-04 19:07:27.810 2652 INFO cinder.volume.manager [req-796b9433-5525-4e7f-ab94-640e614492be - - - - -] Updating volume status
+2015-10-04 19:08:27.810 2652 INFO cinder.volume.manager [req-e464ffbc-8a06-46fc-b329-7a761bcd3fcb - - - - -] Updating volume status
+2015-10-04 19:09:27.809 2652 INFO cinder.volume.manager [req-5f659b05-3706-4612-a01b-f8702827207c - - - - -] Updating volume status
+2015-10-04 19:10:27.809 2652 INFO cinder.volume.manager [req-b73cb5a5-27bb-487e-82d8-e24ddc9b938e - - - - -] Updating volume status
+2015-10-04 19:11:27.811 2652 INFO cinder.volume.manager [req-e5197820-a7e2-446f-80f2-7f8a448699f5 - - - - -] Updating volume status
+2015-10-04 19:12:27.813 2652 INFO cinder.volume.manager [req-5e8a48a2-d896-4313-8541-71a8571476b4 - - - - -] Updating volume status
+2015-10-04 19:13:27.812 2652 INFO cinder.volume.manager [req-3be4d03c-e1cd-46cc-b118-94fdd8541ed4 - - - - -] Updating volume status
+2015-10-04 19:14:27.813 2652 INFO cinder.volume.manager [req-b40a732c-cbdb-42e4-a221-c293fc3daf17 - - - - -] Updating volume status
+2015-10-04 19:15:27.815 2652 INFO cinder.volume.manager [req-77489851-4a2b-4c94-8152-085c45e67b7b - - - - -] Updating volume status
+2015-10-04 19:16:27.805 2652 INFO cinder.volume.manager [req-f21d40c6-5adc-4de2-b56a-727e8072e9e5 - - - - -] Updating volume status
+2015-10-04 19:17:27.817 2652 INFO cinder.volume.manager [req-3c96d2f8-d32b-49fd-9d4f-a50e8eed8a95 - - - - -] Updating volume status
+2015-10-04 19:18:27.817 2652 INFO cinder.volume.manager [req-240df3f5-3753-4e8c-b561-90783572e034 - - - - -] Updating volume status
+2015-10-04 19:19:27.819 2652 INFO cinder.volume.manager [req-2ce2a15a-d890-4852-b60c-5df39dd3576a - - - - -] Updating volume status
+2015-10-04 19:20:27.818 2652 INFO cinder.volume.manager [req-5c754d24-015f-4481-8d17-391f2abc7c50 - - - - -] Updating volume status
+2015-10-04 19:21:27.819 2652 INFO cinder.volume.manager [req-2d96a656-d470-459b-b380-374b7399144f - - - - -] Updating volume status
+2015-10-04 19:22:27.817 2652 INFO cinder.volume.manager [req-953581af-9efa-4152-a0c9-8e144407d75a - - - - -] Updating volume status
+2015-10-04 19:23:27.819 2652 INFO cinder.volume.manager [req-cc7dfc12-b0f8-4a10-ad36-ef3798e7b609 - - - - -] Updating volume status
+2015-10-04 19:24:27.819 2652 INFO cinder.volume.manager [req-5b087c05-9af5-45b8-a02d-390728635e21 - - - - -] Updating volume status
+2015-10-04 19:25:27.819 2652 INFO cinder.volume.manager [req-59be0864-841e-4c30-b50c-156526a1af3a - - - - -] Updating volume status
+2015-10-04 19:26:27.818 2652 INFO cinder.volume.manager [req-af3e48da-7fa4-4cf5-8e80-9e382e09b6d8 - - - - -] Updating volume status
+2015-10-04 19:27:27.821 2652 INFO cinder.volume.manager [req-6a482188-8a5e-4744-ba63-21efe5b5f05e - - - - -] Updating volume status
+2015-10-04 19:28:27.819 2652 INFO cinder.volume.manager [req-ebcf0513-80eb-4d2d-8b01-78ec750470d2 - - - - -] Updating volume status
+2015-10-04 19:29:27.825 2652 INFO cinder.volume.manager [req-447ff680-27e4-4190-a142-655834f8bc88 - - - - -] Updating volume status
+2015-10-04 19:30:27.821 2652 INFO cinder.volume.manager [req-8306cc45-176a-4e89-99c8-47a03639388f - - - - -] Updating volume status
+2015-10-04 19:31:27.823 2652 INFO cinder.volume.manager [req-d23d9bf5-8870-4c39-b104-967256b9c0ab - - - - -] Updating volume status
+2015-10-04 19:32:27.826 2652 INFO cinder.volume.manager [req-eaa6da56-798e-4dbf-8f80-ed7ace52d218 - - - - -] Updating volume status
+2015-10-04 19:34:27.820 2652 INFO cinder.volume.manager [req-8967f997-7de6-4b59-b0c3-ff4d328de7ff - - - - -] Updating volume status
+2015-10-04 19:35:27.821 2652 INFO cinder.volume.manager [req-7d8c739a-f128-4558-86e2-0bfbfb70885f - - - - -] Updating volume status
+2015-10-04 19:36:27.822 2652 INFO cinder.volume.manager [req-a25ecf17-283d-46f9-847e-76929b8369d4 - - - - -] Updating volume status
+2015-10-04 19:37:27.823 2652 INFO cinder.volume.manager [req-2a7a5937-4177-4916-a3aa-0d11c2dd00ae - - - - -] Updating volume status
+2015-10-04 19:38:27.824 2652 INFO cinder.volume.manager [req-0c4ab505-b049-4ce7-a560-ce41809741c3 - - - - -] Updating volume status
+2015-10-04 19:39:27.824 2652 INFO cinder.volume.manager [req-df483986-f705-46ce-a450-4a0fc1d429a2 - - - - -] Updating volume status
+2015-10-04 19:40:27.823 2652 INFO cinder.volume.manager [req-180c3c4b-4e64-406d-bc75-365fcd40d555 - - - - -] Updating volume status
+2015-10-04 19:41:27.827 2652 INFO cinder.volume.manager [req-e70dcb93-ccf1-47c0-a1df-ef1f5c85c36d - - - - -] Updating volume status
+2015-10-04 19:42:27.833 2652 INFO cinder.volume.manager [req-8daab947-7519-4d23-9afa-640287e56e38 - - - - -] Updating volume status
+2015-10-04 19:43:27.828 2652 INFO cinder.volume.manager [req-7de8dd56-c0a4-4d91-a45a-7870831311ff - - - - -] Updating volume status
+2015-10-04 19:44:27.828 2652 INFO cinder.volume.manager [req-bfbd9b37-8fd3-421c-a0ef-979d6cda0f48 - - - - -] Updating volume status
+2015-10-04 19:45:27.830 2652 INFO cinder.volume.manager [req-040948d3-3c97-4039-813b-9041aba4af5b - - - - -] Updating volume status
+2015-10-04 19:46:27.829 2652 INFO cinder.volume.manager [req-61c949e7-c9b9-45b5-8dc6-33e8680e49b6 - - - - -] Updating volume status
+2015-10-04 19:47:27.830 2652 INFO cinder.volume.manager [req-deac10d7-e963-4a40-867e-78a335a0dd10 - - - - -] Updating volume status
+2015-10-04 19:48:27.826 2652 INFO cinder.volume.manager [req-741bea9e-4cd6-47b9-91a2-4b7e9a7a6e52 - - - - -] Updating volume status
+2015-10-04 19:49:27.827 2652 INFO cinder.volume.manager [req-c1270ffe-bc0a-49af-bdd5-a23d7741b585 - - - - -] Updating volume status
+2015-10-04 19:50:27.830 2652 INFO cinder.volume.manager [req-3bb45955-441c-4e2a-afc3-b0102b333d4a - - - - -] Updating volume status
+2015-10-04 19:51:27.827 2652 INFO cinder.volume.manager [req-ddde79bb-8687-4b72-b2c6-fe995effbc45 - - - - -] Updating volume status
+2015-10-04 19:52:27.827 2652 INFO cinder.volume.manager [req-ece015f9-180b-4d66-9b67-0f6f3134dca6 - - - - -] Updating volume status
+2015-10-04 19:53:27.831 2652 INFO cinder.volume.manager [req-32bbf736-4339-4027-b605-52ad7b0e0d44 - - - - -] Updating volume status
+2015-10-04 19:54:27.832 2652 INFO cinder.volume.manager [req-213dcbe0-e0e2-406c-9e7c-a1dbb1a0535e - - - - -] Updating volume status
+2015-10-04 19:55:27.828 2652 INFO cinder.volume.manager [req-300a6a80-9a96-4f0d-b2ca-f2514f227c24 - - - - -] Updating volume status
+2015-10-04 19:56:27.834 2652 INFO cinder.volume.manager [req-5e2c4efd-2a78-4230-9b69-2624ced0a528 - - - - -] Updating volume status
+2015-10-04 19:57:27.829 2652 INFO cinder.volume.manager [req-af657638-00c8-432f-8e88-4a946fbc6e9a - - - - -] Updating volume status
+2015-10-04 19:58:27.828 2652 INFO cinder.volume.manager [req-8f8c3223-2aa5-403c-90da-fad7af7a1b51 - - - - -] Updating volume status
+2015-10-04 19:59:27.830 2652 INFO cinder.volume.manager [req-094b8e46-335c-4a73-ad71-acefef022285 - - - - -] Updating volume status
+2015-10-04 20:00:27.830 2652 INFO cinder.volume.manager [req-d0520375-7c03-41ae-904c-e835c14c2fcf - - - - -] Updating volume status
+2015-10-04 20:01:27.832 2652 INFO cinder.volume.manager [req-ccf44a2d-c5b7-4e66-9145-4f23d940bdfd - - - - -] Updating volume status
+2015-10-04 20:02:27.831 2652 INFO cinder.volume.manager [req-e29a2507-b45b-4683-9f30-5776ff90d8f9 - - - - -] Updating volume status
+2015-10-04 20:03:27.836 2652 INFO cinder.volume.manager [req-efc1e45b-6d7c-42dc-b9f5-ca9e8f8e7a08 - - - - -] Updating volume status
+2015-10-04 20:04:27.833 2652 INFO cinder.volume.manager [req-5cf6ebc3-f593-46f3-aea5-a7878666db5c - - - - -] Updating volume status
+2015-10-04 20:05:27.832 2652 INFO cinder.volume.manager [req-0222a32d-8500-45ad-a2fb-c4b4fadcf48a - - - - -] Updating volume status
+2015-10-04 20:06:27.836 2652 INFO cinder.volume.manager [req-81927c10-dbaf-4137-abed-6d2ae2f4b277 - - - - -] Updating volume status
+2015-10-04 20:07:27.833 2652 INFO cinder.volume.manager [req-09fde1ce-8a2f-4b64-84b6-6c1089760d10 - - - - -] Updating volume status
+2015-10-04 20:08:27.834 2652 INFO cinder.volume.manager [req-32efb9c0-5bf6-417b-a208-457d9e11d8d3 - - - - -] Updating volume status
+2015-10-04 20:09:27.835 2652 INFO cinder.volume.manager [req-25eaa5ac-2c5e-484a-a146-3e2ee798b0b9 - - - - -] Updating volume status
+2015-10-04 20:10:27.837 2652 INFO cinder.volume.manager [req-626599b6-86ac-4e32-bf13-3f682b84d240 - - - - -] Updating volume status
+2015-10-04 20:11:27.840 2652 INFO cinder.volume.manager [req-d5d12eff-29f9-4e2c-a888-1a016ad4af8e - - - - -] Updating volume status
+2015-10-04 20:12:27.836 2652 INFO cinder.volume.manager [req-23f8c416-37df-47cb-a555-978bbc85acd2 - - - - -] Updating volume status
+2015-10-04 20:13:27.836 2652 INFO cinder.volume.manager [req-da75990a-25e9-4dd4-be0f-0d1cc4b1be05 - - - - -] Updating volume status
+2015-10-04 20:14:27.827 2652 INFO cinder.volume.manager [req-d845708d-2d07-4128-846a-20beea8ce7b8 - - - - -] Updating volume status
+2015-10-04 20:15:27.840 2652 INFO cinder.volume.manager [req-66858b18-b485-4ddb-a958-68a6047c742e - - - - -] Updating volume status
+2015-10-04 20:16:27.836 2652 INFO cinder.volume.manager [req-87b04a58-dcdc-4616-adaa-91d597454b21 - - - - -] Updating volume status
+2015-10-04 20:17:27.838 2652 INFO cinder.volume.manager [req-d03b54bc-9b4b-4d6d-914f-939b840d9cb1 - - - - -] Updating volume status
+2015-10-04 20:18:27.839 2652 INFO cinder.volume.manager [req-b930cbf1-8c19-4b3b-ab07-16735c0a597f - - - - -] Updating volume status
+2015-10-04 20:19:27.838 2652 INFO cinder.volume.manager [req-5aaa9a2f-46ce-4899-865e-a82b835dafbc - - - - -] Updating volume status
+2015-10-04 20:20:27.836 2652 INFO cinder.volume.manager [req-48d30086-789a-4523-997a-dd9a600dc740 - - - - -] Updating volume status
+2015-10-04 20:21:27.840 2652 INFO cinder.volume.manager [req-296f9e54-a95e-46a7-ae11-45c8773b1c66 - - - - -] Updating volume status
+2015-10-04 20:22:27.845 2652 INFO cinder.volume.manager [req-f7e5e5ed-97f6-4e84-9c36-34f2fbc930b7 - - - - -] Updating volume status
+2015-10-04 20:23:27.839 2652 INFO cinder.volume.manager [req-0ef6b99f-2230-4126-9235-280d28e65236 - - - - -] Updating volume status
+2015-10-04 20:24:27.840 2652 INFO cinder.volume.manager [req-8306d8df-f0a3-4062-a052-3d9c3c5eb85a - - - - -] Updating volume status
+2015-10-04 20:25:27.841 2652 INFO cinder.volume.manager [req-d2ae1f3c-cbdc-4fa2-ac66-25b14a537640 - - - - -] Updating volume status
+2015-10-04 20:26:27.844 2652 INFO cinder.volume.manager [req-387d2444-34c8-4f44-985a-681988101119 - - - - -] Updating volume status
+2015-10-04 20:27:27.842 2652 INFO cinder.volume.manager [req-7d26b5f7-fbfc-4735-8c9a-d883456b31ef - - - - -] Updating volume status
+2015-10-04 20:28:27.847 2652 INFO cinder.volume.manager [req-f833c0cc-cd68-4b03-8858-dfa8c8a45ee0 - - - - -] Updating volume status
+2015-10-04 20:29:27.843 2652 INFO cinder.volume.manager [req-88d1afbf-3e67-4f86-8067-3548b86b1886 - - - - -] Updating volume status
+2015-10-04 20:30:27.850 2652 INFO cinder.volume.manager [req-d8880e9d-5eb3-4bb8-be08-00bb767b95bb - - - - -] Updating volume status
+2015-10-04 20:31:27.844 2652 INFO cinder.volume.manager [req-a455ba38-07ed-4596-9ccf-bc8822133378 - - - - -] Updating volume status
+2015-10-04 20:32:27.844 2652 INFO cinder.volume.manager [req-cb2c679a-bc66-4128-ae85-e80cdf51170b - - - - -] Updating volume status
+2015-10-04 20:33:27.845 2652 INFO cinder.volume.manager [req-df9762b9-5b44-4a46-bd53-7df91daf3225 - - - - -] Updating volume status
+2015-10-04 20:35:27.844 2652 INFO cinder.volume.manager [req-1a5d0956-e899-4cca-87a8-44b6ec1a0bba - - - - -] Updating volume status
+2015-10-04 20:36:27.844 2652 INFO cinder.volume.manager [req-5d88efa6-ea5c-48df-a8e2-9a08a335b4f2 - - - - -] Updating volume status
+2015-10-04 20:37:27.851 2652 INFO cinder.volume.manager [req-80e2d8fa-49f0-4ebd-b175-a47db4da7026 - - - - -] Updating volume status
+2015-10-04 20:38:27.847 2652 INFO cinder.volume.manager [req-6f30c2f5-5002-412f-9b51-be0ba0fd9b8e - - - - -] Updating volume status
+2015-10-04 20:39:27.848 2652 INFO cinder.volume.manager [req-e55ab119-98b9-4d82-9045-764defdfb331 - - - - -] Updating volume status
+2015-10-04 20:40:27.846 2652 INFO cinder.volume.manager [req-5aa443f5-41b3-4ee7-bd6f-66fb23feab4b - - - - -] Updating volume status
+2015-10-04 20:41:27.848 2652 INFO cinder.volume.manager [req-72c34f80-fbbc-40bb-b4ee-7956d7a3610c - - - - -] Updating volume status
+2015-10-04 20:42:27.847 2652 INFO cinder.volume.manager [req-cd619271-3cd7-4f91-9ccd-7d4769f3fcc9 - - - - -] Updating volume status
+2015-10-04 20:43:27.850 2652 INFO cinder.volume.manager [req-57fd2f09-a6c3-4621-a2ad-d8e85e31e878 - - - - -] Updating volume status
+2015-10-04 20:44:27.847 2652 INFO cinder.volume.manager [req-522168c8-4f7d-4b82-a1b3-1dc56bbd15f7 - - - - -] Updating volume status
+2015-10-04 20:45:27.849 2652 INFO cinder.volume.manager [req-fddce146-ba86-47ff-a619-e8757e3ddb9d - - - - -] Updating volume status
+2015-10-04 20:46:27.851 2652 INFO cinder.volume.manager [req-d359d36e-ecba-4215-aaac-873160547a09 - - - - -] Updating volume status
+2015-10-04 20:47:27.851 2652 INFO cinder.volume.manager [req-4a5d9b5f-6780-4598-a179-445f7d113a22 - - - - -] Updating volume status
+2015-10-04 20:48:27.850 2652 INFO cinder.volume.manager [req-d1e98dec-0538-4c50-a71c-6982d37cd322 - - - - -] Updating volume status
+2015-10-04 20:49:27.851 2652 INFO cinder.volume.manager [req-7c09b34e-8e19-4828-8a73-aa0a7a8a6dd6 - - - - -] Updating volume status
+2015-10-04 20:50:27.853 2652 INFO cinder.volume.manager [req-6bd642e5-1317-473a-8180-4d6584b542d6 - - - - -] Updating volume status
+2015-10-04 20:51:27.852 2652 INFO cinder.volume.manager [req-d92739d8-2404-4f27-8152-d8d88b9991e6 - - - - -] Updating volume status
+2015-10-04 20:52:27.851 2652 INFO cinder.volume.manager [req-e021be0a-1795-4100-8fe8-d894aec0d1a2 - - - - -] Updating volume status
+2015-10-04 20:53:27.852 2652 INFO cinder.volume.manager [req-3faaf388-bc5a-41de-ad1f-38f7cddd2596 - - - - -] Updating volume status
+2015-10-04 20:54:27.851 2652 INFO cinder.volume.manager [req-69f439d7-f6f8-4597-99a8-1a2fde18af58 - - - - -] Updating volume status
+2015-10-04 20:55:27.854 2652 INFO cinder.volume.manager [req-7f4ab850-e0b1-42a8-b771-7bf90711e4d8 - - - - -] Updating volume status
+2015-10-04 20:56:27.852 2652 INFO cinder.volume.manager [req-ae564362-5cdb-4457-b28b-3a5deb6f15ca - - - - -] Updating volume status
+2015-10-04 20:57:27.854 2652 INFO cinder.volume.manager [req-3532168d-14e4-495b-8f85-8ab1191b75d4 - - - - -] Updating volume status
+2015-10-04 20:58:27.859 2652 INFO cinder.volume.manager [req-198be76e-4b74-482f-846e-55c9b7ee1924 - - - - -] Updating volume status
+2015-10-04 20:59:27.854 2652 INFO cinder.volume.manager [req-f8eed703-bda3-4bd6-bd3e-1dcde4f7e709 - - - - -] Updating volume status
+2015-10-04 21:00:27.855 2652 INFO cinder.volume.manager [req-9d560af7-c941-4ed7-aed1-2f2cc3add071 - - - - -] Updating volume status
+2015-10-04 21:01:27.850 2652 INFO cinder.volume.manager [req-475bc6ca-a66b-4e7d-821b-d9bec66b8fc1 - - - - -] Updating volume status
+2015-10-04 21:02:27.855 2652 INFO cinder.volume.manager [req-653e32b4-c168-442e-a3de-13ef709eb04f - - - - -] Updating volume status
+2015-10-04 21:03:27.855 2652 INFO cinder.volume.manager [req-030f07f3-f720-4caa-afc7-96384a2e8363 - - - - -] Updating volume status
+2015-10-04 21:04:27.856 2652 INFO cinder.volume.manager [req-d27b7608-69d4-41b2-b37e-2bf492b897aa - - - - -] Updating volume status
+2015-10-04 21:05:27.861 2652 INFO cinder.volume.manager [req-283cee2d-5e7a-48ff-83fc-6c45ac41b3d9 - - - - -] Updating volume status
+2015-10-04 21:06:27.855 2652 INFO cinder.volume.manager [req-60be702a-a935-43ed-b937-1abc99f9b562 - - - - -] Updating volume status
+2015-10-04 21:07:27.860 2652 INFO cinder.volume.manager [req-aa4c70e8-7a8b-4237-9855-202733fb33ee - - - - -] Updating volume status
+2015-10-04 21:08:27.856 2652 INFO cinder.volume.manager [req-9698034f-2690-476f-a8dc-3db2ab0e1ce5 - - - - -] Updating volume status
+2015-10-04 21:09:27.858 2652 INFO cinder.volume.manager [req-e4795574-c26e-442d-abdd-b0a3609aac43 - - - - -] Updating volume status
+2015-10-04 21:10:27.861 2652 INFO cinder.volume.manager [req-d5d7f06d-77c3-479b-8284-b3173173219d - - - - -] Updating volume status
+2015-10-04 21:11:27.861 2652 INFO cinder.volume.manager [req-bf7f3c5f-6ef6-4419-8f70-b6d08e315a7e - - - - -] Updating volume status
+2015-10-04 21:12:27.864 2652 INFO cinder.volume.manager [req-da8fd871-4b04-4388-87bb-1ce23bdc32c3 - - - - -] Updating volume status
+2015-10-04 21:13:27.864 2652 INFO cinder.volume.manager [req-8d89d2d4-05f7-4326-881c-d4af29783a53 - - - - -] Updating volume status
+2015-10-04 21:14:27.855 2652 INFO cinder.volume.manager [req-dcaca166-cc75-4a43-88dc-82681fea66a4 - - - - -] Updating volume status
+2015-10-04 21:15:27.865 2652 INFO cinder.volume.manager [req-470798a3-666f-4f71-b2b1-c148c0b37308 - - - - -] Updating volume status
+2015-10-04 21:16:27.864 2652 INFO cinder.volume.manager [req-9159d8b3-eff8-4479-b4e3-f84edc5fef7d - - - - -] Updating volume status
+2015-10-04 21:17:27.869 2652 INFO cinder.volume.manager [req-32b7fc2d-cc9a-45e0-a54d-48dd8c6d3a29 - - - - -] Updating volume status
+2015-10-04 21:18:27.867 2652 INFO cinder.volume.manager [req-e0d5b18b-fd6e-438a-81d5-6cfe727e4fb1 - - - - -] Updating volume status
+2015-10-04 21:19:27.865 2652 INFO cinder.volume.manager [req-79a587d2-ffe2-430f-8b18-e2a2f67fff89 - - - - -] Updating volume status
+2015-10-04 21:20:27.865 2652 INFO cinder.volume.manager [req-a565e7c3-80da-420e-8f17-897cb0f0718d - - - - -] Updating volume status
+2015-10-04 21:21:27.867 2652 INFO cinder.volume.manager [req-905ce88e-9ad1-4d87-b558-60f85186ee4e - - - - -] Updating volume status
+2015-10-04 21:22:27.874 2652 INFO cinder.volume.manager [req-6290fd33-4a2e-4ae8-a6ac-4972325ee5af - - - - -] Updating volume status
+2015-10-04 21:23:27.874 2652 INFO cinder.volume.manager [req-52c17cc4-9638-44e8-be2d-dc3b5eee7718 - - - - -] Updating volume status
+2015-10-04 21:24:27.875 2652 INFO cinder.volume.manager [req-a7289b94-4fbf-42c1-9be8-271602237b9a - - - - -] Updating volume status
+2015-10-04 21:25:27.866 2652 INFO cinder.volume.manager [req-e75ddd30-7d70-4ea2-a4f5-ebb6748f321e - - - - -] Updating volume status
+2015-10-04 21:26:27.867 2652 INFO cinder.volume.manager [req-268682a4-b84f-4a4d-8778-c02ecc9fbe5b - - - - -] Updating volume status
+2015-10-04 21:27:27.886 2652 INFO cinder.volume.manager [req-dff60d9f-c90f-410a-ba9e-3dc2ecc9107b - - - - -] Updating volume status
+2015-10-04 21:28:27.867 2652 INFO cinder.volume.manager [req-2ef6eca0-bd70-481f-8633-1a3c3c155979 - - - - -] Updating volume status
+2015-10-04 21:29:27.868 2652 INFO cinder.volume.manager [req-e3f8fdb0-4c3f-4c3f-94cf-3bfe36fed21f - - - - -] Updating volume status
+2015-10-04 21:30:27.869 2652 INFO cinder.volume.manager [req-51eb836c-f89b-4eae-bf08-6fa109b86e18 - - - - -] Updating volume status
+2015-10-04 21:31:27.870 2652 INFO cinder.volume.manager [req-4850b258-0e59-4e79-92be-b89481e1e6c9 - - - - -] Updating volume status
+2015-10-04 21:33:27.870 2652 INFO cinder.volume.manager [req-6414d640-6394-443b-ba17-1f690caf945d - - - - -] Updating volume status
+2015-10-04 21:34:27.872 2652 INFO cinder.volume.manager [req-80dc8171-1b11-4c7d-bb9a-d9ea1fa12814 - - - - -] Updating volume status
+2015-10-04 21:35:27.873 2652 INFO cinder.volume.manager [req-81611996-d4a7-4381-830e-816bff086001 - - - - -] Updating volume status
+2015-10-04 21:36:27.872 2652 INFO cinder.volume.manager [req-87299adb-6191-4602-91f8-2fbc340432bf - - - - -] Updating volume status
+2015-10-04 21:37:27.872 2652 INFO cinder.volume.manager [req-edb7a52e-af3b-436a-b98c-d3d244aa9ac6 - - - - -] Updating volume status
+2015-10-04 21:38:27.875 2652 INFO cinder.volume.manager [req-1631f648-c89b-4480-986d-aff63b04be78 - - - - -] Updating volume status
+2015-10-04 21:39:27.874 2652 INFO cinder.volume.manager [req-3d44238e-bb5e-40e4-bac7-3de705557b74 - - - - -] Updating volume status
+2015-10-04 21:40:27.877 2652 INFO cinder.volume.manager [req-d5719b92-f62d-4e4f-b178-d9515b782604 - - - - -] Updating volume status
+2015-10-04 21:41:27.878 2652 INFO cinder.volume.manager [req-c742af61-2cf4-4617-96b7-c19e5f31c6db - - - - -] Updating volume status
+2015-10-04 21:42:27.877 2652 INFO cinder.volume.manager [req-f73285b5-a7fb-4c72-8d6c-12b76f07788a - - - - -] Updating volume status
+2015-10-04 21:43:27.879 2652 INFO cinder.volume.manager [req-1e540c29-dbc1-40a6-ba69-8acaa9a132a7 - - - - -] Updating volume status
+2015-10-04 21:44:27.885 2652 INFO cinder.volume.manager [req-c3508a13-8d74-4e78-8bd5-f0d7d14255de - - - - -] Updating volume status
+2015-10-04 21:45:27.881 2652 INFO cinder.volume.manager [req-dc83b262-4c1a-4c78-b250-6267ea9eea90 - - - - -] Updating volume status
+2015-10-04 21:46:27.889 2652 INFO cinder.volume.manager [req-9f421254-351f-46c8-8fc4-73fec28602b0 - - - - -] Updating volume status
+2015-10-04 21:47:27.878 2652 INFO cinder.volume.manager [req-2dadcd57-6cf6-48a2-9f38-4accba007a46 - - - - -] Updating volume status
+2015-10-04 21:48:27.878 2652 INFO cinder.volume.manager [req-d244106a-7a8c-4445-9e0d-9436786516b0 - - - - -] Updating volume status
+2015-10-04 21:49:27.878 2652 INFO cinder.volume.manager [req-f008c767-f6ec-4b15-ab28-b554da8a369d - - - - -] Updating volume status
+2015-10-04 21:50:27.879 2652 INFO cinder.volume.manager [req-8c3fb145-f8d3-470b-a492-519c32661f44 - - - - -] Updating volume status
+2015-10-04 21:51:27.880 2652 INFO cinder.volume.manager [req-15223bc1-e043-4944-857a-9dc380b30cb3 - - - - -] Updating volume status
+2015-10-04 21:52:27.880 2652 INFO cinder.volume.manager [req-19e6ee3d-4def-4336-ac9f-6bbc09a6205e - - - - -] Updating volume status
+2015-10-04 21:53:27.880 2652 INFO cinder.volume.manager [req-2bedf152-12c9-4a61-96ee-225ad21817e4 - - - - -] Updating volume status
+2015-10-04 21:54:27.881 2652 INFO cinder.volume.manager [req-eee2c698-1249-4393-9c9f-d9b4d0936ff0 - - - - -] Updating volume status
+2015-10-04 21:55:27.881 2652 INFO cinder.volume.manager [req-fabfefd7-e4fb-40f9-9f06-4464836d2b8e - - - - -] Updating volume status
+2015-10-04 21:56:27.881 2652 INFO cinder.volume.manager [req-a07a77da-1ef1-448d-a807-32ce14531f8f - - - - -] Updating volume status
+2015-10-04 21:57:27.883 2652 INFO cinder.volume.manager [req-a3a0133f-ec57-4022-a8e1-948b15b8dd7e - - - - -] Updating volume status
+2015-10-04 21:58:27.882 2652 INFO cinder.volume.manager [req-2f58eab8-1876-4914-b360-7c8361eea9b4 - - - - -] Updating volume status
+2015-10-04 21:59:27.884 2652 INFO cinder.volume.manager [req-af439f72-5565-4d63-8b37-6554389b7d56 - - - - -] Updating volume status
+2015-10-04 22:00:27.885 2652 INFO cinder.volume.manager [req-e7d43931-e3d5-427a-8012-3549ffc41b69 - - - - -] Updating volume status
+2015-10-04 22:01:27.884 2652 INFO cinder.volume.manager [req-917c6b9d-b835-465c-9a8d-fb4296bfdde7 - - - - -] Updating volume status
+2015-10-04 22:02:27.883 2652 INFO cinder.volume.manager [req-eac9a14c-9ea4-4d6e-a5f3-758d4d7c3df8 - - - - -] Updating volume status
+2015-10-04 22:03:27.884 2652 INFO cinder.volume.manager [req-dfcf2ec8-ebf9-4f9b-8455-90524547b2d8 - - - - -] Updating volume status
+2015-10-04 22:04:27.884 2652 INFO cinder.volume.manager [req-654efeba-90bc-4ee8-96d8-f0a794b0bcd8 - - - - -] Updating volume status
+2015-10-04 22:05:27.884 2652 INFO cinder.volume.manager [req-27d364aa-b198-4870-93da-4cc3faa4295c - - - - -] Updating volume status
+2015-10-04 22:06:27.885 2652 INFO cinder.volume.manager [req-1088c0f8-8e00-4e32-84c5-545fa33476b7 - - - - -] Updating volume status
+2015-10-04 22:07:27.885 2652 INFO cinder.volume.manager [req-4edfb236-623c-4188-82cf-4bdd59464017 - - - - -] Updating volume status
+2015-10-04 22:08:27.884 2652 INFO cinder.volume.manager [req-ffb95023-5a9c-4e88-9cd2-76a24fcaa924 - - - - -] Updating volume status
+2015-10-04 22:09:27.886 2652 INFO cinder.volume.manager [req-c75a61a8-9a31-4871-b991-31472f731aa4 - - - - -] Updating volume status
+2015-10-04 22:10:27.886 2652 INFO cinder.volume.manager [req-bf23662a-2316-412b-8141-7282d9a53e35 - - - - -] Updating volume status
+2015-10-04 22:11:27.886 2652 INFO cinder.volume.manager [req-e4e7437a-4f18-407d-b196-0de87010e4cc - - - - -] Updating volume status
+2015-10-04 22:12:27.887 2652 INFO cinder.volume.manager [req-2679881a-7933-4f04-adc0-fe412d547e87 - - - - -] Updating volume status
+2015-10-04 22:13:27.887 2652 INFO cinder.volume.manager [req-663e1a02-aa4b-4e9a-af6f-3a4f3ef65656 - - - - -] Updating volume status
+2015-10-04 22:14:27.887 2652 INFO cinder.volume.manager [req-8a55cb5f-2dcf-492c-97e5-1189a0b5b1e7 - - - - -] Updating volume status
+2015-10-04 22:15:27.889 2652 INFO cinder.volume.manager [req-729ad069-49ec-425c-917e-7387ea5f9488 - - - - -] Updating volume status
+2015-10-04 22:16:27.889 2652 INFO cinder.volume.manager [req-6e3aee63-d67f-43c4-a892-cc963ff2e373 - - - - -] Updating volume status
+2015-10-04 22:17:27.889 2652 INFO cinder.volume.manager [req-4d81dbd7-656d-4bd5-8ed5-62b21933da29 - - - - -] Updating volume status
+2015-10-04 22:18:27.883 2652 INFO cinder.volume.manager [req-a7f3fc35-6b5d-4b66-8c35-02c24f83d04f - - - - -] Updating volume status
+2015-10-04 22:19:27.891 2652 INFO cinder.volume.manager [req-8fcac1dc-664b-4b23-830b-cab74d4080a2 - - - - -] Updating volume status
+2015-10-04 22:20:27.892 2652 INFO cinder.volume.manager [req-67213971-a1e2-4ffe-87fb-78f856bec8a4 - - - - -] Updating volume status
+2015-10-04 22:21:27.890 2652 INFO cinder.volume.manager [req-a845b377-259f-4d81-82e5-02c8f1e5351e - - - - -] Updating volume status
+2015-10-04 22:22:27.894 2652 INFO cinder.volume.manager [req-7572a078-8571-4a4e-a32d-5527b115e971 - - - - -] Updating volume status
+2015-10-04 22:23:27.892 2652 INFO cinder.volume.manager [req-0d4bb521-e1d8-4d8c-8028-11a96f23d83b - - - - -] Updating volume status
+2015-10-04 22:24:27.892 2652 INFO cinder.volume.manager [req-1879d817-07ac-47ed-bac6-7b6d8faffb04 - - - - -] Updating volume status
+2015-10-04 22:25:27.894 2652 INFO cinder.volume.manager [req-21c8ad7f-6b7c-4e6e-96c0-33f08c95a52d - - - - -] Updating volume status
+2015-10-04 22:26:27.892 2652 INFO cinder.volume.manager [req-d602da6d-f6cb-414e-bd97-e3b6cc47fa42 - - - - -] Updating volume status
+2015-10-04 22:27:27.892 2652 INFO cinder.volume.manager [req-68224145-b33b-44b8-8264-bf3a82903b5b - - - - -] Updating volume status
+2015-10-04 22:28:27.895 2652 INFO cinder.volume.manager [req-09b8a63a-5598-4646-9917-7b9627d80470 - - - - -] Updating volume status
+2015-10-04 22:29:27.895 2652 INFO cinder.volume.manager [req-1922153e-b779-450e-9eb1-030483538239 - - - - -] Updating volume status
+2015-10-04 22:30:27.898 2652 INFO cinder.volume.manager [req-1c32adf3-8414-425d-a479-a5eab9f6cf61 - - - - -] Updating volume status
+2015-10-04 22:31:27.897 2652 INFO cinder.volume.manager [req-321839e7-c98c-46a6-8dbd-ecfee95dbe33 - - - - -] Updating volume status
+2015-10-04 22:32:27.895 2652 INFO cinder.volume.manager [req-57a9b4b6-8cae-44e3-a053-2cc3104149e5 - - - - -] Updating volume status
+2015-10-04 22:33:27.895 2652 INFO cinder.volume.manager [req-f60d3ed3-78d4-4986-9f9a-fc2a3de8d585 - - - - -] Updating volume status
+2015-10-04 22:34:27.895 2652 INFO cinder.volume.manager [req-0983bfcb-709b-4767-bc29-af2207d8f148 - - - - -] Updating volume status
+2015-10-04 22:35:27.898 2652 INFO cinder.volume.manager [req-6b7a50ea-724f-4ce0-9561-853fcac85934 - - - - -] Updating volume status
+2015-10-04 22:37:27.898 2652 INFO cinder.volume.manager [req-e888c712-d570-493b-9021-20a15f49dece - - - - -] Updating volume status
+2015-10-04 22:38:27.907 2652 INFO cinder.volume.manager [req-8d231684-bba3-40b4-b112-ef6bfa10b001 - - - - -] Updating volume status
+2015-10-04 22:39:27.898 2652 INFO cinder.volume.manager [req-1c7828ba-b309-4625-a7f7-5f7dd3e8479c - - - - -] Updating volume status
+2015-10-04 22:40:27.898 2652 INFO cinder.volume.manager [req-8277eade-9ee6-476d-8bd4-93535917c93c - - - - -] Updating volume status
+2015-10-04 22:41:27.899 2652 INFO cinder.volume.manager [req-28314e2a-ddd0-46b3-92a0-4ecb4c7ea62b - - - - -] Updating volume status
+2015-10-04 22:42:27.900 2652 INFO cinder.volume.manager [req-7efb7b2b-77cb-49f3-9536-14896681f0a5 - - - - -] Updating volume status
+2015-10-04 22:43:27.898 2652 INFO cinder.volume.manager [req-a612c785-82d4-484a-bdcd-53d9283ed843 - - - - -] Updating volume status
+2015-10-04 22:44:27.899 2652 INFO cinder.volume.manager [req-32cef4a4-b572-4206-90fd-8b24f8958714 - - - - -] Updating volume status
+2015-10-04 22:45:27.900 2652 INFO cinder.volume.manager [req-c3b44d74-799d-4561-8a4a-54a20d6ffc38 - - - - -] Updating volume status
+2015-10-04 22:46:27.899 2652 INFO cinder.volume.manager [req-4dd7f36f-a9f9-4b49-a0c3-f2ca060f8567 - - - - -] Updating volume status
+2015-10-04 22:47:27.899 2652 INFO cinder.volume.manager [req-57156d04-e1a5-4061-9e65-b16880a81bdd - - - - -] Updating volume status
+2015-10-04 22:48:01.245 963 INFO cinder.openstack.common.service [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Caught SIGTERM, stopping children
+2015-10-04 22:48:01.250 963 INFO cinder.openstack.common.service [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Waiting on 1 children to exit
+2015-10-04 22:48:01.739 963 INFO cinder.openstack.common.service [req-c4c97939-ebc1-434d-8b2a-e1fd3452508c - - - - -] Child 2652 killed by signal 15
+2015-10-16 14:53:31.658 939 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2015-10-16 14:53:41.740 939 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2015-10-16 14:53:52.603 939 INFO cinder.volume.manager [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Determined volume DB was empty at startup.
+2015-10-16 14:53:52.655 939 WARNING cinder.volume.targets.lio [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2015-10-16 14:53:53.014 939 INFO cinder.openstack.common.service [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Starting 1 workers
+2015-10-16 14:53:53.043 939 INFO cinder.openstack.common.service [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Started child 2678
+2015-10-16 14:53:53.055 2678 INFO cinder.service [-] Starting cinder-volume node (version 2015.1.0)
+2015-10-16 14:53:53.069 2678 INFO cinder.volume.manager [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0)
+2015-10-16 14:53:53.112 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.114 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.115 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.117 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.118 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.122 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.124 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.126 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:53.134 939 WARNING oslo_config.cfg [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2015-10-16 14:53:54.213 2678 INFO cinder.volume.manager [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Updating volume status
+2015-10-16 14:53:55.055 2678 WARNING oslo_config.cfg [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.058 2678 WARNING oslo_config.cfg [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.059 2678 WARNING oslo_config.cfg [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.060 2678 WARNING oslo_config.cfg [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.061 2678 WARNING oslo_config.cfg [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.063 2678 WARNING oslo_config.cfg [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2015-10-16 14:53:55.100 2678 INFO oslo_messaging._drivers.impl_rabbit [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-16 14:53:55.122 2678 INFO oslo_messaging._drivers.impl_rabbit [req-fc3f6a62-e324-4fcc-a086-797d1bf930e9 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-16 14:53:55.772 2678 INFO oslo_messaging._drivers.impl_rabbit [req-b86d2d30-8c48-4452-8091-c9a4320f48fb - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2015-10-16 14:53:55.793 2678 INFO oslo_messaging._drivers.impl_rabbit [req-b86d2d30-8c48-4452-8091-c9a4320f48fb - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2015-10-16 14:53:55.796 2678 WARNING oslo_config.cfg [req-b86d2d30-8c48-4452-8091-c9a4320f48fb - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2015-10-16 14:55:16.823 2678 INFO cinder.volume.manager [req-4bf13f41-6c79-4159-aaa5-28ff41b83f47 - - - - -] Updating volume status
+2015-10-16 14:56:16.828 2678 INFO cinder.volume.manager [req-8b9edf88-4d82-40eb-b2ac-b8be2ce102d1 - - - - -] Updating volume status
+2015-10-16 14:57:16.826 2678 INFO cinder.volume.manager [req-a7228642-fcc6-41a7-a122-79cca6dd7f4f - - - - -] Updating volume status
+2015-10-16 14:58:16.827 2678 INFO cinder.volume.manager [req-29460d77-1b26-44fa-8f5f-b71da45fa250 - - - - -] Updating volume status
+2015-10-16 14:59:16.832 2678 INFO cinder.volume.manager [req-059eb40b-f045-460b-b23f-5a873afc82dc - - - - -] Updating volume status
+2015-10-16 15:00:16.828 2678 INFO cinder.volume.manager [req-762270bb-bfe9-44ac-8cfa-33bc3e03711c - - - - -] Updating volume status
+2015-10-16 15:01:16.832 2678 INFO cinder.volume.manager [req-d3f365c2-b58d-43fd-a972-133fb3aa6f05 - - - - -] Updating volume status
+2015-10-16 15:02:16.829 2678 INFO cinder.volume.manager [req-89c2e771-329d-4e80-ab4a-ed3e64247645 - - - - -] Updating volume status
+2015-10-16 15:03:16.833 2678 INFO cinder.volume.manager [req-ef9ad1a6-1585-4a9c-9228-c99bc741e67e - - - - -] Updating volume status
+2015-10-16 15:04:16.830 2678 INFO cinder.volume.manager [req-1aa47699-610d-40e3-ac3f-2e5fa6acf9c8 - - - - -] Updating volume status
+2015-10-16 15:05:16.833 2678 INFO cinder.volume.manager [req-b05a2ef1-98b5-4de7-8817-7c886ae11386 - - - - -] Updating volume status
+2015-10-16 15:06:16.831 2678 INFO cinder.volume.manager [req-999e8929-af7a-4618-95c5-5e4913e371c9 - - - - -] Updating volume status
+2015-10-16 15:07:16.834 2678 INFO cinder.volume.manager [req-810fa556-6166-4220-83cf-a1a7bdbd098f - - - - -] Updating volume status
+2015-10-16 15:08:16.831 2678 INFO cinder.volume.manager [req-0b049c0a-78f0-4808-8ba8-fd6d34e7ed53 - - - - -] Updating volume status
+2015-10-16 15:09:16.831 2678 INFO cinder.volume.manager [req-879725f1-4d13-4caa-af79-649b0627c7f0 - - - - -] Updating volume status
+2015-10-16 15:10:16.828 2678 INFO cinder.volume.manager [req-6f56f534-c38f-42ac-9860-59a2dd77a21e - - - - -] Updating volume status
+2015-10-16 15:11:16.831 2678 INFO cinder.volume.manager [req-6f96ddb8-5c73-47ef-83dc-8f48ed5a3ec7 - - - - -] Updating volume status
+2015-10-16 15:12:16.832 2678 INFO cinder.volume.manager [req-f16b32b4-6fc4-49fa-92d9-b3e6edb60d0a - - - - -] Updating volume status
+2015-10-16 15:13:16.831 2678 INFO cinder.volume.manager [req-88340dbe-608b-441a-9ef6-78e30de79a72 - - - - -] Updating volume status
+2015-10-16 15:14:16.832 2678 INFO cinder.volume.manager [req-1c38cde5-3ff9-413a-9546-30ab8b47368e - - - - -] Updating volume status
+2015-10-16 15:15:16.831 2678 INFO cinder.volume.manager [req-3d70e8e5-7e1e-4a12-8870-f59394c100f9 - - - - -] Updating volume status
+2015-10-16 15:16:16.833 2678 INFO cinder.volume.manager [req-4f2829ef-8016-4180-958e-5ea7a8471cfb - - - - -] Updating volume status
+2015-10-16 15:17:16.833 2678 INFO cinder.volume.manager [req-897a22ec-9ecd-4773-9199-572fa6d9add5 - - - - -] Updating volume status
+2015-10-16 15:18:16.836 2678 INFO cinder.volume.manager [req-af418481-00ca-46a1-bc75-21cd129d50a7 - - - - -] Updating volume status
+2015-10-16 15:19:16.835 2678 INFO cinder.volume.manager [req-023b5ccb-79c1-4e8a-b562-7a6a2f0a9031 - - - - -] Updating volume status
+2015-10-16 15:20:16.840 2678 INFO cinder.volume.manager [req-b580f87a-2245-4b50-8790-ae65fa4a6551 - - - - -] Updating volume status
+2015-10-16 15:21:16.836 2678 INFO cinder.volume.manager [req-5a62c760-9219-4003-bd8e-87c846a9e246 - - - - -] Updating volume status
+2015-10-16 15:22:16.839 2678 INFO cinder.volume.manager [req-54164686-3556-408e-87ca-37a64dd80588 - - - - -] Updating volume status
+2015-10-16 15:23:16.838 2678 INFO cinder.volume.manager [req-abb0a7d3-03a4-41ea-ad7e-6ca4a98b1041 - - - - -] Updating volume status
+2015-10-16 15:23:22.810 939 INFO cinder.openstack.common.service [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Caught SIGTERM, stopping children
+2015-10-16 15:23:22.815 939 INFO cinder.openstack.common.service [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Waiting on 1 children to exit
+2015-10-16 15:23:23.150 939 INFO cinder.openstack.common.service [req-3b8f25f3-7f1d-4bc7-824e-6a63e470ae45 - - - - -] Child 2678 killed by signal 15
+2016-02-16 21:27:18.629 935 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-16 21:27:28.656 935 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-16 21:27:39.127 935 INFO cinder.volume.manager [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Determined volume DB was empty at startup.
+2016-02-16 21:27:39.180 935 WARNING cinder.volume.targets.lio [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-16 21:27:39.542 935 INFO cinder.openstack.common.service [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Starting 1 workers
+2016-02-16 21:27:39.560 935 INFO cinder.openstack.common.service [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Started child 2568
+2016-02-16 21:27:39.580 2568 INFO cinder.service [-] Starting cinder-volume node (version 2015.1.0)
+2016-02-16 21:27:39.594 2568 INFO cinder.volume.manager [req-8edf1c08-5213-448a-87d4-1536152334be - - - - -] Starting volume driver LVMVolumeDriver (3.0.0)
+2016-02-16 21:27:39.600 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.602 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.604 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.606 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.607 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.608 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.610 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.611 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:39.618 935 WARNING oslo_config.cfg [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-16 21:27:40.485 2568 ERROR cinder.volume.manager [req-8edf1c08-5213-448a-87d4-1536152334be - - - - -] Error encountered during initialization of driver: LVMVolumeDriver
+2016-02-16 21:27:40.488 2568 ERROR cinder.volume.manager [req-8edf1c08-5213-448a-87d4-1536152334be - - - - -] Unexpected error while running command.
+Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+Exit code: 5
+Stdout: u''
+Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager Traceback (most recent call last):
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/manager.py", line 302, in init_host
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager     self.driver.check_for_setup_error()
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/osprofiler/profiler.py", line 105, in wrapper
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager     return f(*args, **kwargs)
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py", line 263, in check_for_setup_error
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager     lvm_conf=lvm_conf_file)
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 86, in __init__
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager     if self._vg_exists() is False:
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 123, in _vg_exists
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager     run_as_root=True)
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/utils.py", line 143, in execute
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager     return processutils.execute(*cmd, **kwargs)
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/oslo_concurrency/processutils.py", line 233, in execute
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager     cmd=sanitized_cmd)
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager ProcessExecutionError: Unexpected error while running command.
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager Exit code: 5
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager Stdout: u''
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-16 21:27:40.488 2568 TRACE cinder.volume.manager 
+2016-02-16 21:27:40.676 2568 WARNING oslo_config.cfg [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:40.678 2568 WARNING oslo_config.cfg [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:40.681 2568 WARNING oslo_config.cfg [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:40.683 2568 WARNING oslo_config.cfg [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:40.685 2568 WARNING oslo_config.cfg [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:40.690 2568 WARNING oslo_config.cfg [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:40.795 2568 INFO oslo_messaging._drivers.impl_rabbit [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-16 21:27:40.827 2568 INFO oslo_messaging._drivers.impl_rabbit [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-16 21:27:40.830 2568 WARNING oslo_config.cfg [req-c361f0f8-6166-48db-a66a-f6674c4c9229 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-16 21:27:41.184 2568 INFO cinder.volume.manager [req-152394b5-109f-4727-a36f-026570ae73d1 - - - - -] Updating volume status
+2016-02-16 21:27:41.192 2568 WARNING cinder.volume.manager [req-152394b5-109f-4727-a36f-026570ae73d1 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:28:28.908 2568 INFO cinder.volume.manager [req-a174656d-9ff5-4074-9dca-0d95da43c798 - - - - -] Updating volume status
+2016-02-16 21:28:28.912 2568 WARNING cinder.volume.manager [req-a174656d-9ff5-4074-9dca-0d95da43c798 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:29:28.908 2568 INFO cinder.volume.manager [req-8e144fa3-a306-4258-8396-343c2bb52322 - - - - -] Updating volume status
+2016-02-16 21:29:28.912 2568 WARNING cinder.volume.manager [req-8e144fa3-a306-4258-8396-343c2bb52322 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:30:28.909 2568 INFO cinder.volume.manager [req-6beda494-caab-4280-aff8-8bcf2ecb049e - - - - -] Updating volume status
+2016-02-16 21:30:28.915 2568 WARNING cinder.volume.manager [req-6beda494-caab-4280-aff8-8bcf2ecb049e - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:31:28.913 2568 INFO cinder.volume.manager [req-a96697fd-05b7-4f2e-bbd0-8ad7b8ce3c8d - - - - -] Updating volume status
+2016-02-16 21:31:28.919 2568 WARNING cinder.volume.manager [req-a96697fd-05b7-4f2e-bbd0-8ad7b8ce3c8d - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:32:28.910 2568 INFO cinder.volume.manager [req-b3efcaa3-0092-4901-b540-0031fc41a237 - - - - -] Updating volume status
+2016-02-16 21:32:28.914 2568 WARNING cinder.volume.manager [req-b3efcaa3-0092-4901-b540-0031fc41a237 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:33:28.910 2568 INFO cinder.volume.manager [req-043117b7-1e05-44a6-b397-239d197f6d85 - - - - -] Updating volume status
+2016-02-16 21:33:28.915 2568 WARNING cinder.volume.manager [req-043117b7-1e05-44a6-b397-239d197f6d85 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:34:28.912 2568 INFO cinder.volume.manager [req-a5d4521d-a7dd-417c-8081-26971e0d7eb0 - - - - -] Updating volume status
+2016-02-16 21:34:28.918 2568 WARNING cinder.volume.manager [req-a5d4521d-a7dd-417c-8081-26971e0d7eb0 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:35:28.910 2568 INFO cinder.volume.manager [req-0b525fbb-321d-4c96-88f2-f46078e0d50e - - - - -] Updating volume status
+2016-02-16 21:35:28.914 2568 WARNING cinder.volume.manager [req-0b525fbb-321d-4c96-88f2-f46078e0d50e - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:36:28.911 2568 INFO cinder.volume.manager [req-0fe56548-1fe1-4340-9f21-176f453d6273 - - - - -] Updating volume status
+2016-02-16 21:36:28.913 2568 WARNING cinder.volume.manager [req-0fe56548-1fe1-4340-9f21-176f453d6273 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:37:28.913 2568 INFO cinder.volume.manager [req-85f7e43c-9a0b-4aba-9499-248738cb7f8c - - - - -] Updating volume status
+2016-02-16 21:37:28.920 2568 WARNING cinder.volume.manager [req-85f7e43c-9a0b-4aba-9499-248738cb7f8c - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:38:28.911 2568 INFO cinder.volume.manager [req-3bd3cb26-fe89-453e-ae03-4da00e1df16f - - - - -] Updating volume status
+2016-02-16 21:38:28.915 2568 WARNING cinder.volume.manager [req-3bd3cb26-fe89-453e-ae03-4da00e1df16f - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:39:28.912 2568 INFO cinder.volume.manager [req-6566657e-444d-40a3-a5c4-12330f0a1748 - - - - -] Updating volume status
+2016-02-16 21:39:28.915 2568 WARNING cinder.volume.manager [req-6566657e-444d-40a3-a5c4-12330f0a1748 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:40:28.913 2568 INFO cinder.volume.manager [req-3fda2cc6-f89b-4ce9-8b04-1de3f8b42198 - - - - -] Updating volume status
+2016-02-16 21:40:28.917 2568 WARNING cinder.volume.manager [req-3fda2cc6-f89b-4ce9-8b04-1de3f8b42198 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:41:28.913 2568 INFO cinder.volume.manager [req-a6651c32-fd03-4592-b13d-2ec736691cec - - - - -] Updating volume status
+2016-02-16 21:41:28.917 2568 WARNING cinder.volume.manager [req-a6651c32-fd03-4592-b13d-2ec736691cec - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:42:28.914 2568 INFO cinder.volume.manager [req-35785428-d93b-4f0f-ae57-b07464f4846a - - - - -] Updating volume status
+2016-02-16 21:42:28.918 2568 WARNING cinder.volume.manager [req-35785428-d93b-4f0f-ae57-b07464f4846a - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:43:28.915 2568 INFO cinder.volume.manager [req-b6f1d463-1bad-4b04-9222-bc187c88c8bd - - - - -] Updating volume status
+2016-02-16 21:43:28.918 2568 WARNING cinder.volume.manager [req-b6f1d463-1bad-4b04-9222-bc187c88c8bd - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:44:28.915 2568 INFO cinder.volume.manager [req-b6f55171-8d43-48bc-810e-58d3775460ca - - - - -] Updating volume status
+2016-02-16 21:44:28.918 2568 WARNING cinder.volume.manager [req-b6f55171-8d43-48bc-810e-58d3775460ca - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:45:28.914 2568 INFO cinder.volume.manager [req-3a06360b-2310-4a01-b1e2-0c033dd81050 - - - - -] Updating volume status
+2016-02-16 21:45:28.917 2568 WARNING cinder.volume.manager [req-3a06360b-2310-4a01-b1e2-0c033dd81050 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:47:28.917 2568 INFO cinder.volume.manager [req-4b4562b0-9a53-4e51-9474-d6ad832cb938 - - - - -] Updating volume status
+2016-02-16 21:47:28.922 2568 WARNING cinder.volume.manager [req-4b4562b0-9a53-4e51-9474-d6ad832cb938 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:48:28.918 2568 INFO cinder.volume.manager [req-af5c91ef-56a4-4f9e-88fb-6f12cd2bc242 - - - - -] Updating volume status
+2016-02-16 21:48:28.923 2568 WARNING cinder.volume.manager [req-af5c91ef-56a4-4f9e-88fb-6f12cd2bc242 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:49:28.918 2568 INFO cinder.volume.manager [req-02931c6c-147c-4e90-88ed-5922f184fb20 - - - - -] Updating volume status
+2016-02-16 21:49:28.921 2568 WARNING cinder.volume.manager [req-02931c6c-147c-4e90-88ed-5922f184fb20 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:50:28.918 2568 INFO cinder.volume.manager [req-44e4be42-4ad6-42d6-a60b-4e2e345528e3 - - - - -] Updating volume status
+2016-02-16 21:50:28.921 2568 WARNING cinder.volume.manager [req-44e4be42-4ad6-42d6-a60b-4e2e345528e3 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:51:28.919 2568 INFO cinder.volume.manager [req-00b2cc0d-b255-4cab-9f85-957d336c839c - - - - -] Updating volume status
+2016-02-16 21:51:28.921 2568 WARNING cinder.volume.manager [req-00b2cc0d-b255-4cab-9f85-957d336c839c - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:52:28.918 2568 INFO cinder.volume.manager [req-699b9d89-1c1b-45a9-8381-33c9043b7ce2 - - - - -] Updating volume status
+2016-02-16 21:52:28.922 2568 WARNING cinder.volume.manager [req-699b9d89-1c1b-45a9-8381-33c9043b7ce2 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:53:28.920 2568 INFO cinder.volume.manager [req-c7f390ae-0406-4995-9221-b5bf388021f2 - - - - -] Updating volume status
+2016-02-16 21:53:28.922 2568 WARNING cinder.volume.manager [req-c7f390ae-0406-4995-9221-b5bf388021f2 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:54:28.920 2568 INFO cinder.volume.manager [req-289ecdf5-efb6-47ab-aa73-42a0f2c32061 - - - - -] Updating volume status
+2016-02-16 21:54:28.924 2568 WARNING cinder.volume.manager [req-289ecdf5-efb6-47ab-aa73-42a0f2c32061 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:55:28.921 2568 INFO cinder.volume.manager [req-32ba30c3-6c64-4413-8738-b50173d5e8af - - - - -] Updating volume status
+2016-02-16 21:55:28.924 2568 WARNING cinder.volume.manager [req-32ba30c3-6c64-4413-8738-b50173d5e8af - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-16 21:56:21.983 935 INFO cinder.openstack.common.service [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Caught SIGTERM, stopping children
+2016-02-16 21:56:21.989 935 INFO cinder.openstack.common.service [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Waiting on 1 children to exit
+2016-02-16 21:56:22.812 935 INFO cinder.openstack.common.service [req-7eb3cc8c-ad0d-4301-b3d4-b3640499e27a - - - - -] Child 2568 killed by signal 15
+2016-02-22 19:24:41.452 965 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-22 19:24:51.528 965 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-22 19:25:01.951 965 INFO cinder.volume.manager [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Determined volume DB was empty at startup.
+2016-02-22 19:25:01.993 965 WARNING cinder.volume.targets.lio [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-22 19:25:02.250 965 INFO cinder.openstack.common.service [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Starting 1 workers
+2016-02-22 19:25:02.261 965 INFO cinder.openstack.common.service [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Started child 2658
+2016-02-22 19:25:02.279 2658 INFO cinder.service [-] Starting cinder-volume node (version 2015.1.0)
+2016-02-22 19:25:02.289 2658 INFO cinder.volume.manager [req-c9886540-572b-4037-b6a1-14456b72e0d1 - - - - -] Starting volume driver LVMVolumeDriver (3.0.0)
+2016-02-22 19:25:02.296 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.298 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.300 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.302 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.304 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.306 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.307 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.309 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.316 965 WARNING oslo_config.cfg [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 19:25:02.669 2658 ERROR cinder.volume.manager [req-c9886540-572b-4037-b6a1-14456b72e0d1 - - - - -] Error encountered during initialization of driver: LVMVolumeDriver
+2016-02-22 19:25:02.673 2658 ERROR cinder.volume.manager [req-c9886540-572b-4037-b6a1-14456b72e0d1 - - - - -] Unexpected error while running command.
+Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+Exit code: 5
+Stdout: u''
+Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager Traceback (most recent call last):
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/manager.py", line 302, in init_host
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager     self.driver.check_for_setup_error()
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/osprofiler/profiler.py", line 105, in wrapper
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager     return f(*args, **kwargs)
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py", line 263, in check_for_setup_error
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager     lvm_conf=lvm_conf_file)
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 86, in __init__
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager     if self._vg_exists() is False:
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 123, in _vg_exists
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager     run_as_root=True)
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/utils.py", line 143, in execute
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager     return processutils.execute(*cmd, **kwargs)
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/oslo_concurrency/processutils.py", line 233, in execute
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager     cmd=sanitized_cmd)
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager ProcessExecutionError: Unexpected error while running command.
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager Exit code: 5
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager Stdout: u''
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-22 19:25:02.673 2658 TRACE cinder.volume.manager 
+2016-02-22 19:25:02.815 2658 WARNING oslo_config.cfg [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.818 2658 WARNING oslo_config.cfg [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.824 2658 WARNING oslo_config.cfg [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.826 2658 WARNING oslo_config.cfg [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.830 2658 WARNING oslo_config.cfg [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.832 2658 WARNING oslo_config.cfg [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:02.909 2658 INFO oslo_messaging._drivers.impl_rabbit [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-22 19:25:02.941 2658 INFO oslo_messaging._drivers.impl_rabbit [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-22 19:25:02.943 2658 WARNING oslo_config.cfg [req-a75cc798-6d3a-4fd6-9885-ff9b29a910fd - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:25:03.601 2658 INFO cinder.volume.manager [req-926a987f-5385-47fe-95fb-2f186b866b2a - - - - -] Updating volume status
+2016-02-22 19:25:03.605 2658 WARNING cinder.volume.manager [req-926a987f-5385-47fe-95fb-2f186b866b2a - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:26:00.685 965 INFO cinder.openstack.common.service [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Caught SIGTERM, stopping children
+2016-02-22 19:26:00.692 965 INFO cinder.openstack.common.service [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Waiting on 1 children to exit
+2016-02-22 19:26:01.007 965 INFO cinder.openstack.common.service [req-d6a76282-79a9-464e-8df1-00e2994fc30e - - - - -] Child 2658 killed by signal 15
+2016-02-22 19:39:17.493 1022 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 10 attempts left.
+2016-02-22 19:39:27.602 1022 WARNING oslo_db.sqlalchemy.session [-] SQL connection failed. 9 attempts left.
+2016-02-22 19:39:38.270 1022 INFO cinder.volume.manager [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Determined volume DB was empty at startup.
+2016-02-22 19:39:38.319 1022 WARNING cinder.volume.targets.lio [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] The lio_initiator_iqns option has been deprecated and no longer has any effect.
+2016-02-22 19:39:38.680 1022 INFO cinder.openstack.common.service [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Starting 1 workers
+2016-02-22 19:39:38.719 1022 INFO cinder.openstack.common.service [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Started child 2705
+2016-02-22 19:39:38.729 2705 INFO cinder.service [-] Starting cinder-volume node (version 2015.1.0)
+2016-02-22 19:39:38.746 2705 INFO cinder.volume.manager [req-5098587d-5589-44e4-a340-4dc5f270d39f - - - - -] Starting volume driver LVMVolumeDriver (3.0.0)
+2016-02-22 19:39:38.797 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.804 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_host" from group "DEFAULT" is deprecated. Use option "rabbit_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.806 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.809 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.810 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.812 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.813 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.820 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:38.827 1022 WARNING oslo_config.cfg [req-fe249026-f867-44be-853c-f11785afdc17 - - - - -] Option "lock_path" from group "DEFAULT" is deprecated. Use option "lock_path" from group "oslo_concurrency".
+2016-02-22 19:39:39.243 2705 ERROR cinder.volume.manager [req-5098587d-5589-44e4-a340-4dc5f270d39f - - - - -] Error encountered during initialization of driver: LVMVolumeDriver
+2016-02-22 19:39:39.248 2705 ERROR cinder.volume.manager [req-5098587d-5589-44e4-a340-4dc5f270d39f - - - - -] Unexpected error while running command.
+Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+Exit code: 5
+Stdout: u''
+Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager Traceback (most recent call last):
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/manager.py", line 302, in init_host
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager     self.driver.check_for_setup_error()
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/osprofiler/profiler.py", line 105, in wrapper
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager     return f(*args, **kwargs)
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py", line 263, in check_for_setup_error
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager     lvm_conf=lvm_conf_file)
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 86, in __init__
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager     if self._vg_exists() is False:
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/brick/local_dev/lvm.py", line 123, in _vg_exists
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager     run_as_root=True)
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/cinder/utils.py", line 143, in execute
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager     return processutils.execute(*cmd, **kwargs)
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager   File "/usr/lib/python2.7/site-packages/oslo_concurrency/processutils.py", line 233, in execute
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager     cmd=sanitized_cmd)
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager ProcessExecutionError: Unexpected error while running command.
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager Command: sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager Exit code: 5
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager Stdout: u''
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager Stderr: u'  Volume group "cinder-volumes" not found\n  Cannot process volume group cinder-volumes\n'
+2016-02-22 19:39:39.248 2705 TRACE cinder.volume.manager 
+2016-02-22 19:39:39.373 2705 WARNING oslo_config.cfg [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Option "rabbit_virtual_host" from group "DEFAULT" is deprecated. Use option "rabbit_virtual_host" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.374 2705 WARNING oslo_config.cfg [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Option "rabbit_hosts" from group "DEFAULT" is deprecated. Use option "rabbit_hosts" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.376 2705 WARNING oslo_config.cfg [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Option "rabbit_port" from group "DEFAULT" is deprecated. Use option "rabbit_port" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.377 2705 WARNING oslo_config.cfg [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Option "rabbit_userid" from group "DEFAULT" is deprecated. Use option "rabbit_userid" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.379 2705 WARNING oslo_config.cfg [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Option "rabbit_password" from group "DEFAULT" is deprecated. Use option "rabbit_password" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.380 2705 WARNING oslo_config.cfg [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Option "rabbit_use_ssl" from group "DEFAULT" is deprecated. Use option "rabbit_use_ssl" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:39.459 2705 INFO oslo_messaging._drivers.impl_rabbit [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Connecting to AMQP server on 192.168.0.10:5672
+2016-02-22 19:39:39.515 2705 INFO oslo_messaging._drivers.impl_rabbit [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Connected to AMQP server on 192.168.0.10:5672
+2016-02-22 19:39:39.517 2705 WARNING oslo_config.cfg [req-38028f0a-1ba4-4c70-ab9a-efa0180da578 - - - - -] Option "rabbit_ha_queues" from group "DEFAULT" is deprecated. Use option "rabbit_ha_queues" from group "oslo_messaging_rabbit".
+2016-02-22 19:39:40.401 2705 INFO cinder.volume.manager [req-00aef48e-ea72-4d24-9566-07fcdf2cb8fd - - - - -] Updating volume status
+2016-02-22 19:39:40.402 2705 WARNING cinder.volume.manager [req-00aef48e-ea72-4d24-9566-07fcdf2cb8fd - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:40:50.560 2705 INFO cinder.volume.manager [req-fceb8c41-212d-49af-9fec-e4ebdb0bab78 - - - - -] Updating volume status
+2016-02-22 19:40:50.566 2705 WARNING cinder.volume.manager [req-fceb8c41-212d-49af-9fec-e4ebdb0bab78 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:41:50.560 2705 INFO cinder.volume.manager [req-2b7e854e-4f26-4f22-87c2-b439be14675c - - - - -] Updating volume status
+2016-02-22 19:41:50.564 2705 WARNING cinder.volume.manager [req-2b7e854e-4f26-4f22-87c2-b439be14675c - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:42:50.560 2705 INFO cinder.volume.manager [req-ee888b3b-5a5e-4f06-8aef-effa9d15e4e8 - - - - -] Updating volume status
+2016-02-22 19:42:50.564 2705 WARNING cinder.volume.manager [req-ee888b3b-5a5e-4f06-8aef-effa9d15e4e8 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:43:50.561 2705 INFO cinder.volume.manager [req-9bb45117-2e92-4f3d-8352-85fecef56d63 - - - - -] Updating volume status
+2016-02-22 19:43:50.565 2705 WARNING cinder.volume.manager [req-9bb45117-2e92-4f3d-8352-85fecef56d63 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:44:50.562 2705 INFO cinder.volume.manager [req-7df4ff1f-0e35-47d9-9561-031430869a76 - - - - -] Updating volume status
+2016-02-22 19:44:50.566 2705 WARNING cinder.volume.manager [req-7df4ff1f-0e35-47d9-9561-031430869a76 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:45:50.564 2705 INFO cinder.volume.manager [req-3a93718a-de5a-4205-9122-9bfc9377c2eb - - - - -] Updating volume status
+2016-02-22 19:45:50.569 2705 WARNING cinder.volume.manager [req-3a93718a-de5a-4205-9122-9bfc9377c2eb - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:46:50.564 2705 INFO cinder.volume.manager [req-b3727bb5-6099-4a27-93d2-c91d4ae587a7 - - - - -] Updating volume status
+2016-02-22 19:46:50.567 2705 WARNING cinder.volume.manager [req-b3727bb5-6099-4a27-93d2-c91d4ae587a7 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:47:50.565 2705 INFO cinder.volume.manager [req-c82cb0f7-2409-4972-9de7-584df4f5033d - - - - -] Updating volume status
+2016-02-22 19:47:50.570 2705 WARNING cinder.volume.manager [req-c82cb0f7-2409-4972-9de7-584df4f5033d - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:48:50.566 2705 INFO cinder.volume.manager [req-d4cb6852-38f6-44fc-84b4-9bb3aaed0832 - - - - -] Updating volume status
+2016-02-22 19:48:50.569 2705 WARNING cinder.volume.manager [req-d4cb6852-38f6-44fc-84b4-9bb3aaed0832 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:49:50.566 2705 INFO cinder.volume.manager [req-0927bf5c-c26a-4e4a-aca0-c8da8b49c2f7 - - - - -] Updating volume status
+2016-02-22 19:49:50.570 2705 WARNING cinder.volume.manager [req-0927bf5c-c26a-4e4a-aca0-c8da8b49c2f7 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:50:50.567 2705 INFO cinder.volume.manager [req-161e6558-c128-4d74-b040-404a8923e03b - - - - -] Updating volume status
+2016-02-22 19:50:50.570 2705 WARNING cinder.volume.manager [req-161e6558-c128-4d74-b040-404a8923e03b - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:51:50.568 2705 INFO cinder.volume.manager [req-6f04c506-d205-4e10-9dee-7554ce7bd181 - - - - -] Updating volume status
+2016-02-22 19:51:50.572 2705 WARNING cinder.volume.manager [req-6f04c506-d205-4e10-9dee-7554ce7bd181 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:52:50.567 2705 INFO cinder.volume.manager [req-0587f1c8-62a1-4357-9be9-a7921d2f9331 - - - - -] Updating volume status
+2016-02-22 19:52:50.572 2705 WARNING cinder.volume.manager [req-0587f1c8-62a1-4357-9be9-a7921d2f9331 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:53:50.568 2705 INFO cinder.volume.manager [req-5866f67e-6605-492c-a8be-9dc5ea07c861 - - - - -] Updating volume status
+2016-02-22 19:53:50.573 2705 WARNING cinder.volume.manager [req-5866f67e-6605-492c-a8be-9dc5ea07c861 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:54:50.568 2705 INFO cinder.volume.manager [req-713a87f3-89be-47f0-bf03-da1386d665c4 - - - - -] Updating volume status
+2016-02-22 19:54:50.572 2705 WARNING cinder.volume.manager [req-713a87f3-89be-47f0-bf03-da1386d665c4 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:55:50.569 2705 INFO cinder.volume.manager [req-fe84587c-4707-4c12-a721-e24fbb75963f - - - - -] Updating volume status
+2016-02-22 19:55:50.571 2705 WARNING cinder.volume.manager [req-fe84587c-4707-4c12-a721-e24fbb75963f - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:56:50.568 2705 INFO cinder.volume.manager [req-0a9b5380-6c1f-424b-bf46-caee693749ba - - - - -] Updating volume status
+2016-02-22 19:56:50.570 2705 WARNING cinder.volume.manager [req-0a9b5380-6c1f-424b-bf46-caee693749ba - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:57:50.569 2705 INFO cinder.volume.manager [req-a2cf777f-f9c8-4eb7-93e4-198dd3ef2a49 - - - - -] Updating volume status
+2016-02-22 19:57:50.572 2705 WARNING cinder.volume.manager [req-a2cf777f-f9c8-4eb7-93e4-198dd3ef2a49 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:58:50.569 2705 INFO cinder.volume.manager [req-27643429-c6ff-41dd-9bc1-893efb8df5ba - - - - -] Updating volume status
+2016-02-22 19:58:50.573 2705 WARNING cinder.volume.manager [req-27643429-c6ff-41dd-9bc1-893efb8df5ba - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 19:59:50.569 2705 INFO cinder.volume.manager [req-552e4790-fdab-413d-8d47-f1a79509b04d - - - - -] Updating volume status
+2016-02-22 19:59:50.572 2705 WARNING cinder.volume.manager [req-552e4790-fdab-413d-8d47-f1a79509b04d - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:00:50.570 2705 INFO cinder.volume.manager [req-e5f9252a-d82e-400d-b15e-c82848d15bc3 - - - - -] Updating volume status
+2016-02-22 20:00:50.574 2705 WARNING cinder.volume.manager [req-e5f9252a-d82e-400d-b15e-c82848d15bc3 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:01:50.569 2705 INFO cinder.volume.manager [req-a64896a9-cad6-4b1f-836c-cda78baa05e4 - - - - -] Updating volume status
+2016-02-22 20:01:50.572 2705 WARNING cinder.volume.manager [req-a64896a9-cad6-4b1f-836c-cda78baa05e4 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:02:50.570 2705 INFO cinder.volume.manager [req-f5150e23-82d3-430e-855e-581cc2bf70ce - - - - -] Updating volume status
+2016-02-22 20:02:50.572 2705 WARNING cinder.volume.manager [req-f5150e23-82d3-430e-855e-581cc2bf70ce - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:03:50.570 2705 INFO cinder.volume.manager [req-989c988c-f3e5-429d-84f9-eb1553113fbb - - - - -] Updating volume status
+2016-02-22 20:03:50.575 2705 WARNING cinder.volume.manager [req-989c988c-f3e5-429d-84f9-eb1553113fbb - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:04:50.571 2705 INFO cinder.volume.manager [req-971aa92c-43b9-4445-8d91-83756dcbcfeb - - - - -] Updating volume status
+2016-02-22 20:04:50.573 2705 WARNING cinder.volume.manager [req-971aa92c-43b9-4445-8d91-83756dcbcfeb - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:05:50.571 2705 INFO cinder.volume.manager [req-4d940f98-81d1-4ece-9adc-81dd1990648c - - - - -] Updating volume status
+2016-02-22 20:05:50.576 2705 WARNING cinder.volume.manager [req-4d940f98-81d1-4ece-9adc-81dd1990648c - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:06:50.572 2705 INFO cinder.volume.manager [req-f5a763a8-5d8b-46cd-a271-9c4698b2fc3e - - - - -] Updating volume status
+2016-02-22 20:06:50.575 2705 WARNING cinder.volume.manager [req-f5a763a8-5d8b-46cd-a271-9c4698b2fc3e - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:07:50.572 2705 INFO cinder.volume.manager [req-948b3a23-8f54-4cdd-817f-5e06de8b108f - - - - -] Updating volume status
+2016-02-22 20:07:50.575 2705 WARNING cinder.volume.manager [req-948b3a23-8f54-4cdd-817f-5e06de8b108f - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:08:50.573 2705 INFO cinder.volume.manager [req-7dec02b6-948d-4829-8a0f-85c0eedc2d06 - - - - -] Updating volume status
+2016-02-22 20:08:50.576 2705 WARNING cinder.volume.manager [req-7dec02b6-948d-4829-8a0f-85c0eedc2d06 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:09:50.573 2705 INFO cinder.volume.manager [req-b9f9d504-c3eb-4b72-a7b2-ee0178c5fd4c - - - - -] Updating volume status
+2016-02-22 20:09:50.577 2705 WARNING cinder.volume.manager [req-b9f9d504-c3eb-4b72-a7b2-ee0178c5fd4c - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:10:50.574 2705 INFO cinder.volume.manager [req-6aed2553-1d82-4b68-a48c-03962113f1e8 - - - - -] Updating volume status
+2016-02-22 20:10:50.578 2705 WARNING cinder.volume.manager [req-6aed2553-1d82-4b68-a48c-03962113f1e8 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:11:50.574 2705 INFO cinder.volume.manager [req-b8e906ef-30de-4673-bcc6-97cdeb674353 - - - - -] Updating volume status
+2016-02-22 20:11:50.578 2705 WARNING cinder.volume.manager [req-b8e906ef-30de-4673-bcc6-97cdeb674353 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:12:50.575 2705 INFO cinder.volume.manager [req-f9fdfd4c-2ff5-4c88-a776-c9146bc405e7 - - - - -] Updating volume status
+2016-02-22 20:12:50.579 2705 WARNING cinder.volume.manager [req-f9fdfd4c-2ff5-4c88-a776-c9146bc405e7 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:14:50.575 2705 INFO cinder.volume.manager [req-27ef7e04-fd58-4c50-b40e-922e7db2c9e6 - - - - -] Updating volume status
+2016-02-22 20:14:50.580 2705 WARNING cinder.volume.manager [req-27ef7e04-fd58-4c50-b40e-922e7db2c9e6 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:15:50.576 2705 INFO cinder.volume.manager [req-522fea99-769f-4b24-8adb-b3788c408a52 - - - - -] Updating volume status
+2016-02-22 20:15:50.579 2705 WARNING cinder.volume.manager [req-522fea99-769f-4b24-8adb-b3788c408a52 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:16:50.575 2705 INFO cinder.volume.manager [req-70a47eda-3137-4013-ab0f-bd3b468c6d72 - - - - -] Updating volume status
+2016-02-22 20:16:50.578 2705 WARNING cinder.volume.manager [req-70a47eda-3137-4013-ab0f-bd3b468c6d72 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:17:50.576 2705 INFO cinder.volume.manager [req-02289080-f2b0-44c0-9566-0fdfde5964e4 - - - - -] Updating volume status
+2016-02-22 20:17:50.579 2705 WARNING cinder.volume.manager [req-02289080-f2b0-44c0-9566-0fdfde5964e4 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:18:50.575 2705 INFO cinder.volume.manager [req-3973592d-d6e1-431e-a134-014617e52bd2 - - - - -] Updating volume status
+2016-02-22 20:18:50.579 2705 WARNING cinder.volume.manager [req-3973592d-d6e1-431e-a134-014617e52bd2 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:19:50.578 2705 INFO cinder.volume.manager [req-1956d2a6-46d8-462d-98c0-c7a359a34082 - - - - -] Updating volume status
+2016-02-22 20:19:50.581 2705 WARNING cinder.volume.manager [req-1956d2a6-46d8-462d-98c0-c7a359a34082 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:20:50.578 2705 INFO cinder.volume.manager [req-a37d4e13-f3aa-48dd-ac73-5fbe9e2947f5 - - - - -] Updating volume status
+2016-02-22 20:20:50.585 2705 WARNING cinder.volume.manager [req-a37d4e13-f3aa-48dd-ac73-5fbe9e2947f5 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:21:50.577 2705 INFO cinder.volume.manager [req-89d7f37a-d1b1-4169-9848-5622637bf04d - - - - -] Updating volume status
+2016-02-22 20:21:50.582 2705 WARNING cinder.volume.manager [req-89d7f37a-d1b1-4169-9848-5622637bf04d - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:22:50.577 2705 INFO cinder.volume.manager [req-84ccc94f-538d-49cc-93aa-64d7ca52ccd5 - - - - -] Updating volume status
+2016-02-22 20:22:50.579 2705 WARNING cinder.volume.manager [req-84ccc94f-538d-49cc-93aa-64d7ca52ccd5 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:23:50.577 2705 INFO cinder.volume.manager [req-7370791b-f54b-406f-9f6b-15d8fecf2b4e - - - - -] Updating volume status
+2016-02-22 20:23:50.582 2705 WARNING cinder.volume.manager [req-7370791b-f54b-406f-9f6b-15d8fecf2b4e - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:24:50.578 2705 INFO cinder.volume.manager [req-a6cdf577-b2e4-4451-b0b9-d45ca82ad557 - - - - -] Updating volume status
+2016-02-22 20:24:50.583 2705 WARNING cinder.volume.manager [req-a6cdf577-b2e4-4451-b0b9-d45ca82ad557 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:25:50.579 2705 INFO cinder.volume.manager [req-c06fae95-68af-4bcd-b253-626ec142049a - - - - -] Updating volume status
+2016-02-22 20:25:50.584 2705 WARNING cinder.volume.manager [req-c06fae95-68af-4bcd-b253-626ec142049a - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:26:50.580 2705 INFO cinder.volume.manager [req-4a2716ea-c5b0-486e-bcda-9ea5b622a307 - - - - -] Updating volume status
+2016-02-22 20:26:50.584 2705 WARNING cinder.volume.manager [req-4a2716ea-c5b0-486e-bcda-9ea5b622a307 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:27:50.579 2705 INFO cinder.volume.manager [req-56b40de9-5d24-44a9-9bfa-e148a9494c28 - - - - -] Updating volume status
+2016-02-22 20:27:50.583 2705 WARNING cinder.volume.manager [req-56b40de9-5d24-44a9-9bfa-e148a9494c28 - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:28:50.580 2705 INFO cinder.volume.manager [req-8d23a9a7-61a8-4da4-bdb9-f05f12a616cc - - - - -] Updating volume status
+2016-02-22 20:28:50.584 2705 WARNING cinder.volume.manager [req-8d23a9a7-61a8-4da4-bdb9-f05f12a616cc - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
+2016-02-22 20:29:50.580 2705 INFO cinder.volume.manager [req-1b74bd92-1ce7-4dea-a61d-2ff99536b9bd - - - - -] Updating volume status
+2016-02-22 20:29:50.585 2705 WARNING cinder.volume.manager [req-1b74bd92-1ce7-4dea-a61d-2ff99536b9bd - - - - -] Unable to update stats, LVMVolumeDriver -3.0.0 (config name lvm) driver is uninitialized.
