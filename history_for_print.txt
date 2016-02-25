@@ -553,3 +553,80 @@
   553  history
   554   
   555  history > history_for_print.txt
+  556  ls history_for_print.txt
+  557  more history_for_print.txt
+  558  less history_for_print.txt
+  559  cp history_for_print.txt /root/myopenstack
+  560  git add .
+  561  cd /root/myopenstack
+  562  git add .
+  563  git commit -m 'New Files'
+  564  git push origin master
+  565  nova show vt3
+  566  source keystonerc_chestercopperpot
+  567  cd
+  568  source keystonerc_chestercopperpot
+  569  cinder create --display_name NASferatu 1
+  570  cinder list
+  571  nova list
+  572  nova volume-attach 064eaa8a-c094-48af-adf2-e7b91d81105e df4f38e7-c460-448a-9842-344738684741 auto
+  573  cinder list
+  574  nova volume-detach 064eaa8a-c094-48af-adf2-e7b91d81105e df4f38e7-c460-448a-9842-344738684741
+  575  cinder list
+  576  cinder delete NASferatu   
+  577  source keystonerc_admin'
+  578  source keystonerc_admin
+  579  cinder list
+  580  source keystonerc_chestercopperpot
+  581  cinder list
+  582  source keystonerc_admin
+  583  cinder list
+  584  source keystonerc_chestercopperpot
+  585  cinder list
+  586  source keystonerc_admin
+  587  cinder list
+  588  cd
+  589  cd files
+  590  ls
+  591  cat yum.conf
+  592  sudo -u centos yum install ansible
+  593  sudo yum install ansible
+  594  cat hosts
+  595  ls
+  596  cd
+  597  ls -lrt
+  598  vi hosts
+  599  ansible all -i hosts -m ping
+  600  ansible all -i hosts -m setup | less
+  601  vi hosts
+  602  ansible all -i hosts -m ping
+  603  ansible openstack -i hosts -m command -a 'hostname'
+  604  ansible controller -i hosts -m command -a 'whoami'
+  605  ansible openstack -i hosts -m command -a '/usr/sbin/ip addr'
+  606  ansible openstack -i hosts -m yum -a 'name=htop state=installed'
+  607  ansible compute1 -i hosts -m setup | grep vcpus
+  608  ansible compute2 -i hosts -m setup | grep vcpus
+  609  curl https://alta3.com/labs/files/sl.yml
+  610  curl https://alta3.com/labs/files/sl.yml > sl.yml
+  611  less sl.yml
+  612  ansible-playbook -i hosts sl.yml
+  613  ll
+  614  cat hosts
+  615  vim hosts
+  616  cat hosts
+  617  ansible-playbook -i hosts sl.yml
+  618  sl
+  619  man sl
+  620  sl -a
+  621  man sl
+  622  git clone https://github.com/bryfry/ansible-novnc.git
+  623  cd ansible-novnc
+  624  less novnc.yml
+  625  grep vnc files/nova-controller.conf.j2
+  626  grep vnc files/nova-compute.conf.j2
+  627  ansible-playbook -i hosts novnc.yml
+  628  story
+  629  history
+  630  .bashrc
+  631  exit
+  632  history > history_for_print.txt
