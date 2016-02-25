@@ -1,9 +1,9 @@
-cp /var/log/nova/* root/myopenstack/nova
-cp /var/log/keystone/* root/myopenstack/keystone
-cp /var/log/swift/* root/myopenstack/swift
-cp /var/log/cinder/* root/myopenstack/cinder
-cp /var/log/glance/* root/myopenstack/glance
-cp /var/log/rabbitmq/* root/myopenstack/rabbitmq
+cp /var/log/nova/* /root/myopenstack/nova
+cp /var/log/keystone/* /root/myopenstack/keystone
+cp /var/log/swift/* /root/myopenstack/swift
+cp /var/log/cinder/* /root/myopenstack/cinder
+cp /var/log/glance/* /root/myopenstack/glance
+cp /var/log/rabbitmq/* /root/myopenstack/rabbitmq
 history > openstack_cmd_history.txt
 git add .
 git add swift
