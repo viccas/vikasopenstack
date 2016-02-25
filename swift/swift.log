@@ -29387,3 +29387,19 @@ Feb 25 22:47:59 controller object-server: Begin object audit "forever" mode (ZBF
 Feb 25 22:47:59 controller object-server: Object audit (ZBF) "forever" mode completed: 0.00s. Total quarantined: 0, Total errors: 0, Total files/sec: 0.00, Total bytes/sec: 0.00, Auditing time: 0.00, Rate: 0.00
 Feb 25 22:47:59 controller object-server: Begin object audit "forever" mode (ALL)
 Feb 25 22:47:59 controller object-server: Object audit (ALL) "forever" mode completed: 0.00s. Total quarantined: 0, Total errors: 0, Total files/sec: 0.00, Total bytes/sec: 0.00, Auditing time: 0.00, Rate: 0.00
+Feb 25 22:48:09 controller account-server: Devices pass completed: 0.00s
+Feb 25 22:48:10 controller object-server: Starting object replication pass.
+Feb 25 22:48:10 controller object-server: Nothing replicated for 0.00440311431885 seconds.
+Feb 25 22:48:10 controller object-server: Object replication complete. (0.00 minutes)
+Feb 25 22:48:14 controller container-server: Beginning replication run
+Feb 25 22:48:14 controller container-server: Replication run OVER
+Feb 25 22:48:14 controller container-server: Attempted to replicate 0 dbs in 0.00435 seconds (0.00000/s)
+Feb 25 22:48:14 controller container-server: Removed 0 dbs
+Feb 25 22:48:14 controller container-server: 0 successes, 0 failures
+Feb 25 22:48:14 controller container-server: no_change:0 ts_repl:0 diff:0 rsync:0 diff_capped:0 hashmatch:0 empty:0
+Feb 25 22:48:16 controller account-server: Beginning replication run
+Feb 25 22:48:16 controller account-server: Replication run OVER
+Feb 25 22:48:16 controller account-server: Attempted to replicate 0 dbs in 0.00440 seconds (0.00000/s)
+Feb 25 22:48:16 controller account-server: Removed 0 dbs
+Feb 25 22:48:16 controller account-server: 0 successes, 0 failures
+Feb 25 22:48:16 controller account-server: no_change:0 ts_repl:0 diff:0 rsync:0 diff_capped:0 hashmatch:0 empty:0
